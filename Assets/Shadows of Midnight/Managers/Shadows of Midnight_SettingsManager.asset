@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Shadows of Midnight_SettingsManager
   m_EditorClassIdentifier: 
   separateEditorSaveFiles: 0
-  saveFileName: 
+  saveFileName: Point-n-click Project
   saveTimeDisplay: 0
   customSaveFormat: MMMM dd, yyyy
   takeSaveScreenshots: 0
@@ -50,7 +50,7 @@ MonoBehaviour:
     useSceneDefaultPlayerStart: 0
     startingPlayerStartID: 0
   players: []
-  movementMethod: 0
+  movementMethod: 4
   inputMethod: 0
   simulatedCursorMoveSpeed: 4
   interactionMethod: 0
@@ -147,12 +147,12 @@ MonoBehaviour:
   touchUpWhenPaused: 0
   touchUpInteractScene: 0
   forceAspectRatio: 0
-  aspectRatioEnforcement: 0
-  wantedAspectRatio: 1.5
+  aspectRatioEnforcement: 1
+  wantedAspectRatio: 1.7777778
   maxAspectRatio: 2.39
   renderBorderCamera: 1
   landscapeModeOnly: 1
-  cameraPerspective: 2
+  cameraPerspective: 0
   cacheCameraMain: 0
   linearColorTextures: 0
   movingTurning: 3
