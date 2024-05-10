@@ -9,6 +9,9 @@ EditorBuildSettings:
     path: Assets/Scenes/SampleScene.unity
     guid: 2cda990e2423bbf4892e6590ba056729
   - enabled: 1
-    path: Assets/Shadows of Midnight/Scenes/SoM_Main_Scene.unity
+    path: Assets/Shadows of Midnight/Scenes/Auditorium.unity
     guid: ad5adead6fa4ac443952d8855a88a0e8
+  - enabled: 1
+    path: Assets/Shadows of Midnight/Scenes/Warehouse.unity
+    guid: 179257a807312744d926d736f77796f5
   m_configObjects: {}
