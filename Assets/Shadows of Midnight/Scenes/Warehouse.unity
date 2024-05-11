@@ -224,6 +224,7 @@ GameObject:
   - component: {fileID: 30772763}
   - component: {fileID: 30772762}
   - component: {fileID: 30772761}
+  - component: {fileID: 30772764}
   m_Layer: 2
   m_Name: Ladder GameCamera2D
   m_TagString: Untagged
@@ -329,6 +330,21 @@ Transform:
   m_Father: {fileID: 2057433593}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &30772764
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 30772760}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f72e60470f1fa4fd1825cd67ce482cf6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  constantID: 2210
+  retainInPrefab: 0
+  autoManual: 0
 --- !u!114 &38514211
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -388,6 +404,9 @@ GameObject:
   - component: {fileID: 68377953}
   - component: {fileID: 68377952}
   - component: {fileID: 68377954}
+  - component: {fileID: 68377957}
+  - component: {fileID: 68377956}
+  - component: {fileID: 68377955}
   m_Layer: 0
   m_Name: Button 4
   m_TagString: Untagged
@@ -662,6 +681,58 @@ MonoBehaviour:
   affectChildren: 0
   minAlpha: 0
   maxAlpha: 1
+--- !u!114 &68377955
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 68377948}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8b78a125ae22041aa92c0223821f8d84, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  constantID: 2172
+  retainInPrefab: 0
+  autoManual: 0
+  rendererToSave: {fileID: 68377950}
+  startState: 0
+  affectChildren: 0
+  saveColour: 0
+--- !u!114 &68377956
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 68377948}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6b591419ee344469da92bd1bb7e1a1bf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  constantID: 2172
+  retainInPrefab: 0
+  autoManual: 0
+  hotspotToSave: {fileID: 0}
+  startState: 0
+--- !u!114 &68377957
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 68377948}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 82154444ee72e405b9e2c5061f366da7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  constantID: 2172
+  retainInPrefab: 0
+  autoManual: 0
+  variablesToSave: {fileID: 0}
 --- !u!114 &70527960
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1322,6 +1393,7 @@ GameObject:
   - component: {fileID: 281674559}
   - component: {fileID: 281674560}
   - component: {fileID: 281674561}
+  - component: {fileID: 281674562}
   m_Layer: 0
   m_Name: Button 3 Activated
   m_TagString: Untagged
@@ -1411,6 +1483,25 @@ MonoBehaviour:
   affectChildren: 0
   minAlpha: 0
   maxAlpha: 1
+--- !u!114 &281674562
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 281674558}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8b78a125ae22041aa92c0223821f8d84, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  constantID: 2188
+  retainInPrefab: 0
+  autoManual: 0
+  rendererToSave: {fileID: 281674560}
+  startState: 1
+  affectChildren: 0
+  saveColour: 0
 --- !u!114 &318997567
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1696,6 +1787,9 @@ GameObject:
   - component: {fileID: 419708392}
   - component: {fileID: 419708391}
   - component: {fileID: 419708393}
+  - component: {fileID: 419708396}
+  - component: {fileID: 419708395}
+  - component: {fileID: 419708394}
   m_Layer: 0
   m_Name: Button 2
   m_TagString: Untagged
@@ -1970,6 +2064,58 @@ MonoBehaviour:
   affectChildren: 0
   minAlpha: 0
   maxAlpha: 1
+--- !u!114 &419708394
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 419708387}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 82154444ee72e405b9e2c5061f366da7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  constantID: 2162
+  retainInPrefab: 0
+  autoManual: 0
+  variablesToSave: {fileID: 0}
+--- !u!114 &419708395
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 419708387}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8b78a125ae22041aa92c0223821f8d84, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  constantID: 2162
+  retainInPrefab: 0
+  autoManual: 0
+  rendererToSave: {fileID: 419708389}
+  startState: 0
+  affectChildren: 0
+  saveColour: 0
+--- !u!114 &419708396
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 419708387}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6b591419ee344469da92bd1bb7e1a1bf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  constantID: 2162
+  retainInPrefab: 0
+  autoManual: 0
+  hotspotToSave: {fileID: 0}
+  startState: 0
 --- !u!114 &442662218
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3088,6 +3234,7 @@ GameObject:
   - component: {fileID: 729819873}
   - component: {fileID: 729819874}
   - component: {fileID: 729819875}
+  - component: {fileID: 729819876}
   m_Layer: 0
   m_Name: Bull Head Active
   m_TagString: Untagged
@@ -3177,6 +3324,25 @@ MonoBehaviour:
   affectChildren: 0
   minAlpha: 0
   maxAlpha: 1
+--- !u!114 &729819876
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 729819872}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8b78a125ae22041aa92c0223821f8d84, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  constantID: 2246
+  retainInPrefab: 0
+  autoManual: 0
+  rendererToSave: {fileID: 729819874}
+  startState: 1
+  affectChildren: 0
+  saveColour: 0
 --- !u!114 &751401701
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3653,6 +3819,7 @@ GameObject:
   m_Component:
   - component: {fileID: 843583911}
   - component: {fileID: 843583912}
+  - component: {fileID: 843583913}
   m_Layer: 0
   m_Name: Door Unlocked
   m_TagString: Untagged
@@ -3727,6 +3894,25 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &843583913
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 843583910}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8b78a125ae22041aa92c0223821f8d84, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  constantID: 2242
+  retainInPrefab: 0
+  autoManual: 0
+  rendererToSave: {fileID: 843583912}
+  startState: 1
+  affectChildren: 0
+  saveColour: 0
 --- !u!114 &851181751
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4037,6 +4223,8 @@ GameObject:
   - component: {fileID: 895419648}
   - component: {fileID: 895419651}
   - component: {fileID: 895419650}
+  - component: {fileID: 895419653}
+  - component: {fileID: 895419652}
   m_Layer: 0
   m_Name: Mirror
   m_TagString: Untagged
@@ -4345,6 +4533,42 @@ MonoBehaviour:
   iconSortingOrder: 0
   doubleClickingHotspot: 0
   playerTurnsHead: 1
+--- !u!114 &895419652
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 895419647}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8b78a125ae22041aa92c0223821f8d84, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  constantID: 2226
+  retainInPrefab: 0
+  autoManual: 0
+  rendererToSave: {fileID: 895419648}
+  startState: 0
+  affectChildren: 0
+  saveColour: 0
+--- !u!114 &895419653
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 895419647}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6b591419ee344469da92bd1bb7e1a1bf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  constantID: 2226
+  retainInPrefab: 0
+  autoManual: 0
+  hotspotToSave: {fileID: 0}
+  startState: 0
 --- !u!114 &913533553
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4446,6 +4670,7 @@ GameObject:
   - component: {fileID: 927935361}
   - component: {fileID: 927935362}
   - component: {fileID: 927935363}
+  - component: {fileID: 927935364}
   m_Layer: 0
   m_Name: Button 4 Activated
   m_TagString: Untagged
@@ -4535,6 +4760,25 @@ MonoBehaviour:
   affectChildren: 0
   minAlpha: 0
   maxAlpha: 1
+--- !u!114 &927935364
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 927935360}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8b78a125ae22041aa92c0223821f8d84, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  constantID: 2176
+  retainInPrefab: 0
+  autoManual: 0
+  rendererToSave: {fileID: 927935362}
+  startState: 1
+  affectChildren: 0
+  saveColour: 0
 --- !u!1 &928200880
 GameObject:
   m_ObjectHideFlags: 0
@@ -4545,6 +4789,7 @@ GameObject:
   m_Component:
   - component: {fileID: 928200881}
   - component: {fileID: 928200882}
+  - component: {fileID: 928200883}
   m_Layer: 0
   m_Name: Safe Unlocked
   m_TagString: Untagged
@@ -4619,6 +4864,25 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &928200883
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 928200880}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8b78a125ae22041aa92c0223821f8d84, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  constantID: 2234
+  retainInPrefab: 0
+  autoManual: 0
+  rendererToSave: {fileID: 928200882}
+  startState: 1
+  affectChildren: 0
+  saveColour: 0
 --- !u!114 &931506926
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4677,6 +4941,8 @@ GameObject:
   - component: {fileID: 965541966}
   - component: {fileID: 965541967}
   - component: {fileID: 965541968}
+  - component: {fileID: 965541970}
+  - component: {fileID: 965541969}
   m_Layer: 0
   m_Name: Bull Head
   m_TagString: Untagged
@@ -4922,6 +5188,42 @@ MonoBehaviour:
   affectChildren: 0
   minAlpha: 0
   maxAlpha: 1
+--- !u!114 &965541969
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 965541962}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8b78a125ae22041aa92c0223821f8d84, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  constantID: 2244
+  retainInPrefab: 0
+  autoManual: 0
+  rendererToSave: {fileID: 965541963}
+  startState: 0
+  affectChildren: 0
+  saveColour: 0
+--- !u!114 &965541970
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 965541962}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6b591419ee344469da92bd1bb7e1a1bf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  constantID: 2244
+  retainInPrefab: 0
+  autoManual: 0
+  hotspotToSave: {fileID: 0}
+  startState: 0
 --- !u!114 &966591132
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5036,6 +5338,8 @@ GameObject:
   - component: {fileID: 994027664}
   - component: {fileID: 994027663}
   - component: {fileID: 994027662}
+  - component: {fileID: 994027666}
+  - component: {fileID: 994027665}
   m_Layer: 2
   m_Name: Crystal Ball
   m_TagString: Untagged
@@ -5236,7 +5540,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 10
   m_Sprite: {fileID: 21300000, guid: 18d69ed1b628a0b47ac8214c099feece, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -5248,6 +5552,42 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &994027665
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 994027660}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8b78a125ae22041aa92c0223821f8d84, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  constantID: 2212
+  retainInPrefab: 0
+  autoManual: 0
+  rendererToSave: {fileID: 994027664}
+  startState: 1
+  affectChildren: 0
+  saveColour: 0
+--- !u!114 &994027666
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 994027660}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6b591419ee344469da92bd1bb7e1a1bf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  constantID: 2212
+  retainInPrefab: 0
+  autoManual: 0
+  hotspotToSave: {fileID: 994027662}
+  startState: 1
 --- !u!114 &1000882772
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5363,6 +5703,9 @@ GameObject:
   - component: {fileID: 1041774699}
   - component: {fileID: 1041774701}
   - component: {fileID: 1041774700}
+  - component: {fileID: 1041774704}
+  - component: {fileID: 1041774703}
+  - component: {fileID: 1041774702}
   m_Layer: 2
   m_Name: Chest Key
   m_TagString: Untagged
@@ -5590,6 +5933,60 @@ MonoBehaviour:
   iconSortingOrder: 0
   doubleClickingHotspot: 0
   playerTurnsHead: 1
+--- !u!114 &1041774702
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1041774696}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6b591419ee344469da92bd1bb7e1a1bf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  constantID: 2220
+  retainInPrefab: 0
+  autoManual: 0
+  hotspotToSave: {fileID: 1041774701}
+  startState: 1
+--- !u!114 &1041774703
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1041774696}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 627d8d776916c4959a1e00d9da6841a0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  constantID: 2220
+  retainInPrefab: 0
+  autoManual: 0
+  moveableToSave: {fileID: 1041774699}
+  startState: 1
+  saveTransformInSpace: 0
+--- !u!114 &1041774704
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1041774696}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8b78a125ae22041aa92c0223821f8d84, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  constantID: 2220
+  retainInPrefab: 0
+  autoManual: 0
+  rendererToSave: {fileID: 1041774697}
+  startState: 1
+  affectChildren: 0
+  saveColour: 0
 --- !u!114 &1096445259
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5824,6 +6221,8 @@ GameObject:
   - component: {fileID: 1138523150}
   - component: {fileID: 1138523149}
   - component: {fileID: 1138523148}
+  - component: {fileID: 1138523153}
+  - component: {fileID: 1138523152}
   m_Layer: 2
   m_Name: Broken Mirror
   m_TagString: Untagged
@@ -6132,6 +6531,42 @@ Transform:
   m_Father: {fileID: 895419649}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1138523152
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1138523147}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8b78a125ae22041aa92c0223821f8d84, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  constantID: 2216
+  retainInPrefab: 0
+  autoManual: 0
+  rendererToSave: {fileID: 1138523150}
+  startState: 1
+  affectChildren: 0
+  saveColour: 0
+--- !u!114 &1138523153
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1138523147}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6b591419ee344469da92bd1bb7e1a1bf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  constantID: 2216
+  retainInPrefab: 0
+  autoManual: 0
+  hotspotToSave: {fileID: 1138523149}
+  startState: 1
 --- !u!1 &1162131495
 GameObject:
   m_ObjectHideFlags: 0
@@ -6143,6 +6578,7 @@ GameObject:
   - component: {fileID: 1162131496}
   - component: {fileID: 1162131497}
   - component: {fileID: 1162131498}
+  - component: {fileID: 1162131499}
   m_Layer: 0
   m_Name: Button 2 Activated
   m_TagString: Untagged
@@ -6232,6 +6668,25 @@ MonoBehaviour:
   affectChildren: 0
   minAlpha: 0
   maxAlpha: 1
+--- !u!114 &1162131499
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1162131495}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8b78a125ae22041aa92c0223821f8d84, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  constantID: 2164
+  retainInPrefab: 0
+  autoManual: 0
+  rendererToSave: {fileID: 1162131497}
+  startState: 1
+  affectChildren: 0
+  saveColour: 0
 --- !u!114 &1177436869
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6287,6 +6742,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1194867743}
   - component: {fileID: 1194867744}
+  - component: {fileID: 1194867745}
   m_Layer: 0
   m_Name: Shard
   m_TagString: Untagged
@@ -6361,6 +6817,25 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1194867745
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1194867742}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8b78a125ae22041aa92c0223821f8d84, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  constantID: 2218
+  retainInPrefab: 0
+  autoManual: 0
+  rendererToSave: {fileID: 1194867744}
+  startState: 1
+  affectChildren: 0
+  saveColour: 0
 --- !u!114 &1218174665
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7059,6 +7534,9 @@ GameObject:
   - component: {fileID: 1299173085}
   - component: {fileID: 1299173084}
   - component: {fileID: 1299173086}
+  - component: {fileID: 1299173089}
+  - component: {fileID: 1299173088}
+  - component: {fileID: 1299173087}
   m_Layer: 0
   m_Name: Button 6
   m_TagString: Untagged
@@ -7333,6 +7811,58 @@ MonoBehaviour:
   affectChildren: 0
   minAlpha: 0
   maxAlpha: 1
+--- !u!114 &1299173087
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1299173080}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8b78a125ae22041aa92c0223821f8d84, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  constantID: 2194
+  retainInPrefab: 0
+  autoManual: 0
+  rendererToSave: {fileID: 1299173082}
+  startState: 0
+  affectChildren: 0
+  saveColour: 0
+--- !u!114 &1299173088
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1299173080}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6b591419ee344469da92bd1bb7e1a1bf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  constantID: 2194
+  retainInPrefab: 0
+  autoManual: 0
+  hotspotToSave: {fileID: 0}
+  startState: 0
+--- !u!114 &1299173089
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1299173080}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 82154444ee72e405b9e2c5061f366da7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  constantID: 2194
+  retainInPrefab: 0
+  autoManual: 0
+  variablesToSave: {fileID: 0}
 --- !u!114 &1365426931
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8134,6 +8664,7 @@ GameObject:
   - component: {fileID: 1666709886}
   - component: {fileID: 1666709887}
   - component: {fileID: 1666709888}
+  - component: {fileID: 1666709889}
   m_Layer: 0
   m_Name: Button 5 Activated
   m_TagString: Untagged
@@ -8223,6 +8754,25 @@ MonoBehaviour:
   affectChildren: 0
   minAlpha: 0
   maxAlpha: 1
+--- !u!114 &1666709889
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1666709885}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8b78a125ae22041aa92c0223821f8d84, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  constantID: 2206
+  retainInPrefab: 0
+  autoManual: 0
+  rendererToSave: {fileID: 1666709887}
+  startState: 1
+  affectChildren: 0
+  saveColour: 0
 --- !u!114 &1671804736
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8607,6 +9157,8 @@ GameObject:
   - component: {fileID: 1754152559}
   - component: {fileID: 1754152561}
   - component: {fileID: 1754152562}
+  - component: {fileID: 1754152564}
+  - component: {fileID: 1754152563}
   m_Layer: 0
   m_Name: Door
   m_TagString: Untagged
@@ -8848,6 +9400,42 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 2.148532, y: 4.6599917}
   m_EdgeRadius: 0
+--- !u!114 &1754152563
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1754152558}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8b78a125ae22041aa92c0223821f8d84, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  constantID: 2238
+  retainInPrefab: 0
+  autoManual: 0
+  rendererToSave: {fileID: 1754152559}
+  startState: 0
+  affectChildren: 0
+  saveColour: 0
+--- !u!114 &1754152564
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1754152558}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6b591419ee344469da92bd1bb7e1a1bf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  constantID: 2238
+  retainInPrefab: 0
+  autoManual: 0
+  hotspotToSave: {fileID: 0}
+  startState: 0
 --- !u!114 &1763603498
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -9362,6 +9950,9 @@ GameObject:
   - component: {fileID: 1995354417}
   - component: {fileID: 1995354416}
   - component: {fileID: 1995354418}
+  - component: {fileID: 1995354421}
+  - component: {fileID: 1995354420}
+  - component: {fileID: 1995354419}
   m_Layer: 0
   m_Name: Button 3
   m_TagString: Untagged
@@ -9636,6 +10227,58 @@ MonoBehaviour:
   affectChildren: 0
   minAlpha: 0
   maxAlpha: 1
+--- !u!114 &1995354419
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1995354412}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 82154444ee72e405b9e2c5061f366da7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  constantID: 2186
+  retainInPrefab: 0
+  autoManual: 0
+  variablesToSave: {fileID: 0}
+--- !u!114 &1995354420
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1995354412}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8b78a125ae22041aa92c0223821f8d84, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  constantID: 2186
+  retainInPrefab: 0
+  autoManual: 0
+  rendererToSave: {fileID: 1995354414}
+  startState: 0
+  affectChildren: 0
+  saveColour: 0
+--- !u!114 &1995354421
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1995354412}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6b591419ee344469da92bd1bb7e1a1bf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  constantID: 2186
+  retainInPrefab: 0
+  autoManual: 0
+  hotspotToSave: {fileID: 0}
+  startState: 0
 --- !u!114 &2000733002
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -10213,6 +10856,8 @@ GameObject:
   - component: {fileID: 2070715646}
   - component: {fileID: 2070715648}
   - component: {fileID: 2070715647}
+  - component: {fileID: 2070715650}
+  - component: {fileID: 2070715649}
   m_Layer: 0
   m_Name: Safe
   m_TagString: Untagged
@@ -10279,7 +10924,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 5
   m_Sprite: {fileID: 21300000, guid: e4f25d794d6191747a543030da5b5341, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -10438,6 +11083,42 @@ MonoBehaviour:
   iconSortingOrder: 0
   doubleClickingHotspot: 0
   playerTurnsHead: 1
+--- !u!114 &2070715649
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2070715644}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8b78a125ae22041aa92c0223821f8d84, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  constantID: 2232
+  retainInPrefab: 0
+  autoManual: 0
+  rendererToSave: {fileID: 2070715646}
+  startState: 0
+  affectChildren: 0
+  saveColour: 0
+--- !u!114 &2070715650
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2070715644}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6b591419ee344469da92bd1bb7e1a1bf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  constantID: 2232
+  retainInPrefab: 0
+  autoManual: 0
+  hotspotToSave: {fileID: 2070715648}
+  startState: 0
 --- !u!1 &2084766359
 GameObject:
   m_ObjectHideFlags: 0
@@ -10452,6 +11133,9 @@ GameObject:
   - component: {fileID: 2084766364}
   - component: {fileID: 2084766363}
   - component: {fileID: 2084766365}
+  - component: {fileID: 2084766368}
+  - component: {fileID: 2084766367}
+  - component: {fileID: 2084766366}
   m_Layer: 0
   m_Name: Button 5
   m_TagString: Untagged
@@ -10726,6 +11410,58 @@ MonoBehaviour:
   affectChildren: 0
   minAlpha: 0
   maxAlpha: 1
+--- !u!114 &2084766366
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2084766359}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8b78a125ae22041aa92c0223821f8d84, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  constantID: 2202
+  retainInPrefab: 0
+  autoManual: 0
+  rendererToSave: {fileID: 2084766361}
+  startState: 0
+  affectChildren: 0
+  saveColour: 0
+--- !u!114 &2084766367
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2084766359}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6b591419ee344469da92bd1bb7e1a1bf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  constantID: 2202
+  retainInPrefab: 0
+  autoManual: 0
+  hotspotToSave: {fileID: 0}
+  startState: 0
+--- !u!114 &2084766368
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2084766359}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 82154444ee72e405b9e2c5061f366da7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  constantID: 2202
+  retainInPrefab: 0
+  autoManual: 0
+  variablesToSave: {fileID: 0}
 --- !u!114 &2085757463
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -10797,6 +11533,7 @@ GameObject:
   - component: {fileID: 2097072953}
   - component: {fileID: 2097072954}
   - component: {fileID: 2097072955}
+  - component: {fileID: 2097072956}
   m_Layer: 0
   m_Name: Button 6 Activated
   m_TagString: Untagged
@@ -10886,6 +11623,25 @@ MonoBehaviour:
   affectChildren: 0
   minAlpha: 0
   maxAlpha: 1
+--- !u!114 &2097072956
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2097072952}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8b78a125ae22041aa92c0223821f8d84, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  constantID: 2198
+  retainInPrefab: 0
+  autoManual: 0
+  rendererToSave: {fileID: 2097072954}
+  startState: 1
+  affectChildren: 0
+  saveColour: 0
 --- !u!114 &2097873253
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -11046,6 +11802,7 @@ GameObject:
   - component: {fileID: 2109195247}
   - component: {fileID: 2109195248}
   - component: {fileID: 2109195249}
+  - component: {fileID: 2109195250}
   m_Layer: 0
   m_Name: Button 1 Activated
   m_TagString: Untagged
@@ -11135,6 +11892,25 @@ MonoBehaviour:
   affectChildren: 0
   minAlpha: 0
   maxAlpha: 1
+--- !u!114 &2109195250
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2109195246}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8b78a125ae22041aa92c0223821f8d84, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  constantID: 2182
+  retainInPrefab: 0
+  autoManual: 0
+  rendererToSave: {fileID: 2109195248}
+  startState: 1
+  affectChildren: 0
+  saveColour: 0
 --- !u!1 &2112366101
 GameObject:
   m_ObjectHideFlags: 0
@@ -11250,6 +12026,9 @@ GameObject:
   - component: {fileID: 2119400105}
   - component: {fileID: 2119400106}
   - component: {fileID: 2119400107}
+  - component: {fileID: 2119400110}
+  - component: {fileID: 2119400109}
+  - component: {fileID: 2119400108}
   m_Layer: 0
   m_Name: Button 1
   m_TagString: Untagged
@@ -11524,6 +12303,58 @@ MonoBehaviour:
   affectChildren: 0
   minAlpha: 0
   maxAlpha: 1
+--- !u!114 &2119400108
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2119400101}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8b78a125ae22041aa92c0223821f8d84, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  constantID: 2170
+  retainInPrefab: 0
+  autoManual: 0
+  rendererToSave: {fileID: 2119400103}
+  startState: 0
+  affectChildren: 0
+  saveColour: 0
+--- !u!114 &2119400109
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2119400101}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6b591419ee344469da92bd1bb7e1a1bf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  constantID: 2170
+  retainInPrefab: 0
+  autoManual: 0
+  hotspotToSave: {fileID: 2119400104}
+  startState: 0
+--- !u!114 &2119400110
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2119400101}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 82154444ee72e405b9e2c5061f366da7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  constantID: 2170
+  retainInPrefab: 0
+  autoManual: 0
+  variablesToSave: {fileID: 2119400106}
 --- !u!114 &2122603810
 MonoBehaviour:
   m_ObjectHideFlags: 0

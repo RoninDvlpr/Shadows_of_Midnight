@@ -241,6 +241,8 @@ GameObject:
   - component: {fileID: 287355155}
   - component: {fileID: 287355158}
   - component: {fileID: 287355159}
+  - component: {fileID: 287355161}
+  - component: {fileID: 287355160}
   m_Layer: 0
   m_Name: Teddy Bear
   m_TagString: Untagged
@@ -453,7 +455,7 @@ Transform:
   - {fileID: 8794929180946678913}
   - {fileID: 1888684423}
   m_Father: {fileID: 0}
-  m_RootOrder: 11
+  m_RootOrder: 10
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!60 &287355158
 PolygonCollider2D:
@@ -526,6 +528,42 @@ MonoBehaviour:
   affectChildren: 0
   minAlpha: 0
   maxAlpha: 1
+--- !u!114 &287355160
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 287355154}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8b78a125ae22041aa92c0223821f8d84, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  constantID: 2152
+  retainInPrefab: 0
+  autoManual: 0
+  rendererToSave: {fileID: 287355156}
+  startState: 0
+  affectChildren: 0
+  saveColour: 0
+--- !u!114 &287355161
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 287355154}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6b591419ee344469da92bd1bb7e1a1bf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  constantID: 2152
+  retainInPrefab: 0
+  autoManual: 0
+  hotspotToSave: {fileID: 287355155}
+  startState: 0
 --- !u!114 &414050883
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -696,6 +734,7 @@ GameObject:
   - component: {fileID: 601234904}
   - component: {fileID: 601234903}
   - component: {fileID: 601234906}
+  - component: {fileID: 601234907}
   m_Layer: 0
   m_Name: Curtain Rope
   m_TagString: Untagged
@@ -890,7 +929,7 @@ Transform:
   m_Children:
   - {fileID: 2422150845105510818}
   m_Father: {fileID: 0}
-  m_RootOrder: 7
+  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!60 &601234906
 PolygonCollider2D:
@@ -975,6 +1014,23 @@ PolygonCollider2D:
       - {x: 7.7799997, y: -0.76}
       - {x: 7.95, y: -0.75}
       - {x: 7.98, y: -0.72999996}
+--- !u!114 &601234907
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 601234901}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6b591419ee344469da92bd1bb7e1a1bf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  constantID: 2130
+  retainInPrefab: 0
+  autoManual: 0
+  hotspotToSave: {fileID: 601234903}
+  startState: 0
 --- !u!1 &770750098
 GameObject:
   m_ObjectHideFlags: 0
@@ -987,6 +1043,8 @@ GameObject:
   - component: {fileID: 770750099}
   - component: {fileID: 770750101}
   - component: {fileID: 770750102}
+  - component: {fileID: 770750104}
+  - component: {fileID: 770750103}
   m_Layer: 2
   m_Name: Hatch
   m_TagString: Untagged
@@ -1060,6 +1118,7 @@ Transform:
   m_Children:
   - {fileID: 6900888657414497032}
   - {fileID: 493646519696164402}
+  - {fileID: 779648479}
   m_Father: {fileID: 0}
   m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -1235,6 +1294,42 @@ PolygonCollider2D:
       - {x: 2.1599998, y: -4.31}
       - {x: 2.18, y: -4.23}
       - {x: 2.07, y: -3.9599998}
+--- !u!114 &770750103
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 770750098}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8b78a125ae22041aa92c0223821f8d84, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  constantID: 2122
+  retainInPrefab: 0
+  autoManual: 0
+  rendererToSave: {fileID: 770750099}
+  startState: 0
+  affectChildren: 0
+  saveColour: 0
+--- !u!114 &770750104
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 770750098}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6b591419ee344469da92bd1bb7e1a1bf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  constantID: 2122
+  retainInPrefab: 0
+  autoManual: 0
+  hotspotToSave: {fileID: 770750101}
+  startState: 0
 --- !u!1 &779648477
 GameObject:
   m_ObjectHideFlags: 0
@@ -1247,6 +1342,8 @@ GameObject:
   - component: {fileID: 779648478}
   - component: {fileID: 779648481}
   - component: {fileID: 779648480}
+  - component: {fileID: 779648483}
+  - component: {fileID: 779648482}
   m_Layer: 2
   m_Name: Hatch Open
   m_TagString: Untagged
@@ -1313,15 +1410,15 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 779648477}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 5054162195704602351}
   - {fileID: 5205199011634892055}
-  m_Father: {fileID: 0}
-  m_RootOrder: 6
+  m_Father: {fileID: 770750100}
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!60 &779648480
 PolygonCollider2D:
@@ -1509,6 +1606,42 @@ MonoBehaviour:
   iconSortingOrder: 0
   doubleClickingHotspot: 0
   playerTurnsHead: 1
+--- !u!114 &779648482
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 779648477}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6b591419ee344469da92bd1bb7e1a1bf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  constantID: 2126
+  retainInPrefab: 0
+  autoManual: 0
+  hotspotToSave: {fileID: 779648481}
+  startState: 1
+--- !u!114 &779648483
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 779648477}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8b78a125ae22041aa92c0223821f8d84, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  constantID: 2126
+  retainInPrefab: 0
+  autoManual: 0
+  rendererToSave: {fileID: 779648478}
+  startState: 1
+  affectChildren: 0
+  saveColour: 0
 --- !u!1 &790215555
 GameObject:
   m_ObjectHideFlags: 0
@@ -1847,7 +1980,7 @@ MonoBehaviour:
   isPlayer: 0
   playerID: -1
   speaker: {fileID: 0}
-  messageText: Maybe there's something inside this toy?
+  messageText: Could there be something inside this toy?
   lineID: -1
   multiLineIDs: 
   isBackground: 0
@@ -1990,6 +2123,7 @@ GameObject:
   - component: {fileID: 1037297417}
   - component: {fileID: 1037297416}
   - component: {fileID: 1037297418}
+  - component: {fileID: 1037297419}
   m_Layer: 0
   m_Name: Curtain
   m_TagString: Untagged
@@ -2064,7 +2198,7 @@ Transform:
   - {fileID: 790215556}
   - {fileID: 1316543804}
   m_Father: {fileID: 0}
-  m_RootOrder: 8
+  m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!95 &1037297418
 Animator:
@@ -2086,6 +2220,25 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
+--- !u!114 &1037297419
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1037297415}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 149ebb75ff6614c3aa69fa9ba240aec2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  constantID: 2134
+  retainInPrefab: 0
+  autoManual: 0
+  animatorToSave: {fileID: 1037297418}
+  saveController: 0
+  setDefaultParameterValues: 0
+  defaultAnimParameters: []
 --- !u!1 &1042788612
 GameObject:
   m_ObjectHideFlags: 0
@@ -2098,6 +2251,8 @@ GameObject:
   - component: {fileID: 1042788613}
   - component: {fileID: 1042788616}
   - component: {fileID: 1042788615}
+  - component: {fileID: 1042788618}
+  - component: {fileID: 1042788617}
   m_Layer: 2
   m_Name: Wand
   m_TagString: Untagged
@@ -2171,7 +2326,7 @@ Transform:
   m_Children:
   - {fileID: 6275423613365068148}
   m_Father: {fileID: 0}
-  m_RootOrder: 10
+  m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: -66.754}
 --- !u!61 &1042788615
 BoxCollider2D:
@@ -2320,6 +2475,42 @@ MonoBehaviour:
   iconSortingOrder: 0
   doubleClickingHotspot: 0
   playerTurnsHead: 1
+--- !u!114 &1042788617
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1042788612}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8b78a125ae22041aa92c0223821f8d84, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  constantID: 2138
+  retainInPrefab: 0
+  autoManual: 0
+  rendererToSave: {fileID: 1042788613}
+  startState: 0
+  affectChildren: 0
+  saveColour: 0
+--- !u!114 &1042788618
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1042788612}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6b591419ee344469da92bd1bb7e1a1bf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  constantID: 2138
+  retainInPrefab: 0
+  autoManual: 0
+  hotspotToSave: {fileID: 1042788616}
+  startState: 1
 --- !u!1 &1063263315
 GameObject:
   m_ObjectHideFlags: 0
@@ -2809,6 +3000,66 @@ MonoBehaviour:
   playMode: 0
   animationEngine: 3
   customClassName: 
+--- !u!114 &1345721663
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ed656dc9f403a441f8fe89408c7a7189, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  id: 0
+  isDisplayed: 1
+  showComment: 0
+  comment: 
+  willWait: 0
+  endAction: 0
+  skipAction: -1
+  skipActionActual: {fileID: 0}
+  linkedCutscene: {fileID: 0}
+  linkedAsset: {fileID: 0}
+  endings:
+  - resultAction: 0
+    skipAction: -1
+    skipActionActual: {fileID: 0}
+    linkedCutscene: {fileID: 0}
+    linkedAsset: {fileID: 0}
+  isEnabled: 1
+  isAssetFile: 0
+  isBreakPoint: 0
+  nodeRect:
+    serializedVersion: 2
+    x: 14
+    y: 14
+    width: 300
+    height: 226.6
+  overrideColor: {r: 1, g: 1, b: 1, a: 1}
+  showOutputSockets: 1
+  parentActionListInEditor: {fileID: 6900888657404447432}
+  constantID: 0
+  parameterID: -1
+  messageParameterID: -1
+  isPlayer: 0
+  playerID: -1
+  speaker: {fileID: 0}
+  messageText: Seems locked. Maybe there's magick involved?
+  lineID: -1
+  multiLineIDs: 
+  isBackground: 0
+  noAnimation: 0
+  headClip: {fileID: 0}
+  mouthClip: {fileID: 0}
+  play2DHeadAnim: 0
+  headClip2D: 
+  headLayer: 0
+  play2DMouthAnim: 0
+  mouthClip2D: 
+  mouthLayer: 0
+  waitTimeOffset: 0
 --- !u!114 &1374825696
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2900,7 +3151,7 @@ MonoBehaviour:
   isPlayer: 0
   playerID: -1
   speaker: {fileID: 0}
-  messageText: It's locked
+  messageText: It's locked.
   lineID: -1
   multiLineIDs: 
   isBackground: 0
@@ -3144,6 +3395,7 @@ GameObject:
   - component: {fileID: 1888684423}
   - component: {fileID: 1888684422}
   - component: {fileID: 1888684424}
+  - component: {fileID: 1888684425}
   m_Layer: 0
   m_Name: Teddy Bear Open
   m_TagString: Untagged
@@ -3233,6 +3485,25 @@ MonoBehaviour:
   affectChildren: 1
   minAlpha: 0
   maxAlpha: 1
+--- !u!114 &1888684425
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1888684421}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8b78a125ae22041aa92c0223821f8d84, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  constantID: 2156
+  retainInPrefab: 0
+  autoManual: 0
+  rendererToSave: {fileID: 1888684422}
+  startState: 1
+  affectChildren: 0
+  saveColour: 0
 --- !u!114 &1915874352
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3337,6 +3608,7 @@ GameObject:
   - component: {fileID: 1955250922}
   - component: {fileID: 1955250924}
   - component: {fileID: 1955250925}
+  - component: {fileID: 1955250926}
   m_Layer: 2
   m_Name: Chest
   m_TagString: Untagged
@@ -3410,7 +3682,7 @@ Transform:
   m_Children:
   - {fileID: 6391637392372946024}
   m_Father: {fileID: 0}
-  m_RootOrder: 9
+  m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1955250924
 MonoBehaviour:
@@ -3577,6 +3849,23 @@ PolygonCollider2D:
       - {x: -1.0799999, y: -0.77}
       - {x: -1.16, y: -0.77}
       - {x: -1.16, y: -0.87}
+--- !u!114 &1955250926
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1955250921}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6b591419ee344469da92bd1bb7e1a1bf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  constantID: 2136
+  retainInPrefab: 0
+  autoManual: 0
+  hotspotToSave: {fileID: 1955250924}
+  startState: 1
 --- !u!1 &1998348122
 GameObject:
   m_ObjectHideFlags: 0
@@ -3776,6 +4065,8 @@ GameObject:
   - component: {fileID: 2098238772}
   - component: {fileID: 2098238771}
   - component: {fileID: 2098238774}
+  - component: {fileID: 2098238776}
+  - component: {fileID: 2098238775}
   m_Layer: 2
   m_Name: Mask
   m_TagString: Untagged
@@ -3970,7 +4261,7 @@ Transform:
   m_Children:
   - {fileID: 5478646992838184149}
   m_Father: {fileID: 0}
-  m_RootOrder: 12
+  m_RootOrder: 11
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!60 &2098238774
 PolygonCollider2D:
@@ -4027,6 +4318,42 @@ PolygonCollider2D:
       - {x: -3.49, y: -4.1}
       - {x: -3.5, y: -4.11}
       - {x: -3.54, y: -4.11}
+--- !u!114 &2098238775
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2098238770}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8b78a125ae22041aa92c0223821f8d84, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  constantID: 2142
+  retainInPrefab: 0
+  autoManual: 0
+  rendererToSave: {fileID: 2098238772}
+  startState: 1
+  affectChildren: 0
+  saveColour: 0
+--- !u!114 &2098238776
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2098238770}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6b591419ee344469da92bd1bb7e1a1bf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  constantID: 2142
+  retainInPrefab: 0
+  autoManual: 0
+  hotspotToSave: {fileID: 2098238771}
+  startState: 1
 --- !u!114 &2107345524
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4130,6 +4457,8 @@ GameObject:
   - component: {fileID: 2143373958}
   - component: {fileID: 2143373957}
   - component: {fileID: 2143373956}
+  - component: {fileID: 2143373960}
+  - component: {fileID: 2143373959}
   m_Layer: 0
   m_Name: Rug
   m_TagString: Untagged
@@ -4469,6 +4798,42 @@ MonoBehaviour:
   iconSortingOrder: 0
   doubleClickingHotspot: 0
   playerTurnsHead: 1
+--- !u!114 &2143373959
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2143373953}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8b78a125ae22041aa92c0223821f8d84, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  constantID: 2148
+  retainInPrefab: 0
+  autoManual: 0
+  rendererToSave: {fileID: 2143373954}
+  startState: 0
+  affectChildren: 0
+  saveColour: 0
+--- !u!114 &2143373960
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2143373953}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6b591419ee344469da92bd1bb7e1a1bf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  constantID: 2148
+  retainInPrefab: 0
+  autoManual: 0
+  hotspotToSave: {fileID: 0}
+  startState: 0
 --- !u!4 &493646519696164402
 Transform:
   m_ObjectHideFlags: 0
@@ -5202,6 +5567,7 @@ GameObject:
   - component: {fileID: 5205199011634892055}
   - component: {fileID: 5205199011634402071}
   - component: {fileID: 5205199011624887511}
+  - component: {fileID: 5205199011634892056}
   m_Layer: 2
   m_Name: Hatch GameCamera2D
   m_TagString: Untagged
@@ -5224,6 +5590,21 @@ Transform:
   m_Father: {fileID: 779648479}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &5205199011634892056
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5205199011634598199}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f72e60470f1fa4fd1825cd67ce482cf6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  constantID: 2140
+  retainInPrefab: 0
+  autoManual: 0
 --- !u!114 &5478646992828245269
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5450,7 +5831,7 @@ Transform:
   m_Children:
   - {fileID: 7014488005310666030}
   m_Father: {fileID: 0}
-  m_RootOrder: 13
+  m_RootOrder: 12
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!61 &5727891617965567193
 BoxCollider2D:
@@ -5628,7 +6009,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   actions:
-  - {fileID: 0}
+  - {fileID: 1345721663}
   isSkippable: 1
   triggerTime: 0
   autosaveAfter: 0
@@ -5801,7 +6182,7 @@ Transform:
   m_Children:
   - {fileID: 2871292244004828458}
   m_Father: {fileID: 0}
-  m_RootOrder: 14
+  m_RootOrder: 13
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &7448861285661158286
 MonoBehaviour:
