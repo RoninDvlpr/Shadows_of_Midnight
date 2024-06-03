@@ -499,7 +499,7 @@ MonoBehaviour:
   interactionSource: 0
   _limitToCamera: {fileID: 0}
   interactiveBoundary: {fileID: 0}
-  hotspotName: 
+  hotspotName: Protruding Brick
   lineID: -1
   highlight: {fileID: 0}
   walkToMarker: {fileID: 0}
@@ -1845,7 +1845,7 @@ MonoBehaviour:
   interactionSource: 0
   _limitToCamera: {fileID: 0}
   interactiveBoundary: {fileID: 0}
-  hotspotName: 
+  hotspotName: Protruding Brick
   lineID: -1
   highlight: {fileID: 0}
   walkToMarker: {fileID: 0}
@@ -7492,7 +7492,7 @@ MonoBehaviour:
   interactionSource: 0
   _limitToCamera: {fileID: 0}
   interactiveBoundary: {fileID: 0}
-  hotspotName: 
+  hotspotName: Protruding Brick
   lineID: -1
   highlight: {fileID: 0}
   walkToMarker: {fileID: 0}
@@ -8174,6 +8174,51 @@ MonoBehaviour:
   returnToLast: 0
   retainPreviousSpeed: 0
   waitForAnimation: 0
+--- !u!114 &1424992396
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 59db1a4cca423454da15f861a614c595, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  id: 0
+  isDisplayed: 1
+  showComment: 0
+  comment: 
+  willWait: 0
+  endAction: 0
+  skipAction: -1
+  skipActionActual: {fileID: 0}
+  linkedCutscene: {fileID: 0}
+  linkedAsset: {fileID: 0}
+  endings:
+  - resultAction: 2
+    skipAction: 2
+    skipActionActual: {fileID: 593061199}
+    linkedCutscene: {fileID: 0}
+    linkedAsset: {fileID: 0}
+  isEnabled: 1
+  isAssetFile: 0
+  isBreakPoint: 0
+  nodeRect:
+    serializedVersion: 2
+    x: 14
+    y: 202
+    width: 300
+    height: 172
+  overrideColor: {r: 1, g: 1, b: 1, a: 1}
+  showOutputSockets: 1
+  parentActionListInEditor: {fileID: 6043682290891721555}
+  constantID: 0
+  parameterID: -1
+  spriteFader: {fileID: 1754152566}
+  fadeType: 1
+  fadeSpeed: 0.15
 --- !u!114 &1427218915
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -9076,6 +9121,7 @@ GameObject:
   - component: {fileID: 1754152564}
   - component: {fileID: 1754152563}
   - component: {fileID: 1754152565}
+  - component: {fileID: 1754152566}
   m_Layer: 0
   m_Name: Door
   m_TagString: Untagged
@@ -9382,6 +9428,21 @@ PolygonCollider2D:
       - {x: 8.23, y: -3.52}
       - {x: 8.23, y: -2.69}
       - {x: 8.21, y: 1.02}
+--- !u!114 &1754152566
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1754152558}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3565967755831406682197d72852d7ee, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  affectChildren: 0
+  minAlpha: 0
+  maxAlpha: 1
 --- !u!114 &1792592864
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -9791,51 +9852,6 @@ MonoBehaviour:
   spriteFader: {fileID: 1666709888}
   fadeType: 0
   fadeSpeed: 0.3
---- !u!114 &1994413058
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d33593da7d3524e1998da7151086b1b3, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  id: 0
-  isDisplayed: 1
-  showComment: 0
-  comment: 
-  willWait: 0
-  endAction: 0
-  skipAction: -1
-  skipActionActual: {fileID: 0}
-  linkedCutscene: {fileID: 0}
-  linkedAsset: {fileID: 0}
-  endings:
-  - resultAction: 2
-    skipAction: 2
-    skipActionActual: {fileID: 593061199}
-    linkedCutscene: {fileID: 0}
-    linkedAsset: {fileID: 0}
-  isEnabled: 1
-  isAssetFile: 0
-  isBreakPoint: 0
-  nodeRect:
-    serializedVersion: 2
-    x: 14
-    y: 202
-    width: 300
-    height: 152
-  overrideColor: {r: 1, g: 1, b: 1, a: 1}
-  showOutputSockets: 1
-  parentActionListInEditor: {fileID: 6043682290891721555}
-  parameterID: -1
-  constantID: 0
-  obToAffect: {fileID: 1754152558}
-  affectChildren: 0
-  visState: 1
 --- !u!1 &1995354412
 GameObject:
   m_ObjectHideFlags: 0
@@ -9945,7 +9961,7 @@ MonoBehaviour:
   interactionSource: 0
   _limitToCamera: {fileID: 0}
   interactiveBoundary: {fileID: 0}
-  hotspotName: 
+  hotspotName: Protruding Brick
   lineID: -1
   highlight: {fileID: 0}
   walkToMarker: {fileID: 0}
@@ -11111,7 +11127,7 @@ MonoBehaviour:
   interactionSource: 0
   _limitToCamera: {fileID: 0}
   interactiveBoundary: {fileID: 0}
-  hotspotName: 
+  hotspotName: Protruding Brick
   lineID: -1
   highlight: {fileID: 0}
   walkToMarker: {fileID: 0}
@@ -12011,7 +12027,7 @@ MonoBehaviour:
   interactionSource: 0
   _limitToCamera: {fileID: 0}
   interactiveBoundary: {fileID: 0}
-  hotspotName: 
+  hotspotName: Protruding Brick
   lineID: -1
   highlight: {fileID: 0}
   walkToMarker: {fileID: 0}
@@ -13700,7 +13716,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   actions:
   - {fileID: 376180628}
-  - {fileID: 1994413058}
+  - {fileID: 1424992396}
   - {fileID: 593061199}
   isSkippable: 1
   triggerTime: 0
