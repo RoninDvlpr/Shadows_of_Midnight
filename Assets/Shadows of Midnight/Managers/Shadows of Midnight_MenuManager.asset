@@ -82,9 +82,9 @@ MonoBehaviour:
   slotSpacing: 0
   lineID: 87
   alternativeInputButton: 
-  font: {fileID: 12800000, guid: c6e3b07edbe7e4f62837dde56356b819, type: 3}
+  font: {fileID: 12800000, guid: 2e26369c109719c419f59f6719a923d0, type: 3}
   fontScaleFactor: 1.8
-  fontColor: {r: 1, g: 1, b: 1, a: 1}
+  fontColor: {r: 0.8666667, g: 0.79607844, b: 0.7176471, a: 1}
   fontHighlightColor: {r: 1, g: 1, b: 1, a: 1}
   isVisible: 1
   isClickable: 0
@@ -103,8 +103,8 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
-    width: 346.66666
-    height: 18.720001
+    width: 417.77783
+    height: 23.5
   relativePosition: {x: 0, y: 0}
   numSlots: 1
   uiText: {fileID: 0}
@@ -2335,7 +2335,7 @@ MonoBehaviour:
   _isLocked: 0
   id: 11
   title: Hotspot
-  manualSize: {x: 34, y: 12.000001}
+  manualSize: {x: 34.000004, y: 11.999999}
   positionType: 3
   manualPosition: {x: 50, y: 44.4}
   positionSmoothing: 0
@@ -2406,13 +2406,13 @@ MonoBehaviour:
   speechProximityLimit: 0
   speechProximityDistance: 10
   deleteUIWhenTurnOff: 0
-  biggestElementSize: {x: 236.29999, y: 46.800003}
+  biggestElementSize: {x: 284.08893, y: 56.399998}
   rect:
     serializedVersion: 2
-    x: 229.35
-    y: 149.76001
-    width: 236.29999
-    height: 46.800003
+    x: 276.45554
+    y: 180.48001
+    width: 284.08893
+    height: 56.399998
   showInFilter: 1
 --- !u!114 &-3067143963328063073
 MonoBehaviour:
@@ -2913,8 +2913,8 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
-    width: 346.66666
-    height: 27.300001
+    width: 417.77783
+    height: 32.899998
   relativePosition: {x: 0, y: 0}
   numSlots: 1
   uiText: {fileID: 0}
@@ -4054,9 +4054,9 @@ MonoBehaviour:
   slotSpacing: 0
   lineID: 85
   alternativeInputButton: 
-  font: {fileID: 12800000, guid: c6e3b07edbe7e4f62837dde56356b819, type: 3}
+  font: {fileID: 12800000, guid: cc1dc30d06ef9a2419bdcf62b045407c, type: 3}
   fontScaleFactor: 2
-  fontColor: {r: 1, g: 1, b: 1, a: 1}
+  fontColor: {r: 0.8666667, g: 0.79607844, b: 0.7176471, a: 1}
   fontHighlightColor: {r: 1, g: 1, b: 1, a: 1}
   isVisible: 1
   isClickable: 0
@@ -4075,8 +4075,8 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
-    width: 236.29999
-    height: 46.800003
+    width: 284.08893
+    height: 56.399998
   relativePosition: {x: 0, y: 0}
   numSlots: 1
   uiText: {fileID: 0}
@@ -5166,10 +5166,10 @@ MonoBehaviour:
   biggestElementSize: {x: 0, y: 0}
   rect:
     serializedVersion: 2
-    x: 174.16667
-    y: 257.01
-    width: 346.66666
-    height: 109.2
+    x: 209.6111
+    y: 309.72998
+    width: 417.7778
+    height: 131.6
   showInFilter: 1
 --- !u!114 &4319603236447986575
 MonoBehaviour:
