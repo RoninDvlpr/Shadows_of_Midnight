@@ -16,7 +16,7 @@ MonoBehaviour:
   - label: Wand
     id: 0
     altLabel: 
-    carryOnStart: 0
+    carryOnStart: 1
     carryOnStartNotDefault: 0
     carryOnStartIDs: 00000000
     vars: []
@@ -48,7 +48,7 @@ MonoBehaviour:
       id: 0
     lineID: -1
     useIconID: 0
-    binID: -1
+    binID: 0
     overrideUseSyntax: 0
     hotspotPrefix1:
       label: Use
@@ -68,7 +68,7 @@ MonoBehaviour:
     carryOnStartID: -1
     useSeparateSlots: 0
     selectSingle: 0
-    showInFilter: 1
+    showInFilter: 0
   - label: Mask
     id: 1
     altLabel: 
@@ -104,7 +104,7 @@ MonoBehaviour:
       id: 0
     lineID: -1
     useIconID: 0
-    binID: -1
+    binID: 0
     overrideUseSyntax: 0
     hotspotPrefix1:
       label: Use
@@ -124,7 +124,7 @@ MonoBehaviour:
     carryOnStartID: -1
     useSeparateSlots: 0
     selectSingle: 0
-    showInFilter: 1
+    showInFilter: 0
   - label: Shard
     id: 2
     altLabel: 
@@ -160,7 +160,7 @@ MonoBehaviour:
       id: 0
     lineID: -1
     useIconID: 0
-    binID: -1
+    binID: 0
     overrideUseSyntax: 0
     hotspotPrefix1:
       label: Use
@@ -180,7 +180,7 @@ MonoBehaviour:
     carryOnStartID: -1
     useSeparateSlots: 0
     selectSingle: 0
-    showInFilter: 1
+    showInFilter: 0
   - label: Red Gem
     id: 3
     altLabel: 
@@ -216,7 +216,7 @@ MonoBehaviour:
       id: 0
     lineID: -1
     useIconID: 0
-    binID: -1
+    binID: 0
     overrideUseSyntax: 0
     hotspotPrefix1:
       label: Use
@@ -236,7 +236,7 @@ MonoBehaviour:
     carryOnStartID: -1
     useSeparateSlots: 0
     selectSingle: 0
-    showInFilter: 1
+    showInFilter: 0
   - label: Chest Key
     id: 4
     altLabel: Key
@@ -272,7 +272,7 @@ MonoBehaviour:
       id: 0
     lineID: -1
     useIconID: 0
-    binID: -1
+    binID: 0
     overrideUseSyntax: 0
     hotspotPrefix1:
       label: Use
@@ -292,7 +292,7 @@ MonoBehaviour:
     carryOnStartID: -1
     useSeparateSlots: 0
     selectSingle: 0
-    showInFilter: 1
+    showInFilter: 0
   - label: Hat
     id: 5
     altLabel: 
@@ -328,7 +328,114 @@ MonoBehaviour:
       id: 0
     lineID: -1
     useIconID: 0
-    binID: -1
+    binID: 0
+    overrideUseSyntax: 0
+    hotspotPrefix1:
+      label: Use
+      lineID: -1
+    hotspotPrefix2:
+      label: on
+      lineID: -1
+    useActionList: {fileID: 0}
+    lookActionList: {fileID: 0}
+    interactions: []
+    combineInteractions: []
+    combineActionList: []
+    combineID: 
+    unhandledActionList: {fileID: 0}
+    unhandledGiveActionList: {fileID: 0}
+    unhandledCombineActionList: {fileID: 0}
+    carryOnStartID: -1
+    useSeparateSlots: 0
+    selectSingle: 0
+    showInFilter: 0
+  - label: Pink Coat
+    id: 6
+    altLabel: 
+    carryOnStart: 0
+    carryOnStartNotDefault: 0
+    carryOnStartIDs: 00000000
+    vars:
+    - label: Coat Color
+      id: 0
+      type: 4
+      val: 3
+      floatVal: 0
+      textVal: 
+      gameObjectVal: {fileID: 0}
+      gameObjectSaveReferences: 1
+      objectVal: {fileID: 0}
+      popUps:
+      - Empty
+      - Dull Green
+      - Blue
+      - Pink
+      - Scarlet
+      - Brown
+      - Bright Green
+      vector3Val: {x: 0, y: 0, z: 0}
+      link: 0
+      pmVar: 
+      updateLinkOnStart: 0
+      canTranslate: 1
+      popUpID: 0
+      textValLineID: -1
+      popUpsLineID: -1
+      description: 
+      showInFilter: 0
+      limitToCategories: 1
+      categoryIDs: 01000000
+    - label: Current Hanger
+      id: 1
+      type: 6
+      val: 0
+      floatVal: 0
+      textVal: 
+      gameObjectVal: {fileID: 0}
+      gameObjectSaveReferences: 1
+      objectVal: {fileID: 0}
+      popUps: []
+      vector3Val: {x: 0, y: 0, z: 0}
+      link: 0
+      pmVar: 
+      updateLinkOnStart: 0
+      canTranslate: 1
+      popUpID: 0
+      textValLineID: -1
+      popUpsLineID: -1
+      description: 
+      showInFilter: 0
+      limitToCategories: 1
+      categoryIDs: 01000000
+    canCarryMultiple: 0
+    count: 1
+    canBeLowerCase: 0
+    maxCount: 999
+    itemStackingMode: 0
+    tex: {fileID: 2800000, guid: 310343f3bd1e26846848ce1b7693c38e, type: 3}
+    activeTex: {fileID: 0}
+    selectedTex: {fileID: 0}
+    linkedPrefab: {fileID: 8855227886985390968, guid: 66d480562bdb6e046860f0566a97d543, type: 3}
+    cursorIcon:
+      texture: {fileID: 2800000, guid: 310343f3bd1e26846848ce1b7693c38e, type: 3}
+      isAnimated: 0
+      numFrames: 1
+      numRows: 1
+      numCols: 1
+      size: 0.26
+      animSpeed: 4
+      endAnimOnLastFrame: 0
+      skipFirstFrameWhenLooping: 0
+      clickOffset: {x: 0, y: -0.38}
+      frameSpeeds: []
+      alwaysAnimate: 0
+      dontCycle: 0
+      label: Icon 1
+      lineID: -1
+      id: 0
+    lineID: -1
+    useIconID: 0
+    binID: 1
     overrideUseSyntax: 0
     hotspotPrefix1:
       label: Use
@@ -349,14 +456,682 @@ MonoBehaviour:
     useSeparateSlots: 0
     selectSingle: 0
     showInFilter: 1
-  bins: []
-  invVars: []
+  - label: Brown Coat
+    id: 7
+    altLabel: 
+    carryOnStart: 0
+    carryOnStartNotDefault: 0
+    carryOnStartIDs: 00000000
+    vars:
+    - label: Coat Color
+      id: 0
+      type: 4
+      val: 5
+      floatVal: 0
+      textVal: 
+      gameObjectVal: {fileID: 0}
+      gameObjectSaveReferences: 1
+      objectVal: {fileID: 0}
+      popUps:
+      - Empty
+      - Dull Green
+      - Blue
+      - Pink
+      - Scarlet
+      - Brown
+      - Bright Green
+      vector3Val: {x: 0, y: 0, z: 0}
+      link: 0
+      pmVar: 
+      updateLinkOnStart: 0
+      canTranslate: 1
+      popUpID: 0
+      textValLineID: -1
+      popUpsLineID: -1
+      description: 
+      showInFilter: 0
+      limitToCategories: 1
+      categoryIDs: 01000000
+    - label: Current Hanger
+      id: 1
+      type: 6
+      val: 0
+      floatVal: 0
+      textVal: 
+      gameObjectVal: {fileID: 0}
+      gameObjectSaveReferences: 1
+      objectVal: {fileID: 0}
+      popUps: []
+      vector3Val: {x: 0, y: 0, z: 0}
+      link: 0
+      pmVar: 
+      updateLinkOnStart: 0
+      canTranslate: 1
+      popUpID: 0
+      textValLineID: -1
+      popUpsLineID: -1
+      description: 
+      showInFilter: 0
+      limitToCategories: 1
+      categoryIDs: 01000000
+    canCarryMultiple: 0
+    count: 1
+    canBeLowerCase: 0
+    maxCount: 999
+    itemStackingMode: 0
+    tex: {fileID: 2800000, guid: ee348550e67e2dc479c3edcbe39b65fa, type: 3}
+    activeTex: {fileID: 0}
+    selectedTex: {fileID: 0}
+    linkedPrefab: {fileID: 3099365523920810885, guid: 502ea884061073947b3f47a9bff04890, type: 3}
+    cursorIcon:
+      texture: {fileID: 2800000, guid: ee348550e67e2dc479c3edcbe39b65fa, type: 3}
+      isAnimated: 0
+      numFrames: 1
+      numRows: 1
+      numCols: 1
+      size: 0.26
+      animSpeed: 4
+      endAnimOnLastFrame: 0
+      skipFirstFrameWhenLooping: 0
+      clickOffset: {x: 0, y: -0.38}
+      frameSpeeds: []
+      alwaysAnimate: 0
+      dontCycle: 0
+      label: Icon 1
+      lineID: -1
+      id: 0
+    lineID: -1
+    useIconID: 0
+    binID: 1
+    overrideUseSyntax: 0
+    hotspotPrefix1:
+      label: Use
+      lineID: -1
+    hotspotPrefix2:
+      label: on
+      lineID: -1
+    useActionList: {fileID: 0}
+    lookActionList: {fileID: 0}
+    interactions: []
+    combineInteractions: []
+    combineActionList: []
+    combineID: 
+    unhandledActionList: {fileID: 0}
+    unhandledGiveActionList: {fileID: 0}
+    unhandledCombineActionList: {fileID: 0}
+    carryOnStartID: -1
+    useSeparateSlots: 0
+    selectSingle: 0
+    showInFilter: 1
+  - label: Blue Coat
+    id: 8
+    altLabel: 
+    carryOnStart: 0
+    carryOnStartNotDefault: 0
+    carryOnStartIDs: 00000000
+    vars:
+    - label: Coat Color
+      id: 0
+      type: 4
+      val: 2
+      floatVal: 0
+      textVal: 
+      gameObjectVal: {fileID: 0}
+      gameObjectSaveReferences: 1
+      objectVal: {fileID: 0}
+      popUps:
+      - Empty
+      - Dull Green
+      - Blue
+      - Pink
+      - Scarlet
+      - Brown
+      - Bright Green
+      vector3Val: {x: 0, y: 0, z: 0}
+      link: 0
+      pmVar: 
+      updateLinkOnStart: 0
+      canTranslate: 1
+      popUpID: 0
+      textValLineID: -1
+      popUpsLineID: -1
+      description: 
+      showInFilter: 0
+      limitToCategories: 1
+      categoryIDs: 01000000
+    - label: Current Hanger
+      id: 1
+      type: 6
+      val: 0
+      floatVal: 0
+      textVal: 
+      gameObjectVal: {fileID: 0}
+      gameObjectSaveReferences: 1
+      objectVal: {fileID: 0}
+      popUps: []
+      vector3Val: {x: 0, y: 0, z: 0}
+      link: 0
+      pmVar: 
+      updateLinkOnStart: 0
+      canTranslate: 1
+      popUpID: 0
+      textValLineID: -1
+      popUpsLineID: -1
+      description: 
+      showInFilter: 0
+      limitToCategories: 1
+      categoryIDs: 01000000
+    canCarryMultiple: 0
+    count: 1
+    canBeLowerCase: 0
+    maxCount: 999
+    itemStackingMode: 0
+    tex: {fileID: 2800000, guid: c051f0095945db849a22ad2af51d2c15, type: 3}
+    activeTex: {fileID: 0}
+    selectedTex: {fileID: 0}
+    linkedPrefab: {fileID: 4785708519804605045, guid: 21796834568e3064588c1fdb094fbc83, type: 3}
+    cursorIcon:
+      texture: {fileID: 2800000, guid: c051f0095945db849a22ad2af51d2c15, type: 3}
+      isAnimated: 0
+      numFrames: 1
+      numRows: 1
+      numCols: 1
+      size: 0.26
+      animSpeed: 4
+      endAnimOnLastFrame: 0
+      skipFirstFrameWhenLooping: 0
+      clickOffset: {x: 0, y: -0.38}
+      frameSpeeds: []
+      alwaysAnimate: 0
+      dontCycle: 0
+      label: Icon 1
+      lineID: -1
+      id: 0
+    lineID: -1
+    useIconID: 0
+    binID: 1
+    overrideUseSyntax: 0
+    hotspotPrefix1:
+      label: Use
+      lineID: -1
+    hotspotPrefix2:
+      label: on
+      lineID: -1
+    useActionList: {fileID: 0}
+    lookActionList: {fileID: 0}
+    interactions: []
+    combineInteractions: []
+    combineActionList: []
+    combineID: 
+    unhandledActionList: {fileID: 0}
+    unhandledGiveActionList: {fileID: 0}
+    unhandledCombineActionList: {fileID: 0}
+    carryOnStartID: -1
+    useSeparateSlots: 0
+    selectSingle: 0
+    showInFilter: 1
+  - label: Bright Green Coat
+    id: 9
+    altLabel: 
+    carryOnStart: 0
+    carryOnStartNotDefault: 0
+    carryOnStartIDs: 00000000
+    vars:
+    - label: Coat Color
+      id: 0
+      type: 4
+      val: 6
+      floatVal: 0
+      textVal: 
+      gameObjectVal: {fileID: 0}
+      gameObjectSaveReferences: 1
+      objectVal: {fileID: 0}
+      popUps:
+      - Empty
+      - Dull Green
+      - Blue
+      - Pink
+      - Scarlet
+      - Brown
+      - Bright Green
+      vector3Val: {x: 0, y: 0, z: 0}
+      link: 0
+      pmVar: 
+      updateLinkOnStart: 0
+      canTranslate: 1
+      popUpID: 0
+      textValLineID: -1
+      popUpsLineID: -1
+      description: 
+      showInFilter: 0
+      limitToCategories: 1
+      categoryIDs: 01000000
+    - label: Current Hanger
+      id: 1
+      type: 6
+      val: 0
+      floatVal: 0
+      textVal: 
+      gameObjectVal: {fileID: 0}
+      gameObjectSaveReferences: 1
+      objectVal: {fileID: 0}
+      popUps: []
+      vector3Val: {x: 0, y: 0, z: 0}
+      link: 0
+      pmVar: 
+      updateLinkOnStart: 0
+      canTranslate: 1
+      popUpID: 0
+      textValLineID: -1
+      popUpsLineID: -1
+      description: 
+      showInFilter: 0
+      limitToCategories: 1
+      categoryIDs: 01000000
+    canCarryMultiple: 0
+    count: 1
+    canBeLowerCase: 0
+    maxCount: 999
+    itemStackingMode: 0
+    tex: {fileID: 2800000, guid: 42410bdce1b7c3a4ea369c90d819038f, type: 3}
+    activeTex: {fileID: 0}
+    selectedTex: {fileID: 0}
+    linkedPrefab: {fileID: 1826060389407567438, guid: 2e8a9f8c3df94104d8404ef53cdc39f2, type: 3}
+    cursorIcon:
+      texture: {fileID: 2800000, guid: 42410bdce1b7c3a4ea369c90d819038f, type: 3}
+      isAnimated: 0
+      numFrames: 1
+      numRows: 1
+      numCols: 1
+      size: 0.26
+      animSpeed: 4
+      endAnimOnLastFrame: 0
+      skipFirstFrameWhenLooping: 0
+      clickOffset: {x: 0, y: -0.38}
+      frameSpeeds: []
+      alwaysAnimate: 0
+      dontCycle: 0
+      label: Icon 1
+      lineID: -1
+      id: 0
+    lineID: -1
+    useIconID: 0
+    binID: 1
+    overrideUseSyntax: 0
+    hotspotPrefix1:
+      label: Use
+      lineID: -1
+    hotspotPrefix2:
+      label: on
+      lineID: -1
+    useActionList: {fileID: 0}
+    lookActionList: {fileID: 0}
+    interactions: []
+    combineInteractions: []
+    combineActionList: []
+    combineID: 
+    unhandledActionList: {fileID: 0}
+    unhandledGiveActionList: {fileID: 0}
+    unhandledCombineActionList: {fileID: 0}
+    carryOnStartID: -1
+    useSeparateSlots: 0
+    selectSingle: 0
+    showInFilter: 1
+  - label: Dull Green Coat
+    id: 10
+    altLabel: 
+    carryOnStart: 0
+    carryOnStartNotDefault: 0
+    carryOnStartIDs: 00000000
+    vars:
+    - label: Coat Color
+      id: 0
+      type: 4
+      val: 1
+      floatVal: 0
+      textVal: 
+      gameObjectVal: {fileID: 0}
+      gameObjectSaveReferences: 1
+      objectVal: {fileID: 0}
+      popUps:
+      - Empty
+      - Dull Green
+      - Blue
+      - Pink
+      - Scarlet
+      - Brown
+      - Bright Green
+      vector3Val: {x: 0, y: 0, z: 0}
+      link: 0
+      pmVar: 
+      updateLinkOnStart: 0
+      canTranslate: 1
+      popUpID: 0
+      textValLineID: -1
+      popUpsLineID: -1
+      description: 
+      showInFilter: 0
+      limitToCategories: 1
+      categoryIDs: 01000000
+    - label: Current Hanger
+      id: 1
+      type: 6
+      val: 0
+      floatVal: 0
+      textVal: 
+      gameObjectVal: {fileID: 0}
+      gameObjectSaveReferences: 1
+      objectVal: {fileID: 0}
+      popUps: []
+      vector3Val: {x: 0, y: 0, z: 0}
+      link: 0
+      pmVar: 
+      updateLinkOnStart: 0
+      canTranslate: 1
+      popUpID: 0
+      textValLineID: -1
+      popUpsLineID: -1
+      description: 
+      showInFilter: 0
+      limitToCategories: 1
+      categoryIDs: 01000000
+    canCarryMultiple: 0
+    count: 1
+    canBeLowerCase: 0
+    maxCount: 999
+    itemStackingMode: 0
+    tex: {fileID: 2800000, guid: e260b9571182b514cbe30b194655104c, type: 3}
+    activeTex: {fileID: 0}
+    selectedTex: {fileID: 0}
+    linkedPrefab: {fileID: 3452430052514676207, guid: 9d5ca64a92dc3f14aacd72f2f57a1cfb, type: 3}
+    cursorIcon:
+      texture: {fileID: 2800000, guid: e260b9571182b514cbe30b194655104c, type: 3}
+      isAnimated: 0
+      numFrames: 1
+      numRows: 1
+      numCols: 1
+      size: 0.26
+      animSpeed: 4
+      endAnimOnLastFrame: 0
+      skipFirstFrameWhenLooping: 0
+      clickOffset: {x: 0, y: -0.38}
+      frameSpeeds: []
+      alwaysAnimate: 0
+      dontCycle: 0
+      label: Icon 1
+      lineID: -1
+      id: 0
+    lineID: -1
+    useIconID: 0
+    binID: 1
+    overrideUseSyntax: 0
+    hotspotPrefix1:
+      label: Use
+      lineID: -1
+    hotspotPrefix2:
+      label: on
+      lineID: -1
+    useActionList: {fileID: 0}
+    lookActionList: {fileID: 0}
+    interactions: []
+    combineInteractions: []
+    combineActionList: []
+    combineID: 
+    unhandledActionList: {fileID: 0}
+    unhandledGiveActionList: {fileID: 0}
+    unhandledCombineActionList: {fileID: 0}
+    carryOnStartID: -1
+    useSeparateSlots: 0
+    selectSingle: 0
+    showInFilter: 1
+  - label: Scarlet Coat
+    id: 11
+    altLabel: 
+    carryOnStart: 0
+    carryOnStartNotDefault: 0
+    carryOnStartIDs: 00000000
+    vars:
+    - label: Coat Color
+      id: 0
+      type: 4
+      val: 4
+      floatVal: 0
+      textVal: 
+      gameObjectVal: {fileID: 0}
+      gameObjectSaveReferences: 1
+      objectVal: {fileID: 0}
+      popUps:
+      - Empty
+      - Dull Green
+      - Blue
+      - Pink
+      - Scarlet
+      - Brown
+      - Bright Green
+      vector3Val: {x: 0, y: 0, z: 0}
+      link: 0
+      pmVar: 
+      updateLinkOnStart: 0
+      canTranslate: 1
+      popUpID: 0
+      textValLineID: -1
+      popUpsLineID: -1
+      description: 
+      showInFilter: 0
+      limitToCategories: 1
+      categoryIDs: 01000000
+    - label: Current Hanger
+      id: 1
+      type: 6
+      val: 0
+      floatVal: 0
+      textVal: 
+      gameObjectVal: {fileID: 0}
+      gameObjectSaveReferences: 1
+      objectVal: {fileID: 0}
+      popUps: []
+      vector3Val: {x: 0, y: 0, z: 0}
+      link: 0
+      pmVar: 
+      updateLinkOnStart: 0
+      canTranslate: 1
+      popUpID: 0
+      textValLineID: -1
+      popUpsLineID: -1
+      description: 
+      showInFilter: 0
+      limitToCategories: 1
+      categoryIDs: 01000000
+    canCarryMultiple: 0
+    count: 1
+    canBeLowerCase: 0
+    maxCount: 999
+    itemStackingMode: 0
+    tex: {fileID: 2800000, guid: 22056d06bfe35ff47a4258831dcf91ac, type: 3}
+    activeTex: {fileID: 0}
+    selectedTex: {fileID: 0}
+    linkedPrefab: {fileID: 4682136991655307694, guid: 806ef759f6a55234a89f3ce1341bcb79, type: 3}
+    cursorIcon:
+      texture: {fileID: 2800000, guid: 22056d06bfe35ff47a4258831dcf91ac, type: 3}
+      isAnimated: 0
+      numFrames: 1
+      numRows: 1
+      numCols: 1
+      size: 0.26
+      animSpeed: 4
+      endAnimOnLastFrame: 0
+      skipFirstFrameWhenLooping: 0
+      clickOffset: {x: 0, y: -0.38}
+      frameSpeeds: []
+      alwaysAnimate: 0
+      dontCycle: 0
+      label: Icon 1
+      lineID: -1
+      id: 0
+    lineID: -1
+    useIconID: 0
+    binID: 1
+    overrideUseSyntax: 0
+    hotspotPrefix1:
+      label: Use
+      lineID: -1
+    hotspotPrefix2:
+      label: on
+      lineID: -1
+    useActionList: {fileID: 0}
+    lookActionList: {fileID: 0}
+    interactions: []
+    combineInteractions: []
+    combineActionList: []
+    combineID: 
+    unhandledActionList: {fileID: 0}
+    unhandledGiveActionList: {fileID: 0}
+    unhandledCombineActionList: {fileID: 0}
+    carryOnStartID: -1
+    useSeparateSlots: 0
+    selectSingle: 0
+    showInFilter: 1
+  - label: Magician's Coat
+    id: 12
+    altLabel: 
+    carryOnStart: 0
+    carryOnStartNotDefault: 0
+    carryOnStartIDs: 00000000
+    vars: []
+    canCarryMultiple: 0
+    count: 1
+    canBeLowerCase: 0
+    maxCount: 999
+    itemStackingMode: 0
+    tex: {fileID: 2800000, guid: 1a4d39e6ffee35340adbff05b2fdf638, type: 3}
+    activeTex: {fileID: 0}
+    selectedTex: {fileID: 0}
+    linkedPrefab: {fileID: 0}
+    cursorIcon:
+      texture: {fileID: 0}
+      isAnimated: 0
+      numFrames: 1
+      numRows: 1
+      numCols: 1
+      size: 0.04
+      animSpeed: 4
+      endAnimOnLastFrame: 0
+      skipFirstFrameWhenLooping: 0
+      clickOffset: {x: 0, y: 0}
+      frameSpeeds: []
+      alwaysAnimate: 0
+      dontCycle: 0
+      label: Icon 1
+      lineID: -1
+      id: 0
+    lineID: -1
+    useIconID: 0
+    binID: 0
+    overrideUseSyntax: 0
+    hotspotPrefix1:
+      label: Use
+      lineID: -1
+    hotspotPrefix2:
+      label: on
+      lineID: -1
+    useActionList: {fileID: 0}
+    lookActionList: {fileID: 0}
+    interactions: []
+    combineInteractions: []
+    combineActionList: []
+    combineID: 
+    unhandledActionList: {fileID: 0}
+    unhandledGiveActionList: {fileID: 0}
+    unhandledCombineActionList: {fileID: 0}
+    carryOnStartID: -1
+    useSeparateSlots: 0
+    selectSingle: 0
+    showInFilter: 0
+  bins:
+  - label: Standard Items
+    id: 0
+    notForItems: 0
+    forObjectives: 0
+    forDocuments: 0
+  - label: Coats Puzzle
+    id: 1
+    notForItems: 0
+    forObjectives: 0
+    forDocuments: 0
+  invVars:
+  - label: Coat Color
+    id: 0
+    type: 4
+    val: 0
+    floatVal: 0
+    textVal: 
+    gameObjectVal: {fileID: 0}
+    gameObjectSaveReferences: 1
+    objectVal: {fileID: 0}
+    popUps:
+    - Empty
+    - Dull Green
+    - Blue
+    - Pink
+    - Scarlet
+    - Brown
+    - Bright Green
+    vector3Val: {x: 0, y: 0, z: 0}
+    link: 0
+    pmVar: 
+    updateLinkOnStart: 0
+    canTranslate: 1
+    popUpID: 0
+    textValLineID: -1
+    popUpsLineID: -1
+    description: The color of a coat from the hanger rack puzzle
+    showInFilter: 0
+    limitToCategories: 1
+    categoryIDs: 01000000
+  - label: Current Hanger
+    id: 1
+    type: 6
+    val: 0
+    floatVal: 0
+    textVal: 
+    gameObjectVal: {fileID: 0}
+    gameObjectSaveReferences: 1
+    objectVal: {fileID: 0}
+    popUps: []
+    vector3Val: {x: 0, y: 0, z: 0}
+    link: 0
+    pmVar: 
+    updateLinkOnStart: 0
+    canTranslate: 1
+    popUpID: 0
+    textValLineID: -1
+    popUpsLineID: -1
+    description: 
+    showInFilter: 0
+    limitToCategories: 1
+    categoryIDs: 01000000
   unhandledCombine: {fileID: 0}
   unhandledHotspot: {fileID: 0}
   passUnhandledHotspotAsParameter: 0
   unhandledGive: {fileID: 0}
   recipes: []
-  documents: []
+  documents:
+  - ID: 0
+    title: Coat Puzzle
+    titleLineID: -1
+    rememberLastOpenPage: 0
+    carryOnStart: 0
+    texture: {fileID: 0}
+    pages:
+    - lineID: -1
+      text: 'lgfhlg,fhl,lgf,hlfgh
+
+'
+      texture: {fileID: 2800000, guid: 0b1b4ae020dc8724a8eeb8dee649f09d, type: 3}
+    - lineID: -1
+      text: lfghklhlkglfhklfgh
+      texture: {fileID: 0}
+    binID: -1
   objectives: []
   objectiveStateActiveLabel:
     label: Active

@@ -36,7 +36,8 @@ MonoBehaviour:
   sceneAttributes: []
   actionListOnStart: {fileID: 0}
   blackOutWhenSkipping: 0
-  events: []
+  events:
+  - rid: 4160535617999470592
   savePlayerReferencesWithAddressables: 0
   playerSwitching: 1
   legacyPlayer: {fileID: 0}
@@ -84,7 +85,7 @@ MonoBehaviour:
   inventoryDropLook: 0
   inventoryDropLookNoDrag: 0
   inventoryInteractions: 1
-  inventoryDisableLeft: 1
+  inventoryDisableLeft: 0
   allowDefaultInventoryInteractions: 0
   inventoryDisableUnhandled: 1
   inventoryDisableDefined: 1
@@ -239,4 +240,13 @@ MonoBehaviour:
   showActiveActionLists: 0
   references:
     version: 2
-    RefIds: []
+    RefIds:
+    - rid: 4160535617999470592
+      type: {class: EventInventorySelect, ns: AC, asm: Assembly-CSharp}
+      data:
+        label: 
+        id: 0
+        actionListAsset: {fileID: 11400000, guid: 87f8ea9b0f79443458d31de85d852aa3, type: 2}
+        parameterIDs: 00000000
+        selectDeselect: 1
+        itemID: -1
