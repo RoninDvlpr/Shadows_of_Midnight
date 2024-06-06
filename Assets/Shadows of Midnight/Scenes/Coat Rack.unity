@@ -641,7 +641,7 @@ MonoBehaviour:
     endingReferencesBuffer: 00
     endingOverrideIndex: 00000000
   - className: AC.ActionInventorySelect
-    jsonData: '{"id":0,"isDisplayed":true,"showComment":false,"comment":"","willWait":false,"endAction":0,"skipAction":-1,"skipActionActual":{"instanceID":0},"linkedCutscene":{"instanceID":0},"linkedAsset":{"instanceID":0},"endings":[{"resultAction":0,"skipAction":5,"skipActionActual":{"instanceID":191918},"linkedCutscene":{"instanceID":0},"linkedAsset":{"instanceID":0}}],"isEnabled":true,"isAssetFile":false,"isBreakPoint":false,"nodeRect":{"serializedVersion":"2","x":365.0,"y":423.0,"width":300.0,"height":152.0},"overrideColor":{"r":1.0,"g":1.0,"b":1.0,"a":1.0},"showOutputSockets":true,"parentActionListInEditor":{"instanceID":41730493_0},"selectType":0,"selectItemMode":0,"carryCondition":0,"giveToPlayer":false,"setAmount":false,"amountParameterID":-1,"amount":1,"parameterID":2,"invID":-1}'
+    jsonData: '{"id":0,"isDisplayed":true,"showComment":false,"comment":"","willWait":false,"endAction":0,"skipAction":-1,"skipActionActual":{"instanceID":0},"linkedCutscene":{"instanceID":0},"linkedAsset":{"instanceID":0},"endings":[{"resultAction":0,"skipAction":5,"skipActionActual":{"instanceID":82254},"linkedCutscene":{"instanceID":0},"linkedAsset":{"instanceID":0}}],"isEnabled":true,"isAssetFile":false,"isBreakPoint":false,"nodeRect":{"serializedVersion":"2","x":365.0,"y":423.0,"width":300.0,"height":152.0},"overrideColor":{"r":1.0,"g":1.0,"b":1.0,"a":1.0},"showOutputSockets":true,"parentActionListInEditor":{"instanceID":41730493_0},"selectType":0,"selectItemMode":0,"carryCondition":0,"giveToPlayer":false,"setAmount":false,"amountParameterID":-1,"amount":1,"parameterID":2,"invID":-1}'
     endingReferencesBuffer: 00
     endingOverrideIndex: 00000000
   - className: AC.ActionVarSet
@@ -1642,15 +1642,15 @@ MonoBehaviour:
   syncParamValues: 1
   backupData:
   - className: AC.ActionVarCheck
-    jsonData: '{"id":0,"isDisplayed":true,"showComment":false,"comment":"","willWait":false,"endAction":0,"skipAction":-1,"skipActionActual":{"instanceID":0},"linkedCutscene":{"instanceID":0},"linkedAsset":{"instanceID":0},"endings":[{"resultAction":0,"skipAction":1,"skipActionActual":{"instanceID":191834},"linkedCutscene":{"instanceID":0},"linkedAsset":{"instanceID":0}},{"resultAction":1,"skipAction":-1,"skipActionActual":{"instanceID":0},"linkedCutscene":{"instanceID":0},"linkedAsset":{"instanceID":0}}],"isEnabled":true,"isAssetFile":false,"isBreakPoint":false,"nodeRect":{"serializedVersion":"2","x":14.0,"y":14.0,"width":300.0,"height":220.0},"overrideColor":{"r":1.0,"g":1.0,"b":1.0,"a":1.0},"showOutputSockets":true,"parentActionListInEditor":{"instanceID":192299866_0},"resultActionTrue":0,"skipActionTrue":-1,"skipActionTrueActual":{"instanceID":0},"linkedCutsceneTrue":{"instanceID":0},"linkedAssetTrue":{"instanceID":0},"resultActionFail":1,"skipActionFail":-1,"skipActionFailActual":{"instanceID":0},"linkedCutsceneFail":{"instanceID":0},"linkedAssetFail":{"instanceID":0},"parameterID":0,"variableID":1,"variableNumber":-1,"checkParameterID":-1,"getVarMethod":0,"compareVariableID":0,"intValue":0,"floatValue":0.0,"intCondition":0,"isAdditive":false,"boolValue":1,"boolCondition":0,"stringValue":"","checkCase":true,"vector3Value":{"x":0.0,"y":0.0,"z":0.0},"vectorCondition":0,"gameObjectValue":{"instanceID":0},"unityObjectValue":{"instanceID":0},"location":2,"variables":{"instanceID":0},"variablesConstantID":0,"compareVariables":{"instanceID":0},"compareVariablesConstantID":0,"placeholderType":4,"placeholderPopUpLabelDataID":-1}'
+    jsonData: '{"id":0,"isDisplayed":true,"showComment":false,"comment":"","willWait":false,"endAction":0,"skipAction":-1,"skipActionActual":{"instanceID":0},"linkedCutscene":{"instanceID":0},"linkedAsset":{"instanceID":0},"endings":[{"resultAction":0,"skipAction":1,"skipActionActual":{"instanceID":82170},"linkedCutscene":{"instanceID":0},"linkedAsset":{"instanceID":0}},{"resultAction":1,"skipAction":-1,"skipActionActual":{"instanceID":0},"linkedCutscene":{"instanceID":0},"linkedAsset":{"instanceID":0}}],"isEnabled":true,"isAssetFile":false,"isBreakPoint":false,"nodeRect":{"serializedVersion":"2","x":14.0,"y":14.0,"width":300.0,"height":220.0},"overrideColor":{"r":1.0,"g":1.0,"b":1.0,"a":1.0},"showOutputSockets":true,"parentActionListInEditor":{"instanceID":192299866_0},"resultActionTrue":0,"skipActionTrue":-1,"skipActionTrueActual":{"instanceID":0},"linkedCutsceneTrue":{"instanceID":0},"linkedAssetTrue":{"instanceID":0},"resultActionFail":1,"skipActionFail":-1,"skipActionFailActual":{"instanceID":0},"linkedCutsceneFail":{"instanceID":0},"linkedAssetFail":{"instanceID":0},"parameterID":0,"variableID":1,"variableNumber":-1,"checkParameterID":-1,"getVarMethod":0,"compareVariableID":0,"intValue":0,"floatValue":0.0,"intCondition":0,"isAdditive":false,"boolValue":1,"boolCondition":0,"stringValue":"","checkCase":true,"vector3Value":{"x":0.0,"y":0.0,"z":0.0},"vectorCondition":0,"gameObjectValue":{"instanceID":0},"unityObjectValue":{"instanceID":0},"location":2,"variables":{"instanceID":0},"variablesConstantID":0,"compareVariables":{"instanceID":0},"compareVariablesConstantID":0,"placeholderType":4,"placeholderPopUpLabelDataID":-1}'
     endingReferencesBuffer: 0000
     endingOverrideIndex: 0000000000000000
   - className: AC.ActionInventoryCheckSelected
-    jsonData: '{"id":0,"isDisplayed":true,"showComment":false,"comment":"","willWait":false,"endAction":0,"skipAction":-1,"skipActionActual":{"instanceID":0},"linkedCutscene":{"instanceID":0},"linkedAsset":{"instanceID":0},"endings":[{"resultAction":0,"skipAction":1,"skipActionActual":{"instanceID":191950},"linkedCutscene":{"instanceID":0},"linkedAsset":{"instanceID":0}},{"resultAction":1,"skipAction":-1,"skipActionActual":{"instanceID":0},"linkedCutscene":{"instanceID":0},"linkedAsset":{"instanceID":0}}],"isEnabled":true,"isAssetFile":false,"isBreakPoint":false,"nodeRect":{"serializedVersion":"2","x":15.0,"y":268.0,"width":300.0,"height":180.0},"overrideColor":{"r":1.0,"g":1.0,"b":1.0,"a":1.0},"showOutputSockets":true,"parentActionListInEditor":{"instanceID":192299866_0},"resultActionTrue":0,"skipActionTrue":-1,"skipActionTrueActual":{"instanceID":0},"linkedCutsceneTrue":{"instanceID":0},"linkedAssetTrue":{"instanceID":0},"resultActionFail":1,"skipActionFail":-1,"skipActionFailActual":{"instanceID":0},"linkedCutsceneFail":{"instanceID":0},"linkedAssetFail":{"instanceID":0},"parameterID":-1,"invID":0,"binID":1,"checkNothing":false,"includeLast":false,"selectedCheckMethod":1,"selectedItemParameterID":-1}'
+    jsonData: '{"id":0,"isDisplayed":true,"showComment":false,"comment":"","willWait":false,"endAction":0,"skipAction":-1,"skipActionActual":{"instanceID":0},"linkedCutscene":{"instanceID":0},"linkedAsset":{"instanceID":0},"endings":[{"resultAction":0,"skipAction":1,"skipActionActual":{"instanceID":82286},"linkedCutscene":{"instanceID":0},"linkedAsset":{"instanceID":0}},{"resultAction":1,"skipAction":-1,"skipActionActual":{"instanceID":0},"linkedCutscene":{"instanceID":0},"linkedAsset":{"instanceID":0}}],"isEnabled":true,"isAssetFile":false,"isBreakPoint":false,"nodeRect":{"serializedVersion":"2","x":15.0,"y":268.0,"width":300.0,"height":180.0},"overrideColor":{"r":1.0,"g":1.0,"b":1.0,"a":1.0},"showOutputSockets":true,"parentActionListInEditor":{"instanceID":192299866_0},"resultActionTrue":0,"skipActionTrue":-1,"skipActionTrueActual":{"instanceID":0},"linkedCutsceneTrue":{"instanceID":0},"linkedAssetTrue":{"instanceID":0},"resultActionFail":1,"skipActionFail":-1,"skipActionFailActual":{"instanceID":0},"linkedCutsceneFail":{"instanceID":0},"linkedAssetFail":{"instanceID":0},"parameterID":-1,"invID":0,"binID":1,"checkNothing":false,"includeLast":false,"selectedCheckMethod":1,"selectedItemParameterID":-1}'
     endingReferencesBuffer: 0000
     endingOverrideIndex: 0000000000000000
   - className: AC.ActionInteraction
-    jsonData: '{"id":0,"isDisplayed":true,"showComment":false,"comment":"","willWait":false,"endAction":0,"skipAction":-1,"skipActionActual":{"instanceID":0},"linkedCutscene":{"instanceID":0},"linkedAsset":{"instanceID":0},"endings":[{"resultAction":2,"skipAction":7,"skipActionActual":{"instanceID":191940},"linkedCutscene":{"instanceID":0},"linkedAsset":{"instanceID":0}}],"isEnabled":true,"isAssetFile":false,"isBreakPoint":false,"nodeRect":{"serializedVersion":"2","x":16.0,"y":492.0,"width":300.0,"height":152.0},"overrideColor":{"r":1.0,"g":1.0,"b":1.0,"a":1.0},"showOutputSockets":true,"parentActionListInEditor":{"instanceID":192299866_0},"parameterID":0,"constantID":0,"hotspot":{"instanceID":0},"interactionType":0,"changeType":0,"number":0}'
+    jsonData: '{"id":0,"isDisplayed":true,"showComment":false,"comment":"","willWait":false,"endAction":0,"skipAction":-1,"skipActionActual":{"instanceID":0},"linkedCutscene":{"instanceID":0},"linkedAsset":{"instanceID":0},"endings":[{"resultAction":2,"skipAction":7,"skipActionActual":{"instanceID":82276},"linkedCutscene":{"instanceID":0},"linkedAsset":{"instanceID":0}}],"isEnabled":true,"isAssetFile":false,"isBreakPoint":false,"nodeRect":{"serializedVersion":"2","x":16.0,"y":492.0,"width":300.0,"height":152.0},"overrideColor":{"r":1.0,"g":1.0,"b":1.0,"a":1.0},"showOutputSockets":true,"parentActionListInEditor":{"instanceID":192299866_0},"parameterID":0,"constantID":0,"hotspot":{"instanceID":0},"interactionType":0,"changeType":0,"number":0}'
     endingReferencesBuffer: 00
     endingOverrideIndex: 00000000
   - className: AC.ActionInventoryPrefab
@@ -1666,11 +1666,11 @@ MonoBehaviour:
     endingReferencesBuffer: 00
     endingOverrideIndex: 00000000
   - className: AC.ActionInvProperty
-    jsonData: '{"id":0,"isDisplayed":true,"showComment":false,"comment":"","willWait":false,"endAction":0,"skipAction":-1,"skipActionActual":{"instanceID":0},"linkedCutscene":{"instanceID":0},"linkedAsset":{"instanceID":0},"endings":[{"resultAction":2,"skipAction":8,"skipActionActual":{"instanceID":192060},"linkedCutscene":{"instanceID":0},"linkedAsset":{"instanceID":0}}],"isEnabled":true,"isAssetFile":false,"isBreakPoint":false,"nodeRect":{"serializedVersion":"2","x":731.838134765625,"y":244.0,"width":300.0,"height":260.0},"overrideColor":{"r":1.0,"g":1.0,"b":1.0,"a":1.0},"showOutputSockets":true,"parentActionListInEditor":{"instanceID":192299866_0},"varParameterID":-1,"variableID":1,"varLocation":2,"method":0,"setVarAsPropertyMethod":0,"useLiveValues":false,"multiplyByItemCount":false,"invID":-1,"invParameterID":1,"propertyID":0,"variables":{"instanceID":2069069843_0},"variablesConstantID":0}'
+    jsonData: '{"id":0,"isDisplayed":true,"showComment":false,"comment":"","willWait":false,"endAction":0,"skipAction":-1,"skipActionActual":{"instanceID":0},"linkedCutscene":{"instanceID":0},"linkedAsset":{"instanceID":0},"endings":[{"resultAction":2,"skipAction":8,"skipActionActual":{"instanceID":82400},"linkedCutscene":{"instanceID":0},"linkedAsset":{"instanceID":0}}],"isEnabled":true,"isAssetFile":false,"isBreakPoint":false,"nodeRect":{"serializedVersion":"2","x":731.838134765625,"y":244.0,"width":300.0,"height":260.0},"overrideColor":{"r":1.0,"g":1.0,"b":1.0,"a":1.0},"showOutputSockets":true,"parentActionListInEditor":{"instanceID":192299866_0},"varParameterID":-1,"variableID":1,"varLocation":2,"method":0,"setVarAsPropertyMethod":0,"useLiveValues":false,"multiplyByItemCount":false,"invID":-1,"invParameterID":1,"propertyID":0,"variables":{"instanceID":2069069843_0},"variablesConstantID":0}'
     endingReferencesBuffer: 01
     endingOverrideIndex: 08000000
   - className: AC.ActionRename
-    jsonData: '{"id":0,"isDisplayed":true,"showComment":false,"comment":"","willWait":false,"endAction":0,"skipAction":-1,"skipActionActual":{"instanceID":0},"linkedCutscene":{"instanceID":0},"linkedAsset":{"instanceID":0},"endings":[{"resultAction":2,"skipAction":3,"skipActionActual":{"instanceID":191510},"linkedCutscene":{"instanceID":0},"linkedAsset":{"instanceID":0}}],"isEnabled":true,"isAssetFile":false,"isBreakPoint":false,"nodeRect":{"serializedVersion":"2","x":16.0,"y":695.4808349609375,"width":300.0,"height":132.0},"overrideColor":{"r":1.0,"g":1.0,"b":1.0,"a":1.0},"showOutputSockets":true,"parentActionListInEditor":{"instanceID":192299866_0},"constantID":0,"parameterID":0,"hotspot":{"instanceID":0},"newName":"Pick
+    jsonData: '{"id":0,"isDisplayed":true,"showComment":false,"comment":"","willWait":false,"endAction":0,"skipAction":-1,"skipActionActual":{"instanceID":0},"linkedCutscene":{"instanceID":0},"linkedAsset":{"instanceID":0},"endings":[{"resultAction":2,"skipAction":3,"skipActionActual":{"instanceID":81834},"linkedCutscene":{"instanceID":0},"linkedAsset":{"instanceID":0}}],"isEnabled":true,"isAssetFile":false,"isBreakPoint":false,"nodeRect":{"serializedVersion":"2","x":16.0,"y":695.4808349609375,"width":300.0,"height":132.0},"overrideColor":{"r":1.0,"g":1.0,"b":1.0,"a":1.0},"showOutputSockets":true,"parentActionListInEditor":{"instanceID":192299866_0},"constantID":0,"parameterID":0,"hotspot":{"instanceID":0},"newName":"Pick
       Up Coat","newNameParameterID":-1,"lineID":-1}'
     endingReferencesBuffer: 00
     endingOverrideIndex: 00000000
@@ -1758,6 +1758,240 @@ MonoBehaviour:
   compareVariablesConstantID: 0
   placeholderType: 4
   placeholderPopUpLabelDataID: 0
+--- !u!1 &198041615
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 198041619}
+  - component: {fileID: 198041618}
+  - component: {fileID: 198041617}
+  - component: {fileID: 198041616}
+  m_Layer: 0
+  m_Name: Hammer
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &198041616
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 198041615}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1b7c3ce72f27144c1be5a4a8ce09121d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  interactionSource: 0
+  _limitToCamera: {fileID: 0}
+  interactiveBoundary: {fileID: 0}
+  hotspotName: 
+  lineID: -1
+  highlight: {fileID: 0}
+  walkToMarker: {fileID: 0}
+  centrePoint: {fileID: 0}
+  centrePointOverrides: 0
+  provideUseInteraction: 1
+  useButton:
+    interaction: {fileID: 0}
+    assetFile: {fileID: 0}
+    customScriptObject: {fileID: 0}
+    customScriptFunction: 
+    isDisabled: 0
+    invID: 0
+    iconID: -1
+    selectItemMode: 0
+    playerAction: 0
+    doubleClickDoesNotSnapPlayerToMarker: 0
+    setProximity: 0
+    proximity: 1
+    faceAfter: 0
+    isBlocking: 0
+    parameterID: -1
+    invParameterID: -1
+  useButtons:
+  - interaction: {fileID: 4802637591113896103}
+    assetFile: {fileID: 0}
+    customScriptObject: {fileID: 0}
+    customScriptFunction: 
+    isDisabled: 0
+    invID: 0
+    iconID: 0
+    selectItemMode: 0
+    playerAction: 0
+    doubleClickDoesNotSnapPlayerToMarker: 0
+    setProximity: 0
+    proximity: 1
+    faceAfter: 0
+    isBlocking: 0
+    parameterID: -1
+    invParameterID: -1
+  oneClick: 0
+  provideLookInteraction: 0
+  lookButton:
+    interaction: {fileID: 0}
+    assetFile: {fileID: 0}
+    customScriptObject: {fileID: 0}
+    customScriptFunction: 
+    isDisabled: 0
+    invID: 0
+    iconID: -1
+    selectItemMode: 0
+    playerAction: 0
+    doubleClickDoesNotSnapPlayerToMarker: 0
+    setProximity: 0
+    proximity: 1
+    faceAfter: 0
+    isBlocking: 0
+    parameterID: -1
+    invParameterID: -1
+  provideInvInteraction: 0
+  invButtons: []
+  provideUnhandledUseInteraction: 0
+  provideUnhandledInvInteraction: 0
+  unhandledUseButton:
+    interaction: {fileID: 0}
+    assetFile: {fileID: 0}
+    customScriptObject: {fileID: 0}
+    customScriptFunction: 
+    isDisabled: 0
+    invID: 0
+    iconID: -1
+    selectItemMode: 0
+    playerAction: 0
+    doubleClickDoesNotSnapPlayerToMarker: 0
+    setProximity: 0
+    proximity: 1
+    faceAfter: 0
+    isBlocking: 0
+    parameterID: -1
+    invParameterID: -1
+  unhandledInvButton:
+    interaction: {fileID: 0}
+    assetFile: {fileID: 0}
+    customScriptObject: {fileID: 0}
+    customScriptFunction: 
+    isDisabled: 0
+    invID: 0
+    iconID: -1
+    selectItemMode: 0
+    playerAction: 0
+    doubleClickDoesNotSnapPlayerToMarker: 0
+    setProximity: 0
+    proximity: 1
+    faceAfter: 0
+    isBlocking: 0
+    parameterID: -1
+    invParameterID: -1
+  canBeLowerCase: 0
+  drawGizmos: 1
+  lastInteractionIndex: 0
+  displayLineID: -1
+  iconSortingLayer: 
+  iconSortingOrder: 0
+  doubleClickingHotspot: 0
+  playerTurnsHead: 1
+--- !u!61 &198041617
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 198041615}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: -6.0643196, y: -4.200183}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 19.2, y: 10.8}
+    newSize: {x: 19.2, y: 10.8}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 2.3514066, y: 0.97055626}
+  m_EdgeRadius: 0
+--- !u!212 &198041618
+SpriteRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 198041615}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 0
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 30
+  m_Sprite: {fileID: 21300000, guid: fa1b0fddba4293943af794357e4ee2b5, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_FlipX: 0
+  m_FlipY: 0
+  m_DrawMode: 0
+  m_Size: {x: 19.2, y: 10.8}
+  m_AdaptiveModeThreshold: 0.5
+  m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 1
+  m_MaskInteraction: 0
+  m_SpriteSortPoint: 0
+--- !u!4 &198041619
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 198041615}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -2.1401534, y: -0.21004203, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 4802637591124113767}
+  m_Father: {fileID: 0}
+  m_RootOrder: 5
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &203334881
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2180,15 +2414,15 @@ MonoBehaviour:
   syncParamValues: 1
   backupData:
   - className: AC.ActionVarCheck
-    jsonData: '{"id":0,"isDisplayed":true,"showComment":false,"comment":"","willWait":false,"endAction":0,"skipAction":-1,"skipActionActual":{"instanceID":0},"linkedCutscene":{"instanceID":0},"linkedAsset":{"instanceID":0},"endings":[{"resultAction":0,"skipAction":1,"skipActionActual":{"instanceID":191834},"linkedCutscene":{"instanceID":0},"linkedAsset":{"instanceID":0}},{"resultAction":1,"skipAction":-1,"skipActionActual":{"instanceID":0},"linkedCutscene":{"instanceID":0},"linkedAsset":{"instanceID":0}}],"isEnabled":true,"isAssetFile":false,"isBreakPoint":false,"nodeRect":{"serializedVersion":"2","x":14.0,"y":14.0,"width":300.0,"height":220.0},"overrideColor":{"r":1.0,"g":1.0,"b":1.0,"a":1.0},"showOutputSockets":true,"parentActionListInEditor":{"instanceID":273218404_0},"resultActionTrue":0,"skipActionTrue":-1,"skipActionTrueActual":{"instanceID":0},"linkedCutsceneTrue":{"instanceID":0},"linkedAssetTrue":{"instanceID":0},"resultActionFail":1,"skipActionFail":-1,"skipActionFailActual":{"instanceID":0},"linkedCutsceneFail":{"instanceID":0},"linkedAssetFail":{"instanceID":0},"parameterID":0,"variableID":1,"variableNumber":-1,"checkParameterID":-1,"getVarMethod":0,"compareVariableID":0,"intValue":0,"floatValue":0.0,"intCondition":0,"isAdditive":false,"boolValue":1,"boolCondition":0,"stringValue":"","checkCase":true,"vector3Value":{"x":0.0,"y":0.0,"z":0.0},"vectorCondition":0,"gameObjectValue":{"instanceID":0},"unityObjectValue":{"instanceID":0},"location":2,"variables":{"instanceID":0},"variablesConstantID":0,"compareVariables":{"instanceID":0},"compareVariablesConstantID":0,"placeholderType":4,"placeholderPopUpLabelDataID":-1}'
+    jsonData: '{"id":0,"isDisplayed":true,"showComment":false,"comment":"","willWait":false,"endAction":0,"skipAction":-1,"skipActionActual":{"instanceID":0},"linkedCutscene":{"instanceID":0},"linkedAsset":{"instanceID":0},"endings":[{"resultAction":0,"skipAction":1,"skipActionActual":{"instanceID":82170},"linkedCutscene":{"instanceID":0},"linkedAsset":{"instanceID":0}},{"resultAction":1,"skipAction":-1,"skipActionActual":{"instanceID":0},"linkedCutscene":{"instanceID":0},"linkedAsset":{"instanceID":0}}],"isEnabled":true,"isAssetFile":false,"isBreakPoint":false,"nodeRect":{"serializedVersion":"2","x":14.0,"y":14.0,"width":300.0,"height":220.0},"overrideColor":{"r":1.0,"g":1.0,"b":1.0,"a":1.0},"showOutputSockets":true,"parentActionListInEditor":{"instanceID":273218404_0},"resultActionTrue":0,"skipActionTrue":-1,"skipActionTrueActual":{"instanceID":0},"linkedCutsceneTrue":{"instanceID":0},"linkedAssetTrue":{"instanceID":0},"resultActionFail":1,"skipActionFail":-1,"skipActionFailActual":{"instanceID":0},"linkedCutsceneFail":{"instanceID":0},"linkedAssetFail":{"instanceID":0},"parameterID":0,"variableID":1,"variableNumber":-1,"checkParameterID":-1,"getVarMethod":0,"compareVariableID":0,"intValue":0,"floatValue":0.0,"intCondition":0,"isAdditive":false,"boolValue":1,"boolCondition":0,"stringValue":"","checkCase":true,"vector3Value":{"x":0.0,"y":0.0,"z":0.0},"vectorCondition":0,"gameObjectValue":{"instanceID":0},"unityObjectValue":{"instanceID":0},"location":2,"variables":{"instanceID":0},"variablesConstantID":0,"compareVariables":{"instanceID":0},"compareVariablesConstantID":0,"placeholderType":4,"placeholderPopUpLabelDataID":-1}'
     endingReferencesBuffer: 0000
     endingOverrideIndex: 0000000000000000
   - className: AC.ActionInventoryCheckSelected
-    jsonData: '{"id":0,"isDisplayed":true,"showComment":false,"comment":"","willWait":false,"endAction":0,"skipAction":-1,"skipActionActual":{"instanceID":0},"linkedCutscene":{"instanceID":0},"linkedAsset":{"instanceID":0},"endings":[{"resultAction":0,"skipAction":1,"skipActionActual":{"instanceID":191950},"linkedCutscene":{"instanceID":0},"linkedAsset":{"instanceID":0}},{"resultAction":1,"skipAction":-1,"skipActionActual":{"instanceID":0},"linkedCutscene":{"instanceID":0},"linkedAsset":{"instanceID":0}}],"isEnabled":true,"isAssetFile":false,"isBreakPoint":false,"nodeRect":{"serializedVersion":"2","x":15.0,"y":268.0,"width":300.0,"height":180.0},"overrideColor":{"r":1.0,"g":1.0,"b":1.0,"a":1.0},"showOutputSockets":true,"parentActionListInEditor":{"instanceID":273218404_0},"resultActionTrue":0,"skipActionTrue":-1,"skipActionTrueActual":{"instanceID":0},"linkedCutsceneTrue":{"instanceID":0},"linkedAssetTrue":{"instanceID":0},"resultActionFail":1,"skipActionFail":-1,"skipActionFailActual":{"instanceID":0},"linkedCutsceneFail":{"instanceID":0},"linkedAssetFail":{"instanceID":0},"parameterID":-1,"invID":0,"binID":1,"checkNothing":false,"includeLast":false,"selectedCheckMethod":1,"selectedItemParameterID":-1}'
+    jsonData: '{"id":0,"isDisplayed":true,"showComment":false,"comment":"","willWait":false,"endAction":0,"skipAction":-1,"skipActionActual":{"instanceID":0},"linkedCutscene":{"instanceID":0},"linkedAsset":{"instanceID":0},"endings":[{"resultAction":0,"skipAction":1,"skipActionActual":{"instanceID":82286},"linkedCutscene":{"instanceID":0},"linkedAsset":{"instanceID":0}},{"resultAction":1,"skipAction":-1,"skipActionActual":{"instanceID":0},"linkedCutscene":{"instanceID":0},"linkedAsset":{"instanceID":0}}],"isEnabled":true,"isAssetFile":false,"isBreakPoint":false,"nodeRect":{"serializedVersion":"2","x":15.0,"y":268.0,"width":300.0,"height":180.0},"overrideColor":{"r":1.0,"g":1.0,"b":1.0,"a":1.0},"showOutputSockets":true,"parentActionListInEditor":{"instanceID":273218404_0},"resultActionTrue":0,"skipActionTrue":-1,"skipActionTrueActual":{"instanceID":0},"linkedCutsceneTrue":{"instanceID":0},"linkedAssetTrue":{"instanceID":0},"resultActionFail":1,"skipActionFail":-1,"skipActionFailActual":{"instanceID":0},"linkedCutsceneFail":{"instanceID":0},"linkedAssetFail":{"instanceID":0},"parameterID":-1,"invID":0,"binID":1,"checkNothing":false,"includeLast":false,"selectedCheckMethod":1,"selectedItemParameterID":-1}'
     endingReferencesBuffer: 0000
     endingOverrideIndex: 0000000000000000
   - className: AC.ActionInteraction
-    jsonData: '{"id":0,"isDisplayed":true,"showComment":false,"comment":"","willWait":false,"endAction":0,"skipAction":-1,"skipActionActual":{"instanceID":0},"linkedCutscene":{"instanceID":0},"linkedAsset":{"instanceID":0},"endings":[{"resultAction":2,"skipAction":7,"skipActionActual":{"instanceID":191940},"linkedCutscene":{"instanceID":0},"linkedAsset":{"instanceID":0}}],"isEnabled":true,"isAssetFile":false,"isBreakPoint":false,"nodeRect":{"serializedVersion":"2","x":16.0,"y":492.0,"width":300.0,"height":152.0},"overrideColor":{"r":1.0,"g":1.0,"b":1.0,"a":1.0},"showOutputSockets":true,"parentActionListInEditor":{"instanceID":273218404_0},"parameterID":0,"constantID":0,"hotspot":{"instanceID":0},"interactionType":0,"changeType":0,"number":0}'
+    jsonData: '{"id":0,"isDisplayed":true,"showComment":false,"comment":"","willWait":false,"endAction":0,"skipAction":-1,"skipActionActual":{"instanceID":0},"linkedCutscene":{"instanceID":0},"linkedAsset":{"instanceID":0},"endings":[{"resultAction":2,"skipAction":7,"skipActionActual":{"instanceID":82276},"linkedCutscene":{"instanceID":0},"linkedAsset":{"instanceID":0}}],"isEnabled":true,"isAssetFile":false,"isBreakPoint":false,"nodeRect":{"serializedVersion":"2","x":16.0,"y":492.0,"width":300.0,"height":152.0},"overrideColor":{"r":1.0,"g":1.0,"b":1.0,"a":1.0},"showOutputSockets":true,"parentActionListInEditor":{"instanceID":273218404_0},"parameterID":0,"constantID":0,"hotspot":{"instanceID":0},"interactionType":0,"changeType":0,"number":0}'
     endingReferencesBuffer: 00
     endingOverrideIndex: 00000000
   - className: AC.ActionInventoryPrefab
@@ -2204,11 +2438,11 @@ MonoBehaviour:
     endingReferencesBuffer: 00
     endingOverrideIndex: 00000000
   - className: AC.ActionInvProperty
-    jsonData: '{"id":0,"isDisplayed":true,"showComment":false,"comment":"","willWait":false,"endAction":0,"skipAction":-1,"skipActionActual":{"instanceID":0},"linkedCutscene":{"instanceID":0},"linkedAsset":{"instanceID":0},"endings":[{"resultAction":2,"skipAction":8,"skipActionActual":{"instanceID":191872},"linkedCutscene":{"instanceID":0},"linkedAsset":{"instanceID":0}}],"isEnabled":true,"isAssetFile":false,"isBreakPoint":false,"nodeRect":{"serializedVersion":"2","x":731.838134765625,"y":244.0,"width":300.0,"height":260.0},"overrideColor":{"r":1.0,"g":1.0,"b":1.0,"a":1.0},"showOutputSockets":true,"parentActionListInEditor":{"instanceID":273218404_0},"varParameterID":-1,"variableID":1,"varLocation":2,"method":0,"setVarAsPropertyMethod":0,"useLiveValues":false,"multiplyByItemCount":false,"invID":-1,"invParameterID":1,"propertyID":0,"variables":{"instanceID":598961512_0},"variablesConstantID":0}'
+    jsonData: '{"id":0,"isDisplayed":true,"showComment":false,"comment":"","willWait":false,"endAction":0,"skipAction":-1,"skipActionActual":{"instanceID":0},"linkedCutscene":{"instanceID":0},"linkedAsset":{"instanceID":0},"endings":[{"resultAction":2,"skipAction":8,"skipActionActual":{"instanceID":82208},"linkedCutscene":{"instanceID":0},"linkedAsset":{"instanceID":0}}],"isEnabled":true,"isAssetFile":false,"isBreakPoint":false,"nodeRect":{"serializedVersion":"2","x":731.838134765625,"y":244.0,"width":300.0,"height":260.0},"overrideColor":{"r":1.0,"g":1.0,"b":1.0,"a":1.0},"showOutputSockets":true,"parentActionListInEditor":{"instanceID":273218404_0},"varParameterID":-1,"variableID":1,"varLocation":2,"method":0,"setVarAsPropertyMethod":0,"useLiveValues":false,"multiplyByItemCount":false,"invID":-1,"invParameterID":1,"propertyID":0,"variables":{"instanceID":598961512_0},"variablesConstantID":0}'
     endingReferencesBuffer: 01
     endingOverrideIndex: 08000000
   - className: AC.ActionRename
-    jsonData: '{"id":0,"isDisplayed":true,"showComment":false,"comment":"","willWait":false,"endAction":0,"skipAction":-1,"skipActionActual":{"instanceID":0},"linkedCutscene":{"instanceID":0},"linkedAsset":{"instanceID":0},"endings":[{"resultAction":2,"skipAction":3,"skipActionActual":{"instanceID":191510},"linkedCutscene":{"instanceID":0},"linkedAsset":{"instanceID":0}}],"isEnabled":true,"isAssetFile":false,"isBreakPoint":false,"nodeRect":{"serializedVersion":"2","x":16.0,"y":695.4808349609375,"width":300.0,"height":132.0},"overrideColor":{"r":1.0,"g":1.0,"b":1.0,"a":1.0},"showOutputSockets":true,"parentActionListInEditor":{"instanceID":273218404_0},"constantID":0,"parameterID":0,"hotspot":{"instanceID":0},"newName":"Pick
+    jsonData: '{"id":0,"isDisplayed":true,"showComment":false,"comment":"","willWait":false,"endAction":0,"skipAction":-1,"skipActionActual":{"instanceID":0},"linkedCutscene":{"instanceID":0},"linkedAsset":{"instanceID":0},"endings":[{"resultAction":2,"skipAction":3,"skipActionActual":{"instanceID":81834},"linkedCutscene":{"instanceID":0},"linkedAsset":{"instanceID":0}}],"isEnabled":true,"isAssetFile":false,"isBreakPoint":false,"nodeRect":{"serializedVersion":"2","x":16.0,"y":695.4808349609375,"width":300.0,"height":132.0},"overrideColor":{"r":1.0,"g":1.0,"b":1.0,"a":1.0},"showOutputSockets":true,"parentActionListInEditor":{"instanceID":273218404_0},"constantID":0,"parameterID":0,"hotspot":{"instanceID":0},"newName":"Pick
       Up Coat","newNameParameterID":-1,"lineID":-1}'
     endingReferencesBuffer: 00
     endingOverrideIndex: 00000000
@@ -2738,7 +2972,7 @@ MonoBehaviour:
   isBreakPoint: 0
   nodeRect:
     serializedVersion: 2
-    x: 15
+    x: 14
     y: 182
     width: 300
     height: 132
@@ -2860,15 +3094,15 @@ MonoBehaviour:
   syncParamValues: 1
   backupData:
   - className: AC.ActionVarCheck
-    jsonData: '{"id":0,"isDisplayed":true,"showComment":false,"comment":"","willWait":false,"endAction":0,"skipAction":-1,"skipActionActual":{"instanceID":0},"linkedCutscene":{"instanceID":0},"linkedAsset":{"instanceID":0},"endings":[{"resultAction":0,"skipAction":1,"skipActionActual":{"instanceID":191834},"linkedCutscene":{"instanceID":0},"linkedAsset":{"instanceID":0}},{"resultAction":1,"skipAction":-1,"skipActionActual":{"instanceID":0},"linkedCutscene":{"instanceID":0},"linkedAsset":{"instanceID":0}}],"isEnabled":true,"isAssetFile":false,"isBreakPoint":false,"nodeRect":{"serializedVersion":"2","x":14.0,"y":14.0,"width":300.0,"height":220.0},"overrideColor":{"r":1.0,"g":1.0,"b":1.0,"a":1.0},"showOutputSockets":true,"parentActionListInEditor":{"instanceID":449645168_0},"resultActionTrue":0,"skipActionTrue":-1,"skipActionTrueActual":{"instanceID":0},"linkedCutsceneTrue":{"instanceID":0},"linkedAssetTrue":{"instanceID":0},"resultActionFail":1,"skipActionFail":-1,"skipActionFailActual":{"instanceID":0},"linkedCutsceneFail":{"instanceID":0},"linkedAssetFail":{"instanceID":0},"parameterID":0,"variableID":1,"variableNumber":-1,"checkParameterID":-1,"getVarMethod":0,"compareVariableID":0,"intValue":0,"floatValue":0.0,"intCondition":0,"isAdditive":false,"boolValue":1,"boolCondition":0,"stringValue":"","checkCase":true,"vector3Value":{"x":0.0,"y":0.0,"z":0.0},"vectorCondition":0,"gameObjectValue":{"instanceID":0},"unityObjectValue":{"instanceID":0},"location":2,"variables":{"instanceID":0},"variablesConstantID":0,"compareVariables":{"instanceID":0},"compareVariablesConstantID":0,"placeholderType":4,"placeholderPopUpLabelDataID":-1}'
+    jsonData: '{"id":0,"isDisplayed":true,"showComment":false,"comment":"","willWait":false,"endAction":0,"skipAction":-1,"skipActionActual":{"instanceID":0},"linkedCutscene":{"instanceID":0},"linkedAsset":{"instanceID":0},"endings":[{"resultAction":0,"skipAction":1,"skipActionActual":{"instanceID":82170},"linkedCutscene":{"instanceID":0},"linkedAsset":{"instanceID":0}},{"resultAction":1,"skipAction":-1,"skipActionActual":{"instanceID":0},"linkedCutscene":{"instanceID":0},"linkedAsset":{"instanceID":0}}],"isEnabled":true,"isAssetFile":false,"isBreakPoint":false,"nodeRect":{"serializedVersion":"2","x":14.0,"y":14.0,"width":300.0,"height":220.0},"overrideColor":{"r":1.0,"g":1.0,"b":1.0,"a":1.0},"showOutputSockets":true,"parentActionListInEditor":{"instanceID":449645168_0},"resultActionTrue":0,"skipActionTrue":-1,"skipActionTrueActual":{"instanceID":0},"linkedCutsceneTrue":{"instanceID":0},"linkedAssetTrue":{"instanceID":0},"resultActionFail":1,"skipActionFail":-1,"skipActionFailActual":{"instanceID":0},"linkedCutsceneFail":{"instanceID":0},"linkedAssetFail":{"instanceID":0},"parameterID":0,"variableID":1,"variableNumber":-1,"checkParameterID":-1,"getVarMethod":0,"compareVariableID":0,"intValue":0,"floatValue":0.0,"intCondition":0,"isAdditive":false,"boolValue":1,"boolCondition":0,"stringValue":"","checkCase":true,"vector3Value":{"x":0.0,"y":0.0,"z":0.0},"vectorCondition":0,"gameObjectValue":{"instanceID":0},"unityObjectValue":{"instanceID":0},"location":2,"variables":{"instanceID":0},"variablesConstantID":0,"compareVariables":{"instanceID":0},"compareVariablesConstantID":0,"placeholderType":4,"placeholderPopUpLabelDataID":-1}'
     endingReferencesBuffer: 0000
     endingOverrideIndex: 0000000000000000
   - className: AC.ActionInventoryCheckSelected
-    jsonData: '{"id":0,"isDisplayed":true,"showComment":false,"comment":"","willWait":false,"endAction":0,"skipAction":-1,"skipActionActual":{"instanceID":0},"linkedCutscene":{"instanceID":0},"linkedAsset":{"instanceID":0},"endings":[{"resultAction":0,"skipAction":1,"skipActionActual":{"instanceID":191950},"linkedCutscene":{"instanceID":0},"linkedAsset":{"instanceID":0}},{"resultAction":1,"skipAction":-1,"skipActionActual":{"instanceID":0},"linkedCutscene":{"instanceID":0},"linkedAsset":{"instanceID":0}}],"isEnabled":true,"isAssetFile":false,"isBreakPoint":false,"nodeRect":{"serializedVersion":"2","x":15.0,"y":268.0,"width":300.0,"height":180.0},"overrideColor":{"r":1.0,"g":1.0,"b":1.0,"a":1.0},"showOutputSockets":true,"parentActionListInEditor":{"instanceID":449645168_0},"resultActionTrue":0,"skipActionTrue":-1,"skipActionTrueActual":{"instanceID":0},"linkedCutsceneTrue":{"instanceID":0},"linkedAssetTrue":{"instanceID":0},"resultActionFail":1,"skipActionFail":-1,"skipActionFailActual":{"instanceID":0},"linkedCutsceneFail":{"instanceID":0},"linkedAssetFail":{"instanceID":0},"parameterID":-1,"invID":0,"binID":1,"checkNothing":false,"includeLast":false,"selectedCheckMethod":1,"selectedItemParameterID":-1}'
+    jsonData: '{"id":0,"isDisplayed":true,"showComment":false,"comment":"","willWait":false,"endAction":0,"skipAction":-1,"skipActionActual":{"instanceID":0},"linkedCutscene":{"instanceID":0},"linkedAsset":{"instanceID":0},"endings":[{"resultAction":0,"skipAction":1,"skipActionActual":{"instanceID":82286},"linkedCutscene":{"instanceID":0},"linkedAsset":{"instanceID":0}},{"resultAction":1,"skipAction":-1,"skipActionActual":{"instanceID":0},"linkedCutscene":{"instanceID":0},"linkedAsset":{"instanceID":0}}],"isEnabled":true,"isAssetFile":false,"isBreakPoint":false,"nodeRect":{"serializedVersion":"2","x":15.0,"y":268.0,"width":300.0,"height":180.0},"overrideColor":{"r":1.0,"g":1.0,"b":1.0,"a":1.0},"showOutputSockets":true,"parentActionListInEditor":{"instanceID":449645168_0},"resultActionTrue":0,"skipActionTrue":-1,"skipActionTrueActual":{"instanceID":0},"linkedCutsceneTrue":{"instanceID":0},"linkedAssetTrue":{"instanceID":0},"resultActionFail":1,"skipActionFail":-1,"skipActionFailActual":{"instanceID":0},"linkedCutsceneFail":{"instanceID":0},"linkedAssetFail":{"instanceID":0},"parameterID":-1,"invID":0,"binID":1,"checkNothing":false,"includeLast":false,"selectedCheckMethod":1,"selectedItemParameterID":-1}'
     endingReferencesBuffer: 0000
     endingOverrideIndex: 0000000000000000
   - className: AC.ActionInteraction
-    jsonData: '{"id":0,"isDisplayed":true,"showComment":false,"comment":"","willWait":false,"endAction":0,"skipAction":-1,"skipActionActual":{"instanceID":0},"linkedCutscene":{"instanceID":0},"linkedAsset":{"instanceID":0},"endings":[{"resultAction":2,"skipAction":7,"skipActionActual":{"instanceID":191494},"linkedCutscene":{"instanceID":0},"linkedAsset":{"instanceID":0}}],"isEnabled":true,"isAssetFile":false,"isBreakPoint":false,"nodeRect":{"serializedVersion":"2","x":16.0,"y":492.0,"width":300.0,"height":152.0},"overrideColor":{"r":1.0,"g":1.0,"b":1.0,"a":1.0},"showOutputSockets":true,"parentActionListInEditor":{"instanceID":449645168_0},"parameterID":0,"constantID":0,"hotspot":{"instanceID":0},"interactionType":0,"changeType":0,"number":0}'
+    jsonData: '{"id":0,"isDisplayed":true,"showComment":false,"comment":"","willWait":false,"endAction":0,"skipAction":-1,"skipActionActual":{"instanceID":0},"linkedCutscene":{"instanceID":0},"linkedAsset":{"instanceID":0},"endings":[{"resultAction":2,"skipAction":7,"skipActionActual":{"instanceID":81818},"linkedCutscene":{"instanceID":0},"linkedAsset":{"instanceID":0}}],"isEnabled":true,"isAssetFile":false,"isBreakPoint":false,"nodeRect":{"serializedVersion":"2","x":16.0,"y":492.0,"width":300.0,"height":152.0},"overrideColor":{"r":1.0,"g":1.0,"b":1.0,"a":1.0},"showOutputSockets":true,"parentActionListInEditor":{"instanceID":449645168_0},"parameterID":0,"constantID":0,"hotspot":{"instanceID":0},"interactionType":0,"changeType":0,"number":0}'
     endingReferencesBuffer: 00
     endingOverrideIndex: 00000000
   - className: AC.ActionInventoryPrefab
@@ -2884,11 +3118,11 @@ MonoBehaviour:
     endingReferencesBuffer: 00
     endingOverrideIndex: 00000000
   - className: AC.ActionInvProperty
-    jsonData: '{"id":0,"isDisplayed":true,"showComment":false,"comment":"","willWait":false,"endAction":0,"skipAction":-1,"skipActionActual":{"instanceID":0},"linkedCutscene":{"instanceID":0},"linkedAsset":{"instanceID":0},"endings":[{"resultAction":2,"skipAction":8,"skipActionActual":{"instanceID":191620},"linkedCutscene":{"instanceID":0},"linkedAsset":{"instanceID":0}}],"isEnabled":true,"isAssetFile":false,"isBreakPoint":false,"nodeRect":{"serializedVersion":"2","x":731.838134765625,"y":244.0,"width":300.0,"height":260.0},"overrideColor":{"r":1.0,"g":1.0,"b":1.0,"a":1.0},"showOutputSockets":true,"parentActionListInEditor":{"instanceID":449645168_0},"varParameterID":-1,"variableID":1,"varLocation":2,"method":0,"setVarAsPropertyMethod":0,"useLiveValues":false,"multiplyByItemCount":false,"invID":-1,"invParameterID":1,"propertyID":0,"variables":{"instanceID":967635688_0},"variablesConstantID":0}'
+    jsonData: '{"id":0,"isDisplayed":true,"showComment":false,"comment":"","willWait":false,"endAction":0,"skipAction":-1,"skipActionActual":{"instanceID":0},"linkedCutscene":{"instanceID":0},"linkedAsset":{"instanceID":0},"endings":[{"resultAction":2,"skipAction":8,"skipActionActual":{"instanceID":81954},"linkedCutscene":{"instanceID":0},"linkedAsset":{"instanceID":0}}],"isEnabled":true,"isAssetFile":false,"isBreakPoint":false,"nodeRect":{"serializedVersion":"2","x":731.838134765625,"y":244.0,"width":300.0,"height":260.0},"overrideColor":{"r":1.0,"g":1.0,"b":1.0,"a":1.0},"showOutputSockets":true,"parentActionListInEditor":{"instanceID":449645168_0},"varParameterID":-1,"variableID":1,"varLocation":2,"method":0,"setVarAsPropertyMethod":0,"useLiveValues":false,"multiplyByItemCount":false,"invID":-1,"invParameterID":1,"propertyID":0,"variables":{"instanceID":967635688_0},"variablesConstantID":0}'
     endingReferencesBuffer: 01
     endingOverrideIndex: 08000000
   - className: AC.ActionRename
-    jsonData: '{"id":0,"isDisplayed":true,"showComment":false,"comment":"","willWait":false,"endAction":0,"skipAction":-1,"skipActionActual":{"instanceID":0},"linkedCutscene":{"instanceID":0},"linkedAsset":{"instanceID":0},"endings":[{"resultAction":2,"skipAction":3,"skipActionActual":{"instanceID":191934},"linkedCutscene":{"instanceID":0},"linkedAsset":{"instanceID":0}}],"isEnabled":true,"isAssetFile":false,"isBreakPoint":false,"nodeRect":{"serializedVersion":"2","x":16.0,"y":695.4808349609375,"width":300.0,"height":132.0},"overrideColor":{"r":1.0,"g":1.0,"b":1.0,"a":1.0},"showOutputSockets":true,"parentActionListInEditor":{"instanceID":449645168_0},"constantID":0,"parameterID":0,"hotspot":{"instanceID":0},"newName":"Pick
+    jsonData: '{"id":0,"isDisplayed":true,"showComment":false,"comment":"","willWait":false,"endAction":0,"skipAction":-1,"skipActionActual":{"instanceID":0},"linkedCutscene":{"instanceID":0},"linkedAsset":{"instanceID":0},"endings":[{"resultAction":2,"skipAction":3,"skipActionActual":{"instanceID":82270},"linkedCutscene":{"instanceID":0},"linkedAsset":{"instanceID":0}}],"isEnabled":true,"isAssetFile":false,"isBreakPoint":false,"nodeRect":{"serializedVersion":"2","x":16.0,"y":695.4808349609375,"width":300.0,"height":132.0},"overrideColor":{"r":1.0,"g":1.0,"b":1.0,"a":1.0},"showOutputSockets":true,"parentActionListInEditor":{"instanceID":449645168_0},"constantID":0,"parameterID":0,"hotspot":{"instanceID":0},"newName":"Pick
       Up Coat","newNameParameterID":-1,"lineID":-1}'
     endingReferencesBuffer: 00
     endingOverrideIndex: 00000000
@@ -3134,7 +3368,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 490870663}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 0, y: 0, z: 1}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -3465,7 +3699,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 8
+  m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &559047859
 MonoBehaviour:
@@ -3857,15 +4091,15 @@ MonoBehaviour:
   syncParamValues: 1
   backupData:
   - className: AC.ActionVarCheck
-    jsonData: '{"id":0,"isDisplayed":true,"showComment":false,"comment":"","willWait":false,"endAction":0,"skipAction":-1,"skipActionActual":{"instanceID":0},"linkedCutscene":{"instanceID":0},"linkedAsset":{"instanceID":0},"endings":[{"resultAction":0,"skipAction":1,"skipActionActual":{"instanceID":191834},"linkedCutscene":{"instanceID":0},"linkedAsset":{"instanceID":0}},{"resultAction":1,"skipAction":-1,"skipActionActual":{"instanceID":0},"linkedCutscene":{"instanceID":0},"linkedAsset":{"instanceID":0}}],"isEnabled":true,"isAssetFile":false,"isBreakPoint":false,"nodeRect":{"serializedVersion":"2","x":14.0,"y":14.0,"width":300.0,"height":220.0},"overrideColor":{"r":1.0,"g":1.0,"b":1.0,"a":1.0},"showOutputSockets":true,"parentActionListInEditor":{"instanceID":592621058_0},"resultActionTrue":0,"skipActionTrue":-1,"skipActionTrueActual":{"instanceID":0},"linkedCutsceneTrue":{"instanceID":0},"linkedAssetTrue":{"instanceID":0},"resultActionFail":1,"skipActionFail":-1,"skipActionFailActual":{"instanceID":0},"linkedCutsceneFail":{"instanceID":0},"linkedAssetFail":{"instanceID":0},"parameterID":0,"variableID":1,"variableNumber":-1,"checkParameterID":-1,"getVarMethod":0,"compareVariableID":0,"intValue":0,"floatValue":0.0,"intCondition":0,"isAdditive":false,"boolValue":1,"boolCondition":0,"stringValue":"","checkCase":true,"vector3Value":{"x":0.0,"y":0.0,"z":0.0},"vectorCondition":0,"gameObjectValue":{"instanceID":0},"unityObjectValue":{"instanceID":0},"location":2,"variables":{"instanceID":0},"variablesConstantID":0,"compareVariables":{"instanceID":0},"compareVariablesConstantID":0,"placeholderType":4,"placeholderPopUpLabelDataID":-1}'
+    jsonData: '{"id":0,"isDisplayed":true,"showComment":false,"comment":"","willWait":false,"endAction":0,"skipAction":-1,"skipActionActual":{"instanceID":0},"linkedCutscene":{"instanceID":0},"linkedAsset":{"instanceID":0},"endings":[{"resultAction":0,"skipAction":1,"skipActionActual":{"instanceID":82170},"linkedCutscene":{"instanceID":0},"linkedAsset":{"instanceID":0}},{"resultAction":1,"skipAction":-1,"skipActionActual":{"instanceID":0},"linkedCutscene":{"instanceID":0},"linkedAsset":{"instanceID":0}}],"isEnabled":true,"isAssetFile":false,"isBreakPoint":false,"nodeRect":{"serializedVersion":"2","x":14.0,"y":14.0,"width":300.0,"height":220.0},"overrideColor":{"r":1.0,"g":1.0,"b":1.0,"a":1.0},"showOutputSockets":true,"parentActionListInEditor":{"instanceID":592621058_0},"resultActionTrue":0,"skipActionTrue":-1,"skipActionTrueActual":{"instanceID":0},"linkedCutsceneTrue":{"instanceID":0},"linkedAssetTrue":{"instanceID":0},"resultActionFail":1,"skipActionFail":-1,"skipActionFailActual":{"instanceID":0},"linkedCutsceneFail":{"instanceID":0},"linkedAssetFail":{"instanceID":0},"parameterID":0,"variableID":1,"variableNumber":-1,"checkParameterID":-1,"getVarMethod":0,"compareVariableID":0,"intValue":0,"floatValue":0.0,"intCondition":0,"isAdditive":false,"boolValue":1,"boolCondition":0,"stringValue":"","checkCase":true,"vector3Value":{"x":0.0,"y":0.0,"z":0.0},"vectorCondition":0,"gameObjectValue":{"instanceID":0},"unityObjectValue":{"instanceID":0},"location":2,"variables":{"instanceID":0},"variablesConstantID":0,"compareVariables":{"instanceID":0},"compareVariablesConstantID":0,"placeholderType":4,"placeholderPopUpLabelDataID":-1}'
     endingReferencesBuffer: 0000
     endingOverrideIndex: 0000000000000000
   - className: AC.ActionInventoryCheckSelected
-    jsonData: '{"id":0,"isDisplayed":true,"showComment":false,"comment":"","willWait":false,"endAction":0,"skipAction":-1,"skipActionActual":{"instanceID":0},"linkedCutscene":{"instanceID":0},"linkedAsset":{"instanceID":0},"endings":[{"resultAction":0,"skipAction":1,"skipActionActual":{"instanceID":191950},"linkedCutscene":{"instanceID":0},"linkedAsset":{"instanceID":0}},{"resultAction":1,"skipAction":-1,"skipActionActual":{"instanceID":0},"linkedCutscene":{"instanceID":0},"linkedAsset":{"instanceID":0}}],"isEnabled":true,"isAssetFile":false,"isBreakPoint":false,"nodeRect":{"serializedVersion":"2","x":15.0,"y":268.0,"width":300.0,"height":180.0},"overrideColor":{"r":1.0,"g":1.0,"b":1.0,"a":1.0},"showOutputSockets":true,"parentActionListInEditor":{"instanceID":592621058_0},"resultActionTrue":0,"skipActionTrue":-1,"skipActionTrueActual":{"instanceID":0},"linkedCutsceneTrue":{"instanceID":0},"linkedAssetTrue":{"instanceID":0},"resultActionFail":1,"skipActionFail":-1,"skipActionFailActual":{"instanceID":0},"linkedCutsceneFail":{"instanceID":0},"linkedAssetFail":{"instanceID":0},"parameterID":-1,"invID":0,"binID":1,"checkNothing":false,"includeLast":false,"selectedCheckMethod":1,"selectedItemParameterID":-1}'
+    jsonData: '{"id":0,"isDisplayed":true,"showComment":false,"comment":"","willWait":false,"endAction":0,"skipAction":-1,"skipActionActual":{"instanceID":0},"linkedCutscene":{"instanceID":0},"linkedAsset":{"instanceID":0},"endings":[{"resultAction":0,"skipAction":1,"skipActionActual":{"instanceID":82286},"linkedCutscene":{"instanceID":0},"linkedAsset":{"instanceID":0}},{"resultAction":1,"skipAction":-1,"skipActionActual":{"instanceID":0},"linkedCutscene":{"instanceID":0},"linkedAsset":{"instanceID":0}}],"isEnabled":true,"isAssetFile":false,"isBreakPoint":false,"nodeRect":{"serializedVersion":"2","x":15.0,"y":268.0,"width":300.0,"height":180.0},"overrideColor":{"r":1.0,"g":1.0,"b":1.0,"a":1.0},"showOutputSockets":true,"parentActionListInEditor":{"instanceID":592621058_0},"resultActionTrue":0,"skipActionTrue":-1,"skipActionTrueActual":{"instanceID":0},"linkedCutsceneTrue":{"instanceID":0},"linkedAssetTrue":{"instanceID":0},"resultActionFail":1,"skipActionFail":-1,"skipActionFailActual":{"instanceID":0},"linkedCutsceneFail":{"instanceID":0},"linkedAssetFail":{"instanceID":0},"parameterID":-1,"invID":0,"binID":1,"checkNothing":false,"includeLast":false,"selectedCheckMethod":1,"selectedItemParameterID":-1}'
     endingReferencesBuffer: 0000
     endingOverrideIndex: 0000000000000000
   - className: AC.ActionInteraction
-    jsonData: '{"id":0,"isDisplayed":true,"showComment":false,"comment":"","willWait":false,"endAction":0,"skipAction":-1,"skipActionActual":{"instanceID":0},"linkedCutscene":{"instanceID":0},"linkedAsset":{"instanceID":0},"endings":[{"resultAction":2,"skipAction":7,"skipActionActual":{"instanceID":191494},"linkedCutscene":{"instanceID":0},"linkedAsset":{"instanceID":0}}],"isEnabled":true,"isAssetFile":false,"isBreakPoint":false,"nodeRect":{"serializedVersion":"2","x":16.0,"y":492.0,"width":300.0,"height":152.0},"overrideColor":{"r":1.0,"g":1.0,"b":1.0,"a":1.0},"showOutputSockets":true,"parentActionListInEditor":{"instanceID":592621058_0},"parameterID":0,"constantID":0,"hotspot":{"instanceID":0},"interactionType":0,"changeType":0,"number":0}'
+    jsonData: '{"id":0,"isDisplayed":true,"showComment":false,"comment":"","willWait":false,"endAction":0,"skipAction":-1,"skipActionActual":{"instanceID":0},"linkedCutscene":{"instanceID":0},"linkedAsset":{"instanceID":0},"endings":[{"resultAction":2,"skipAction":7,"skipActionActual":{"instanceID":81818},"linkedCutscene":{"instanceID":0},"linkedAsset":{"instanceID":0}}],"isEnabled":true,"isAssetFile":false,"isBreakPoint":false,"nodeRect":{"serializedVersion":"2","x":16.0,"y":492.0,"width":300.0,"height":152.0},"overrideColor":{"r":1.0,"g":1.0,"b":1.0,"a":1.0},"showOutputSockets":true,"parentActionListInEditor":{"instanceID":592621058_0},"parameterID":0,"constantID":0,"hotspot":{"instanceID":0},"interactionType":0,"changeType":0,"number":0}'
     endingReferencesBuffer: 01
     endingOverrideIndex: 07000000
   - className: AC.ActionInventoryPrefab
@@ -3881,11 +4115,11 @@ MonoBehaviour:
     endingReferencesBuffer: 00
     endingOverrideIndex: 00000000
   - className: AC.ActionInvProperty
-    jsonData: '{"id":0,"isDisplayed":true,"showComment":false,"comment":"","willWait":false,"endAction":0,"skipAction":-1,"skipActionActual":{"instanceID":0},"linkedCutscene":{"instanceID":0},"linkedAsset":{"instanceID":0},"endings":[{"resultAction":2,"skipAction":8,"skipActionActual":{"instanceID":191920},"linkedCutscene":{"instanceID":0},"linkedAsset":{"instanceID":0}}],"isEnabled":true,"isAssetFile":false,"isBreakPoint":false,"nodeRect":{"serializedVersion":"2","x":731.838134765625,"y":244.0,"width":300.0,"height":260.0},"overrideColor":{"r":1.0,"g":1.0,"b":1.0,"a":1.0},"showOutputSockets":true,"parentActionListInEditor":{"instanceID":592621058_0},"varParameterID":-1,"variableID":1,"varLocation":2,"method":0,"setVarAsPropertyMethod":0,"useLiveValues":false,"multiplyByItemCount":false,"invID":-1,"invParameterID":1,"propertyID":0,"variables":{"instanceID":982994945_0},"variablesConstantID":0}'
+    jsonData: '{"id":0,"isDisplayed":true,"showComment":false,"comment":"","willWait":false,"endAction":0,"skipAction":-1,"skipActionActual":{"instanceID":0},"linkedCutscene":{"instanceID":0},"linkedAsset":{"instanceID":0},"endings":[{"resultAction":2,"skipAction":8,"skipActionActual":{"instanceID":82256},"linkedCutscene":{"instanceID":0},"linkedAsset":{"instanceID":0}}],"isEnabled":true,"isAssetFile":false,"isBreakPoint":false,"nodeRect":{"serializedVersion":"2","x":731.838134765625,"y":244.0,"width":300.0,"height":260.0},"overrideColor":{"r":1.0,"g":1.0,"b":1.0,"a":1.0},"showOutputSockets":true,"parentActionListInEditor":{"instanceID":592621058_0},"varParameterID":-1,"variableID":1,"varLocation":2,"method":0,"setVarAsPropertyMethod":0,"useLiveValues":false,"multiplyByItemCount":false,"invID":-1,"invParameterID":1,"propertyID":0,"variables":{"instanceID":982994945_0},"variablesConstantID":0}'
     endingReferencesBuffer: 01
     endingOverrideIndex: 08000000
   - className: AC.ActionRename
-    jsonData: '{"id":0,"isDisplayed":true,"showComment":false,"comment":"","willWait":false,"endAction":0,"skipAction":-1,"skipActionActual":{"instanceID":0},"linkedCutscene":{"instanceID":0},"linkedAsset":{"instanceID":0},"endings":[{"resultAction":2,"skipAction":3,"skipActionActual":{"instanceID":191934},"linkedCutscene":{"instanceID":0},"linkedAsset":{"instanceID":0}}],"isEnabled":true,"isAssetFile":false,"isBreakPoint":false,"nodeRect":{"serializedVersion":"2","x":16.0,"y":695.4808349609375,"width":300.0,"height":132.0},"overrideColor":{"r":1.0,"g":1.0,"b":1.0,"a":1.0},"showOutputSockets":true,"parentActionListInEditor":{"instanceID":592621058_0},"constantID":0,"parameterID":0,"hotspot":{"instanceID":0},"newName":"Pick
+    jsonData: '{"id":0,"isDisplayed":true,"showComment":false,"comment":"","willWait":false,"endAction":0,"skipAction":-1,"skipActionActual":{"instanceID":0},"linkedCutscene":{"instanceID":0},"linkedAsset":{"instanceID":0},"endings":[{"resultAction":2,"skipAction":3,"skipActionActual":{"instanceID":82270},"linkedCutscene":{"instanceID":0},"linkedAsset":{"instanceID":0}}],"isEnabled":true,"isAssetFile":false,"isBreakPoint":false,"nodeRect":{"serializedVersion":"2","x":16.0,"y":695.4808349609375,"width":300.0,"height":132.0},"overrideColor":{"r":1.0,"g":1.0,"b":1.0,"a":1.0},"showOutputSockets":true,"parentActionListInEditor":{"instanceID":592621058_0},"constantID":0,"parameterID":0,"hotspot":{"instanceID":0},"newName":"Pick
       Up Coat","newNameParameterID":-1,"lineID":-1}'
     endingReferencesBuffer: 00
     endingOverrideIndex: 00000000
@@ -4626,7 +4860,7 @@ MonoBehaviour:
     endingReferencesBuffer: 00
     endingOverrideIndex: 00000000
   - className: AC.ActionInventorySelect
-    jsonData: '{"id":0,"isDisplayed":true,"showComment":false,"comment":"","willWait":false,"endAction":0,"skipAction":-1,"skipActionActual":{"instanceID":0},"linkedCutscene":{"instanceID":0},"linkedAsset":{"instanceID":0},"endings":[{"resultAction":0,"skipAction":5,"skipActionActual":{"instanceID":191918},"linkedCutscene":{"instanceID":0},"linkedAsset":{"instanceID":0}}],"isEnabled":true,"isAssetFile":false,"isBreakPoint":false,"nodeRect":{"serializedVersion":"2","x":365.0,"y":423.0,"width":300.0,"height":152.0},"overrideColor":{"r":1.0,"g":1.0,"b":1.0,"a":1.0},"showOutputSockets":true,"parentActionListInEditor":{"instanceID":676680745_0},"selectType":0,"selectItemMode":0,"carryCondition":0,"giveToPlayer":false,"setAmount":false,"amountParameterID":-1,"amount":1,"parameterID":2,"invID":-1}'
+    jsonData: '{"id":0,"isDisplayed":true,"showComment":false,"comment":"","willWait":false,"endAction":0,"skipAction":-1,"skipActionActual":{"instanceID":0},"linkedCutscene":{"instanceID":0},"linkedAsset":{"instanceID":0},"endings":[{"resultAction":0,"skipAction":5,"skipActionActual":{"instanceID":82254},"linkedCutscene":{"instanceID":0},"linkedAsset":{"instanceID":0}}],"isEnabled":true,"isAssetFile":false,"isBreakPoint":false,"nodeRect":{"serializedVersion":"2","x":365.0,"y":423.0,"width":300.0,"height":152.0},"overrideColor":{"r":1.0,"g":1.0,"b":1.0,"a":1.0},"showOutputSockets":true,"parentActionListInEditor":{"instanceID":676680745_0},"selectType":0,"selectItemMode":0,"carryCondition":0,"giveToPlayer":false,"setAmount":false,"amountParameterID":-1,"amount":1,"parameterID":2,"invID":-1}'
     endingReferencesBuffer: 00
     endingOverrideIndex: 00000000
   - className: AC.ActionVarSet
@@ -5422,6 +5656,51 @@ MonoBehaviour:
   animatorParameterID: -1
   animatorParameterName: 
   parameterLabel: Coat Prefab Instance
+--- !u!114 &834275218
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0730368720d23479f8f782e46d149b0c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  id: 0
+  isDisplayed: 1
+  showComment: 0
+  comment: 
+  willWait: 0
+  endAction: 0
+  skipAction: -1
+  skipActionActual: {fileID: 0}
+  linkedCutscene: {fileID: 0}
+  linkedAsset: {fileID: 0}
+  endings:
+  - resultAction: 0
+    skipAction: -1
+    skipActionActual: {fileID: 0}
+    linkedCutscene: {fileID: 0}
+    linkedAsset: {fileID: 0}
+  isEnabled: 1
+  isAssetFile: 0
+  isBreakPoint: 0
+  nodeRect:
+    serializedVersion: 2
+    x: 14
+    y: 196
+    width: 300
+    height: 132
+  overrideColor: {r: 1, g: 1, b: 1, a: 1}
+  showOutputSockets: 1
+  parentActionListInEditor: {fileID: 4802637591113896103}
+  parameterID: -1
+  constantID: 0
+  hotspot: {fileID: 198041616}
+  affectChildren: 0
+  changeType: 1
 --- !u!1 &851697230 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 1826060389407567438, guid: 2e8a9f8c3df94104d8404ef53cdc39f2, type: 3}
@@ -5972,7 +6251,7 @@ MonoBehaviour:
     endingReferencesBuffer: 00
     endingOverrideIndex: 00000000
   - className: AC.ActionInventorySelect
-    jsonData: '{"id":0,"isDisplayed":true,"showComment":false,"comment":"","willWait":false,"endAction":0,"skipAction":-1,"skipActionActual":{"instanceID":0},"linkedCutscene":{"instanceID":0},"linkedAsset":{"instanceID":0},"endings":[{"resultAction":0,"skipAction":5,"skipActionActual":{"instanceID":191918},"linkedCutscene":{"instanceID":0},"linkedAsset":{"instanceID":0}}],"isEnabled":true,"isAssetFile":false,"isBreakPoint":false,"nodeRect":{"serializedVersion":"2","x":365.0,"y":423.0,"width":300.0,"height":152.0},"overrideColor":{"r":1.0,"g":1.0,"b":1.0,"a":1.0},"showOutputSockets":true,"parentActionListInEditor":{"instanceID":920891736_0},"selectType":0,"selectItemMode":0,"carryCondition":0,"giveToPlayer":false,"setAmount":false,"amountParameterID":-1,"amount":1,"parameterID":2,"invID":-1}'
+    jsonData: '{"id":0,"isDisplayed":true,"showComment":false,"comment":"","willWait":false,"endAction":0,"skipAction":-1,"skipActionActual":{"instanceID":0},"linkedCutscene":{"instanceID":0},"linkedAsset":{"instanceID":0},"endings":[{"resultAction":0,"skipAction":5,"skipActionActual":{"instanceID":82254},"linkedCutscene":{"instanceID":0},"linkedAsset":{"instanceID":0}}],"isEnabled":true,"isAssetFile":false,"isBreakPoint":false,"nodeRect":{"serializedVersion":"2","x":365.0,"y":423.0,"width":300.0,"height":152.0},"overrideColor":{"r":1.0,"g":1.0,"b":1.0,"a":1.0},"showOutputSockets":true,"parentActionListInEditor":{"instanceID":920891736_0},"selectType":0,"selectItemMode":0,"carryCondition":0,"giveToPlayer":false,"setAmount":false,"amountParameterID":-1,"amount":1,"parameterID":2,"invID":-1}'
     endingReferencesBuffer: 00
     endingOverrideIndex: 00000000
   - className: AC.ActionVarSet
@@ -6897,7 +7176,7 @@ MonoBehaviour:
     endingReferencesBuffer: 00
     endingOverrideIndex: 00000000
   - className: AC.ActionInventorySelect
-    jsonData: '{"id":0,"isDisplayed":true,"showComment":false,"comment":"","willWait":false,"endAction":0,"skipAction":-1,"skipActionActual":{"instanceID":0},"linkedCutscene":{"instanceID":0},"linkedAsset":{"instanceID":0},"endings":[{"resultAction":0,"skipAction":5,"skipActionActual":{"instanceID":191918},"linkedCutscene":{"instanceID":0},"linkedAsset":{"instanceID":0}}],"isEnabled":true,"isAssetFile":false,"isBreakPoint":false,"nodeRect":{"serializedVersion":"2","x":365.0,"y":423.0,"width":300.0,"height":152.0},"overrideColor":{"r":1.0,"g":1.0,"b":1.0,"a":1.0},"showOutputSockets":true,"parentActionListInEditor":{"instanceID":1015263884_0},"selectType":0,"selectItemMode":0,"carryCondition":0,"giveToPlayer":false,"setAmount":false,"amountParameterID":-1,"amount":1,"parameterID":2,"invID":-1}'
+    jsonData: '{"id":0,"isDisplayed":true,"showComment":false,"comment":"","willWait":false,"endAction":0,"skipAction":-1,"skipActionActual":{"instanceID":0},"linkedCutscene":{"instanceID":0},"linkedAsset":{"instanceID":0},"endings":[{"resultAction":0,"skipAction":5,"skipActionActual":{"instanceID":82254},"linkedCutscene":{"instanceID":0},"linkedAsset":{"instanceID":0}}],"isEnabled":true,"isAssetFile":false,"isBreakPoint":false,"nodeRect":{"serializedVersion":"2","x":365.0,"y":423.0,"width":300.0,"height":152.0},"overrideColor":{"r":1.0,"g":1.0,"b":1.0,"a":1.0},"showOutputSockets":true,"parentActionListInEditor":{"instanceID":1015263884_0},"selectType":0,"selectItemMode":0,"carryCondition":0,"giveToPlayer":false,"setAmount":false,"amountParameterID":-1,"amount":1,"parameterID":2,"invID":-1}'
     endingReferencesBuffer: 00
     endingOverrideIndex: 00000000
   - className: AC.ActionVarSet
@@ -7659,7 +7938,7 @@ GameObject:
   - component: {fileID: 1194842749}
   - component: {fileID: 1194842748}
   m_Layer: 0
-  m_Name: Diary Pages
+  m_Name: Note
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -7731,7 +8010,7 @@ Transform:
   m_Children:
   - {fileID: 7693975470463481518}
   m_Father: {fileID: 0}
-  m_RootOrder: 6
+  m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1194842748
 MonoBehaviour:
@@ -8705,7 +8984,7 @@ MonoBehaviour:
     endingReferencesBuffer: 00
     endingOverrideIndex: 00000000
   - className: AC.ActionInventorySelect
-    jsonData: '{"id":0,"isDisplayed":true,"showComment":false,"comment":"","willWait":false,"endAction":0,"skipAction":-1,"skipActionActual":{"instanceID":0},"linkedCutscene":{"instanceID":0},"linkedAsset":{"instanceID":0},"endings":[{"resultAction":0,"skipAction":5,"skipActionActual":{"instanceID":191918},"linkedCutscene":{"instanceID":0},"linkedAsset":{"instanceID":0}}],"isEnabled":true,"isAssetFile":false,"isBreakPoint":false,"nodeRect":{"serializedVersion":"2","x":365.0,"y":423.0,"width":300.0,"height":152.0},"overrideColor":{"r":1.0,"g":1.0,"b":1.0,"a":1.0},"showOutputSockets":true,"parentActionListInEditor":{"instanceID":1327877537_0},"selectType":0,"selectItemMode":0,"carryCondition":0,"giveToPlayer":false,"setAmount":false,"amountParameterID":-1,"amount":1,"parameterID":2,"invID":-1}'
+    jsonData: '{"id":0,"isDisplayed":true,"showComment":false,"comment":"","willWait":false,"endAction":0,"skipAction":-1,"skipActionActual":{"instanceID":0},"linkedCutscene":{"instanceID":0},"linkedAsset":{"instanceID":0},"endings":[{"resultAction":0,"skipAction":5,"skipActionActual":{"instanceID":82254},"linkedCutscene":{"instanceID":0},"linkedAsset":{"instanceID":0}}],"isEnabled":true,"isAssetFile":false,"isBreakPoint":false,"nodeRect":{"serializedVersion":"2","x":365.0,"y":423.0,"width":300.0,"height":152.0},"overrideColor":{"r":1.0,"g":1.0,"b":1.0,"a":1.0},"showOutputSockets":true,"parentActionListInEditor":{"instanceID":1327877537_0},"selectType":0,"selectItemMode":0,"carryCondition":0,"giveToPlayer":false,"setAmount":false,"amountParameterID":-1,"amount":1,"parameterID":2,"invID":-1}'
     endingReferencesBuffer: 00
     endingOverrideIndex: 00000000
   - className: AC.ActionVarSet
@@ -8749,8 +9028,8 @@ MonoBehaviour:
   isBreakPoint: 0
   nodeRect:
     serializedVersion: 2
-    x: 13
-    y: 191
+    x: 14
+    y: 186
     width: 300
     height: 132
   overrideColor: {r: 1, g: 1, b: 1, a: 1}
@@ -9932,7 +10211,7 @@ Transform:
   m_Children:
   - {fileID: 7269159729937833001}
   m_Father: {fileID: 0}
-  m_RootOrder: 5
+  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1556188714
 MonoBehaviour:
@@ -10242,7 +10521,7 @@ Transform:
   - {fileID: 2037528088}
   - {fileID: 8117661132435261472}
   m_Father: {fileID: 0}
-  m_RootOrder: 7
+  m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1565749775
 MonoBehaviour:
@@ -10909,15 +11188,15 @@ MonoBehaviour:
   syncParamValues: 1
   backupData:
   - className: AC.ActionVarCheck
-    jsonData: '{"id":0,"isDisplayed":true,"showComment":false,"comment":"","willWait":false,"endAction":0,"skipAction":-1,"skipActionActual":{"instanceID":0},"linkedCutscene":{"instanceID":0},"linkedAsset":{"instanceID":0},"endings":[{"resultAction":0,"skipAction":1,"skipActionActual":{"instanceID":191834},"linkedCutscene":{"instanceID":0},"linkedAsset":{"instanceID":0}},{"resultAction":1,"skipAction":-1,"skipActionActual":{"instanceID":0},"linkedCutscene":{"instanceID":0},"linkedAsset":{"instanceID":0}}],"isEnabled":true,"isAssetFile":false,"isBreakPoint":false,"nodeRect":{"serializedVersion":"2","x":14.0,"y":14.0,"width":300.0,"height":220.0},"overrideColor":{"r":1.0,"g":1.0,"b":1.0,"a":1.0},"showOutputSockets":true,"parentActionListInEditor":{"instanceID":1669535771_0},"resultActionTrue":0,"skipActionTrue":-1,"skipActionTrueActual":{"instanceID":0},"linkedCutsceneTrue":{"instanceID":0},"linkedAssetTrue":{"instanceID":0},"resultActionFail":1,"skipActionFail":-1,"skipActionFailActual":{"instanceID":0},"linkedCutsceneFail":{"instanceID":0},"linkedAssetFail":{"instanceID":0},"parameterID":0,"variableID":1,"variableNumber":-1,"checkParameterID":-1,"getVarMethod":0,"compareVariableID":0,"intValue":0,"floatValue":0.0,"intCondition":0,"isAdditive":false,"boolValue":1,"boolCondition":0,"stringValue":"","checkCase":true,"vector3Value":{"x":0.0,"y":0.0,"z":0.0},"vectorCondition":0,"gameObjectValue":{"instanceID":0},"unityObjectValue":{"instanceID":0},"location":2,"variables":{"instanceID":0},"variablesConstantID":0,"compareVariables":{"instanceID":0},"compareVariablesConstantID":0,"placeholderType":4,"placeholderPopUpLabelDataID":-1}'
+    jsonData: '{"id":0,"isDisplayed":true,"showComment":false,"comment":"","willWait":false,"endAction":0,"skipAction":-1,"skipActionActual":{"instanceID":0},"linkedCutscene":{"instanceID":0},"linkedAsset":{"instanceID":0},"endings":[{"resultAction":0,"skipAction":1,"skipActionActual":{"instanceID":82170},"linkedCutscene":{"instanceID":0},"linkedAsset":{"instanceID":0}},{"resultAction":1,"skipAction":-1,"skipActionActual":{"instanceID":0},"linkedCutscene":{"instanceID":0},"linkedAsset":{"instanceID":0}}],"isEnabled":true,"isAssetFile":false,"isBreakPoint":false,"nodeRect":{"serializedVersion":"2","x":14.0,"y":14.0,"width":300.0,"height":220.0},"overrideColor":{"r":1.0,"g":1.0,"b":1.0,"a":1.0},"showOutputSockets":true,"parentActionListInEditor":{"instanceID":1669535771_0},"resultActionTrue":0,"skipActionTrue":-1,"skipActionTrueActual":{"instanceID":0},"linkedCutsceneTrue":{"instanceID":0},"linkedAssetTrue":{"instanceID":0},"resultActionFail":1,"skipActionFail":-1,"skipActionFailActual":{"instanceID":0},"linkedCutsceneFail":{"instanceID":0},"linkedAssetFail":{"instanceID":0},"parameterID":0,"variableID":1,"variableNumber":-1,"checkParameterID":-1,"getVarMethod":0,"compareVariableID":0,"intValue":0,"floatValue":0.0,"intCondition":0,"isAdditive":false,"boolValue":1,"boolCondition":0,"stringValue":"","checkCase":true,"vector3Value":{"x":0.0,"y":0.0,"z":0.0},"vectorCondition":0,"gameObjectValue":{"instanceID":0},"unityObjectValue":{"instanceID":0},"location":2,"variables":{"instanceID":0},"variablesConstantID":0,"compareVariables":{"instanceID":0},"compareVariablesConstantID":0,"placeholderType":4,"placeholderPopUpLabelDataID":-1}'
     endingReferencesBuffer: 0000
     endingOverrideIndex: 0000000000000000
   - className: AC.ActionInventoryCheckSelected
-    jsonData: '{"id":0,"isDisplayed":true,"showComment":false,"comment":"","willWait":false,"endAction":0,"skipAction":-1,"skipActionActual":{"instanceID":0},"linkedCutscene":{"instanceID":0},"linkedAsset":{"instanceID":0},"endings":[{"resultAction":0,"skipAction":1,"skipActionActual":{"instanceID":191950},"linkedCutscene":{"instanceID":0},"linkedAsset":{"instanceID":0}},{"resultAction":1,"skipAction":-1,"skipActionActual":{"instanceID":0},"linkedCutscene":{"instanceID":0},"linkedAsset":{"instanceID":0}}],"isEnabled":true,"isAssetFile":false,"isBreakPoint":false,"nodeRect":{"serializedVersion":"2","x":15.0,"y":268.0,"width":300.0,"height":180.0},"overrideColor":{"r":1.0,"g":1.0,"b":1.0,"a":1.0},"showOutputSockets":true,"parentActionListInEditor":{"instanceID":1669535771_0},"resultActionTrue":0,"skipActionTrue":-1,"skipActionTrueActual":{"instanceID":0},"linkedCutsceneTrue":{"instanceID":0},"linkedAssetTrue":{"instanceID":0},"resultActionFail":1,"skipActionFail":-1,"skipActionFailActual":{"instanceID":0},"linkedCutsceneFail":{"instanceID":0},"linkedAssetFail":{"instanceID":0},"parameterID":-1,"invID":0,"binID":1,"checkNothing":false,"includeLast":false,"selectedCheckMethod":1,"selectedItemParameterID":-1}'
+    jsonData: '{"id":0,"isDisplayed":true,"showComment":false,"comment":"","willWait":false,"endAction":0,"skipAction":-1,"skipActionActual":{"instanceID":0},"linkedCutscene":{"instanceID":0},"linkedAsset":{"instanceID":0},"endings":[{"resultAction":0,"skipAction":1,"skipActionActual":{"instanceID":82286},"linkedCutscene":{"instanceID":0},"linkedAsset":{"instanceID":0}},{"resultAction":1,"skipAction":-1,"skipActionActual":{"instanceID":0},"linkedCutscene":{"instanceID":0},"linkedAsset":{"instanceID":0}}],"isEnabled":true,"isAssetFile":false,"isBreakPoint":false,"nodeRect":{"serializedVersion":"2","x":15.0,"y":268.0,"width":300.0,"height":180.0},"overrideColor":{"r":1.0,"g":1.0,"b":1.0,"a":1.0},"showOutputSockets":true,"parentActionListInEditor":{"instanceID":1669535771_0},"resultActionTrue":0,"skipActionTrue":-1,"skipActionTrueActual":{"instanceID":0},"linkedCutsceneTrue":{"instanceID":0},"linkedAssetTrue":{"instanceID":0},"resultActionFail":1,"skipActionFail":-1,"skipActionFailActual":{"instanceID":0},"linkedCutsceneFail":{"instanceID":0},"linkedAssetFail":{"instanceID":0},"parameterID":-1,"invID":0,"binID":1,"checkNothing":false,"includeLast":false,"selectedCheckMethod":1,"selectedItemParameterID":-1}'
     endingReferencesBuffer: 0000
     endingOverrideIndex: 0000000000000000
   - className: AC.ActionInteraction
-    jsonData: '{"id":0,"isDisplayed":true,"showComment":false,"comment":"","willWait":false,"endAction":0,"skipAction":-1,"skipActionActual":{"instanceID":0},"linkedCutscene":{"instanceID":0},"linkedAsset":{"instanceID":0},"endings":[{"resultAction":2,"skipAction":7,"skipActionActual":{"instanceID":191494},"linkedCutscene":{"instanceID":0},"linkedAsset":{"instanceID":0}}],"isEnabled":true,"isAssetFile":false,"isBreakPoint":false,"nodeRect":{"serializedVersion":"2","x":16.0,"y":492.0,"width":300.0,"height":152.0},"overrideColor":{"r":1.0,"g":1.0,"b":1.0,"a":1.0},"showOutputSockets":true,"parentActionListInEditor":{"instanceID":1669535771_0},"parameterID":0,"constantID":0,"hotspot":{"instanceID":0},"interactionType":0,"changeType":0,"number":0}'
+    jsonData: '{"id":0,"isDisplayed":true,"showComment":false,"comment":"","willWait":false,"endAction":0,"skipAction":-1,"skipActionActual":{"instanceID":0},"linkedCutscene":{"instanceID":0},"linkedAsset":{"instanceID":0},"endings":[{"resultAction":2,"skipAction":7,"skipActionActual":{"instanceID":81818},"linkedCutscene":{"instanceID":0},"linkedAsset":{"instanceID":0}}],"isEnabled":true,"isAssetFile":false,"isBreakPoint":false,"nodeRect":{"serializedVersion":"2","x":16.0,"y":492.0,"width":300.0,"height":152.0},"overrideColor":{"r":1.0,"g":1.0,"b":1.0,"a":1.0},"showOutputSockets":true,"parentActionListInEditor":{"instanceID":1669535771_0},"parameterID":0,"constantID":0,"hotspot":{"instanceID":0},"interactionType":0,"changeType":0,"number":0}'
     endingReferencesBuffer: 00
     endingOverrideIndex: 00000000
   - className: AC.ActionInventoryPrefab
@@ -10933,11 +11212,11 @@ MonoBehaviour:
     endingReferencesBuffer: 00
     endingOverrideIndex: 00000000
   - className: AC.ActionInvProperty
-    jsonData: '{"id":0,"isDisplayed":true,"showComment":false,"comment":"","willWait":false,"endAction":0,"skipAction":-1,"skipActionActual":{"instanceID":0},"linkedCutscene":{"instanceID":0},"linkedAsset":{"instanceID":0},"endings":[{"resultAction":2,"skipAction":8,"skipActionActual":{"instanceID":191996},"linkedCutscene":{"instanceID":0},"linkedAsset":{"instanceID":0}}],"isEnabled":true,"isAssetFile":false,"isBreakPoint":false,"nodeRect":{"serializedVersion":"2","x":731.838134765625,"y":244.0,"width":300.0,"height":260.0},"overrideColor":{"r":1.0,"g":1.0,"b":1.0,"a":1.0},"showOutputSockets":true,"parentActionListInEditor":{"instanceID":1669535771_0},"varParameterID":-1,"variableID":1,"varLocation":2,"method":0,"setVarAsPropertyMethod":0,"useLiveValues":false,"multiplyByItemCount":false,"invID":-1,"invParameterID":1,"propertyID":0,"variables":{"instanceID":144523991_0},"variablesConstantID":0}'
+    jsonData: '{"id":0,"isDisplayed":true,"showComment":false,"comment":"","willWait":false,"endAction":0,"skipAction":-1,"skipActionActual":{"instanceID":0},"linkedCutscene":{"instanceID":0},"linkedAsset":{"instanceID":0},"endings":[{"resultAction":2,"skipAction":8,"skipActionActual":{"instanceID":82336},"linkedCutscene":{"instanceID":0},"linkedAsset":{"instanceID":0}}],"isEnabled":true,"isAssetFile":false,"isBreakPoint":false,"nodeRect":{"serializedVersion":"2","x":731.838134765625,"y":244.0,"width":300.0,"height":260.0},"overrideColor":{"r":1.0,"g":1.0,"b":1.0,"a":1.0},"showOutputSockets":true,"parentActionListInEditor":{"instanceID":1669535771_0},"varParameterID":-1,"variableID":1,"varLocation":2,"method":0,"setVarAsPropertyMethod":0,"useLiveValues":false,"multiplyByItemCount":false,"invID":-1,"invParameterID":1,"propertyID":0,"variables":{"instanceID":144523991_0},"variablesConstantID":0}'
     endingReferencesBuffer: 01
     endingOverrideIndex: 08000000
   - className: AC.ActionRename
-    jsonData: '{"id":0,"isDisplayed":true,"showComment":false,"comment":"","willWait":false,"endAction":0,"skipAction":-1,"skipActionActual":{"instanceID":0},"linkedCutscene":{"instanceID":0},"linkedAsset":{"instanceID":0},"endings":[{"resultAction":2,"skipAction":3,"skipActionActual":{"instanceID":191934},"linkedCutscene":{"instanceID":0},"linkedAsset":{"instanceID":0}}],"isEnabled":true,"isAssetFile":false,"isBreakPoint":false,"nodeRect":{"serializedVersion":"2","x":16.0,"y":695.4808349609375,"width":300.0,"height":132.0},"overrideColor":{"r":1.0,"g":1.0,"b":1.0,"a":1.0},"showOutputSockets":true,"parentActionListInEditor":{"instanceID":1669535771_0},"constantID":0,"parameterID":0,"hotspot":{"instanceID":0},"newName":"Pick
+    jsonData: '{"id":0,"isDisplayed":true,"showComment":false,"comment":"","willWait":false,"endAction":0,"skipAction":-1,"skipActionActual":{"instanceID":0},"linkedCutscene":{"instanceID":0},"linkedAsset":{"instanceID":0},"endings":[{"resultAction":2,"skipAction":3,"skipActionActual":{"instanceID":82270},"linkedCutscene":{"instanceID":0},"linkedAsset":{"instanceID":0}}],"isEnabled":true,"isAssetFile":false,"isBreakPoint":false,"nodeRect":{"serializedVersion":"2","x":16.0,"y":695.4808349609375,"width":300.0,"height":132.0},"overrideColor":{"r":1.0,"g":1.0,"b":1.0,"a":1.0},"showOutputSockets":true,"parentActionListInEditor":{"instanceID":1669535771_0},"constantID":0,"parameterID":0,"hotspot":{"instanceID":0},"newName":"Pick
       Up Coat","newNameParameterID":-1,"lineID":-1}'
     endingReferencesBuffer: 00
     endingOverrideIndex: 00000000
@@ -11593,15 +11872,15 @@ MonoBehaviour:
   syncParamValues: 1
   backupData:
   - className: AC.ActionVarCheck
-    jsonData: '{"id":0,"isDisplayed":true,"showComment":false,"comment":"","willWait":false,"endAction":0,"skipAction":-1,"skipActionActual":{"instanceID":0},"linkedCutscene":{"instanceID":0},"linkedAsset":{"instanceID":0},"endings":[{"resultAction":0,"skipAction":1,"skipActionActual":{"instanceID":191834},"linkedCutscene":{"instanceID":0},"linkedAsset":{"instanceID":0}},{"resultAction":1,"skipAction":-1,"skipActionActual":{"instanceID":0},"linkedCutscene":{"instanceID":0},"linkedAsset":{"instanceID":0}}],"isEnabled":true,"isAssetFile":false,"isBreakPoint":false,"nodeRect":{"serializedVersion":"2","x":14.0,"y":14.0,"width":300.0,"height":220.0},"overrideColor":{"r":1.0,"g":1.0,"b":1.0,"a":1.0},"showOutputSockets":true,"parentActionListInEditor":{"instanceID":1769528805_0},"resultActionTrue":0,"skipActionTrue":-1,"skipActionTrueActual":{"instanceID":0},"linkedCutsceneTrue":{"instanceID":0},"linkedAssetTrue":{"instanceID":0},"resultActionFail":1,"skipActionFail":-1,"skipActionFailActual":{"instanceID":0},"linkedCutsceneFail":{"instanceID":0},"linkedAssetFail":{"instanceID":0},"parameterID":0,"variableID":1,"variableNumber":-1,"checkParameterID":-1,"getVarMethod":0,"compareVariableID":0,"intValue":0,"floatValue":0.0,"intCondition":0,"isAdditive":false,"boolValue":1,"boolCondition":0,"stringValue":"","checkCase":true,"vector3Value":{"x":0.0,"y":0.0,"z":0.0},"vectorCondition":0,"gameObjectValue":{"instanceID":0},"unityObjectValue":{"instanceID":0},"location":2,"variables":{"instanceID":0},"variablesConstantID":0,"compareVariables":{"instanceID":0},"compareVariablesConstantID":0,"placeholderType":4,"placeholderPopUpLabelDataID":-1}'
+    jsonData: '{"id":0,"isDisplayed":true,"showComment":false,"comment":"","willWait":false,"endAction":0,"skipAction":-1,"skipActionActual":{"instanceID":0},"linkedCutscene":{"instanceID":0},"linkedAsset":{"instanceID":0},"endings":[{"resultAction":0,"skipAction":1,"skipActionActual":{"instanceID":82170},"linkedCutscene":{"instanceID":0},"linkedAsset":{"instanceID":0}},{"resultAction":1,"skipAction":-1,"skipActionActual":{"instanceID":0},"linkedCutscene":{"instanceID":0},"linkedAsset":{"instanceID":0}}],"isEnabled":true,"isAssetFile":false,"isBreakPoint":false,"nodeRect":{"serializedVersion":"2","x":14.0,"y":14.0,"width":300.0,"height":220.0},"overrideColor":{"r":1.0,"g":1.0,"b":1.0,"a":1.0},"showOutputSockets":true,"parentActionListInEditor":{"instanceID":1769528805_0},"resultActionTrue":0,"skipActionTrue":-1,"skipActionTrueActual":{"instanceID":0},"linkedCutsceneTrue":{"instanceID":0},"linkedAssetTrue":{"instanceID":0},"resultActionFail":1,"skipActionFail":-1,"skipActionFailActual":{"instanceID":0},"linkedCutsceneFail":{"instanceID":0},"linkedAssetFail":{"instanceID":0},"parameterID":0,"variableID":1,"variableNumber":-1,"checkParameterID":-1,"getVarMethod":0,"compareVariableID":0,"intValue":0,"floatValue":0.0,"intCondition":0,"isAdditive":false,"boolValue":1,"boolCondition":0,"stringValue":"","checkCase":true,"vector3Value":{"x":0.0,"y":0.0,"z":0.0},"vectorCondition":0,"gameObjectValue":{"instanceID":0},"unityObjectValue":{"instanceID":0},"location":2,"variables":{"instanceID":0},"variablesConstantID":0,"compareVariables":{"instanceID":0},"compareVariablesConstantID":0,"placeholderType":4,"placeholderPopUpLabelDataID":-1}'
     endingReferencesBuffer: 0000
     endingOverrideIndex: 0000000000000000
   - className: AC.ActionInventoryCheckSelected
-    jsonData: '{"id":0,"isDisplayed":true,"showComment":false,"comment":"","willWait":false,"endAction":0,"skipAction":-1,"skipActionActual":{"instanceID":0},"linkedCutscene":{"instanceID":0},"linkedAsset":{"instanceID":0},"endings":[{"resultAction":0,"skipAction":1,"skipActionActual":{"instanceID":191950},"linkedCutscene":{"instanceID":0},"linkedAsset":{"instanceID":0}},{"resultAction":1,"skipAction":-1,"skipActionActual":{"instanceID":0},"linkedCutscene":{"instanceID":0},"linkedAsset":{"instanceID":0}}],"isEnabled":true,"isAssetFile":false,"isBreakPoint":false,"nodeRect":{"serializedVersion":"2","x":15.0,"y":268.0,"width":300.0,"height":180.0},"overrideColor":{"r":1.0,"g":1.0,"b":1.0,"a":1.0},"showOutputSockets":true,"parentActionListInEditor":{"instanceID":1769528805_0},"resultActionTrue":0,"skipActionTrue":-1,"skipActionTrueActual":{"instanceID":0},"linkedCutsceneTrue":{"instanceID":0},"linkedAssetTrue":{"instanceID":0},"resultActionFail":1,"skipActionFail":-1,"skipActionFailActual":{"instanceID":0},"linkedCutsceneFail":{"instanceID":0},"linkedAssetFail":{"instanceID":0},"parameterID":-1,"invID":0,"binID":1,"checkNothing":false,"includeLast":false,"selectedCheckMethod":1,"selectedItemParameterID":-1}'
+    jsonData: '{"id":0,"isDisplayed":true,"showComment":false,"comment":"","willWait":false,"endAction":0,"skipAction":-1,"skipActionActual":{"instanceID":0},"linkedCutscene":{"instanceID":0},"linkedAsset":{"instanceID":0},"endings":[{"resultAction":0,"skipAction":1,"skipActionActual":{"instanceID":82286},"linkedCutscene":{"instanceID":0},"linkedAsset":{"instanceID":0}},{"resultAction":1,"skipAction":-1,"skipActionActual":{"instanceID":0},"linkedCutscene":{"instanceID":0},"linkedAsset":{"instanceID":0}}],"isEnabled":true,"isAssetFile":false,"isBreakPoint":false,"nodeRect":{"serializedVersion":"2","x":15.0,"y":268.0,"width":300.0,"height":180.0},"overrideColor":{"r":1.0,"g":1.0,"b":1.0,"a":1.0},"showOutputSockets":true,"parentActionListInEditor":{"instanceID":1769528805_0},"resultActionTrue":0,"skipActionTrue":-1,"skipActionTrueActual":{"instanceID":0},"linkedCutsceneTrue":{"instanceID":0},"linkedAssetTrue":{"instanceID":0},"resultActionFail":1,"skipActionFail":-1,"skipActionFailActual":{"instanceID":0},"linkedCutsceneFail":{"instanceID":0},"linkedAssetFail":{"instanceID":0},"parameterID":-1,"invID":0,"binID":1,"checkNothing":false,"includeLast":false,"selectedCheckMethod":1,"selectedItemParameterID":-1}'
     endingReferencesBuffer: 0000
     endingOverrideIndex: 0000000000000000
   - className: AC.ActionInteraction
-    jsonData: '{"id":0,"isDisplayed":true,"showComment":false,"comment":"","willWait":false,"endAction":0,"skipAction":-1,"skipActionActual":{"instanceID":0},"linkedCutscene":{"instanceID":0},"linkedAsset":{"instanceID":0},"endings":[{"resultAction":2,"skipAction":7,"skipActionActual":{"instanceID":191494},"linkedCutscene":{"instanceID":0},"linkedAsset":{"instanceID":0}}],"isEnabled":true,"isAssetFile":false,"isBreakPoint":false,"nodeRect":{"serializedVersion":"2","x":16.0,"y":492.0,"width":300.0,"height":152.0},"overrideColor":{"r":1.0,"g":1.0,"b":1.0,"a":1.0},"showOutputSockets":true,"parentActionListInEditor":{"instanceID":1769528805_0},"parameterID":0,"constantID":0,"hotspot":{"instanceID":0},"interactionType":0,"changeType":0,"number":0}'
+    jsonData: '{"id":0,"isDisplayed":true,"showComment":false,"comment":"","willWait":false,"endAction":0,"skipAction":-1,"skipActionActual":{"instanceID":0},"linkedCutscene":{"instanceID":0},"linkedAsset":{"instanceID":0},"endings":[{"resultAction":2,"skipAction":7,"skipActionActual":{"instanceID":81818},"linkedCutscene":{"instanceID":0},"linkedAsset":{"instanceID":0}}],"isEnabled":true,"isAssetFile":false,"isBreakPoint":false,"nodeRect":{"serializedVersion":"2","x":16.0,"y":492.0,"width":300.0,"height":152.0},"overrideColor":{"r":1.0,"g":1.0,"b":1.0,"a":1.0},"showOutputSockets":true,"parentActionListInEditor":{"instanceID":1769528805_0},"parameterID":0,"constantID":0,"hotspot":{"instanceID":0},"interactionType":0,"changeType":0,"number":0}'
     endingReferencesBuffer: 00
     endingOverrideIndex: 00000000
   - className: AC.ActionInventoryPrefab
@@ -11617,11 +11896,11 @@ MonoBehaviour:
     endingReferencesBuffer: 00
     endingOverrideIndex: 00000000
   - className: AC.ActionInvProperty
-    jsonData: '{"id":0,"isDisplayed":true,"showComment":false,"comment":"","willWait":false,"endAction":0,"skipAction":-1,"skipActionActual":{"instanceID":0},"linkedCutscene":{"instanceID":0},"linkedAsset":{"instanceID":0},"endings":[{"resultAction":2,"skipAction":8,"skipActionActual":{"instanceID":191594},"linkedCutscene":{"instanceID":0},"linkedAsset":{"instanceID":0}}],"isEnabled":true,"isAssetFile":false,"isBreakPoint":false,"nodeRect":{"serializedVersion":"2","x":731.838134765625,"y":244.0,"width":300.0,"height":260.0},"overrideColor":{"r":1.0,"g":1.0,"b":1.0,"a":1.0},"showOutputSockets":true,"parentActionListInEditor":{"instanceID":1769528805_0},"varParameterID":-1,"variableID":1,"varLocation":2,"method":0,"setVarAsPropertyMethod":0,"useLiveValues":false,"multiplyByItemCount":false,"invID":-1,"invParameterID":1,"propertyID":0,"variables":{"instanceID":117735549_0},"variablesConstantID":0}'
+    jsonData: '{"id":0,"isDisplayed":true,"showComment":false,"comment":"","willWait":false,"endAction":0,"skipAction":-1,"skipActionActual":{"instanceID":0},"linkedCutscene":{"instanceID":0},"linkedAsset":{"instanceID":0},"endings":[{"resultAction":2,"skipAction":8,"skipActionActual":{"instanceID":81928},"linkedCutscene":{"instanceID":0},"linkedAsset":{"instanceID":0}}],"isEnabled":true,"isAssetFile":false,"isBreakPoint":false,"nodeRect":{"serializedVersion":"2","x":731.838134765625,"y":244.0,"width":300.0,"height":260.0},"overrideColor":{"r":1.0,"g":1.0,"b":1.0,"a":1.0},"showOutputSockets":true,"parentActionListInEditor":{"instanceID":1769528805_0},"varParameterID":-1,"variableID":1,"varLocation":2,"method":0,"setVarAsPropertyMethod":0,"useLiveValues":false,"multiplyByItemCount":false,"invID":-1,"invParameterID":1,"propertyID":0,"variables":{"instanceID":117735549_0},"variablesConstantID":0}'
     endingReferencesBuffer: 01
     endingOverrideIndex: 08000000
   - className: AC.ActionRename
-    jsonData: '{"id":0,"isDisplayed":true,"showComment":false,"comment":"","willWait":false,"endAction":0,"skipAction":-1,"skipActionActual":{"instanceID":0},"linkedCutscene":{"instanceID":0},"linkedAsset":{"instanceID":0},"endings":[{"resultAction":2,"skipAction":3,"skipActionActual":{"instanceID":191934},"linkedCutscene":{"instanceID":0},"linkedAsset":{"instanceID":0}}],"isEnabled":true,"isAssetFile":false,"isBreakPoint":false,"nodeRect":{"serializedVersion":"2","x":16.0,"y":695.4808349609375,"width":300.0,"height":132.0},"overrideColor":{"r":1.0,"g":1.0,"b":1.0,"a":1.0},"showOutputSockets":true,"parentActionListInEditor":{"instanceID":1769528805_0},"constantID":0,"parameterID":0,"hotspot":{"instanceID":0},"newName":"Pick
+    jsonData: '{"id":0,"isDisplayed":true,"showComment":false,"comment":"","willWait":false,"endAction":0,"skipAction":-1,"skipActionActual":{"instanceID":0},"linkedCutscene":{"instanceID":0},"linkedAsset":{"instanceID":0},"endings":[{"resultAction":2,"skipAction":3,"skipActionActual":{"instanceID":82270},"linkedCutscene":{"instanceID":0},"linkedAsset":{"instanceID":0}}],"isEnabled":true,"isAssetFile":false,"isBreakPoint":false,"nodeRect":{"serializedVersion":"2","x":16.0,"y":695.4808349609375,"width":300.0,"height":132.0},"overrideColor":{"r":1.0,"g":1.0,"b":1.0,"a":1.0},"showOutputSockets":true,"parentActionListInEditor":{"instanceID":1769528805_0},"constantID":0,"parameterID":0,"hotspot":{"instanceID":0},"newName":"Pick
       Up Coat","newNameParameterID":-1,"lineID":-1}'
     endingReferencesBuffer: 00
     endingOverrideIndex: 00000000
@@ -12179,6 +12458,51 @@ MonoBehaviour:
   container: {fileID: 0}
   containerConstantID: 0
   containerParameterID: -1
+--- !u!114 &1839724204
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d33593da7d3524e1998da7151086b1b3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  id: 0
+  isDisplayed: 1
+  showComment: 0
+  comment: 
+  willWait: 0
+  endAction: 0
+  skipAction: -1
+  skipActionActual: {fileID: 0}
+  linkedCutscene: {fileID: 0}
+  linkedAsset: {fileID: 0}
+  endings:
+  - resultAction: 0
+    skipAction: -1
+    skipActionActual: {fileID: 0}
+    linkedCutscene: {fileID: 0}
+    linkedAsset: {fileID: 0}
+  isEnabled: 1
+  isAssetFile: 0
+  isBreakPoint: 0
+  nodeRect:
+    serializedVersion: 2
+    x: 14
+    y: 14
+    width: 300
+    height: 132
+  overrideColor: {r: 1, g: 1, b: 1, a: 1}
+  showOutputSockets: 1
+  parentActionListInEditor: {fileID: 4802637591113896103}
+  parameterID: -1
+  constantID: 0
+  obToAffect: {fileID: 198041615}
+  affectChildren: 0
+  visState: 1
 --- !u!114 &1847497418
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -12406,6 +12730,59 @@ MonoBehaviour:
   animatorParameterID: -1
   animatorParameterName: 
   parameterLabel: Coat Prefab Instance
+--- !u!114 &1913424981
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: aac25eb7cbe8345d6baaf5efb8fc62e8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  id: 0
+  isDisplayed: 1
+  showComment: 0
+  comment: 
+  willWait: 0
+  endAction: 0
+  skipAction: -1
+  skipActionActual: {fileID: 0}
+  linkedCutscene: {fileID: 0}
+  linkedAsset: {fileID: 0}
+  endings:
+  - resultAction: 1
+    skipAction: -1
+    skipActionActual: {fileID: 0}
+    linkedCutscene: {fileID: 0}
+    linkedAsset: {fileID: 0}
+  isEnabled: 1
+  isAssetFile: 0
+  isBreakPoint: 0
+  nodeRect:
+    serializedVersion: 2
+    x: 356
+    y: 15
+    width: 300
+    height: 132
+  overrideColor: {r: 1, g: 1, b: 1, a: 1}
+  showOutputSockets: 1
+  parentActionListInEditor: {fileID: 4802637591113896103}
+  invAction: 0
+  parameterID: -1
+  invID: 13
+  replaceParameterID: -1
+  invIDReplace: 0
+  setAmount: 0
+  amountParameterID: -1
+  amount: 1
+  setPlayer: 0
+  playerID: 0
+  addToFront: 0
+  removeLast: 0
+  itemRemoveMethod: 0
 --- !u!114 &1933215213
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -12948,15 +13325,15 @@ MonoBehaviour:
   syncParamValues: 1
   backupData:
   - className: AC.ActionVarCheck
-    jsonData: '{"id":0,"isDisplayed":true,"showComment":false,"comment":"","willWait":false,"endAction":0,"skipAction":-1,"skipActionActual":{"instanceID":0},"linkedCutscene":{"instanceID":0},"linkedAsset":{"instanceID":0},"endings":[{"resultAction":0,"skipAction":1,"skipActionActual":{"instanceID":191834},"linkedCutscene":{"instanceID":0},"linkedAsset":{"instanceID":0}},{"resultAction":1,"skipAction":-1,"skipActionActual":{"instanceID":0},"linkedCutscene":{"instanceID":0},"linkedAsset":{"instanceID":0}}],"isEnabled":true,"isAssetFile":false,"isBreakPoint":false,"nodeRect":{"serializedVersion":"2","x":14.0,"y":14.0,"width":300.0,"height":220.0},"overrideColor":{"r":1.0,"g":1.0,"b":1.0,"a":1.0},"showOutputSockets":true,"parentActionListInEditor":{"instanceID":1982471442_0},"resultActionTrue":0,"skipActionTrue":-1,"skipActionTrueActual":{"instanceID":0},"linkedCutsceneTrue":{"instanceID":0},"linkedAssetTrue":{"instanceID":0},"resultActionFail":1,"skipActionFail":-1,"skipActionFailActual":{"instanceID":0},"linkedCutsceneFail":{"instanceID":0},"linkedAssetFail":{"instanceID":0},"parameterID":0,"variableID":1,"variableNumber":-1,"checkParameterID":-1,"getVarMethod":0,"compareVariableID":0,"intValue":0,"floatValue":0.0,"intCondition":0,"isAdditive":false,"boolValue":1,"boolCondition":0,"stringValue":"","checkCase":true,"vector3Value":{"x":0.0,"y":0.0,"z":0.0},"vectorCondition":0,"gameObjectValue":{"instanceID":0},"unityObjectValue":{"instanceID":0},"location":2,"variables":{"instanceID":0},"variablesConstantID":0,"compareVariables":{"instanceID":0},"compareVariablesConstantID":0,"placeholderType":4,"placeholderPopUpLabelDataID":-1}'
+    jsonData: '{"id":0,"isDisplayed":true,"showComment":false,"comment":"","willWait":false,"endAction":0,"skipAction":-1,"skipActionActual":{"instanceID":0},"linkedCutscene":{"instanceID":0},"linkedAsset":{"instanceID":0},"endings":[{"resultAction":0,"skipAction":1,"skipActionActual":{"instanceID":82170},"linkedCutscene":{"instanceID":0},"linkedAsset":{"instanceID":0}},{"resultAction":1,"skipAction":-1,"skipActionActual":{"instanceID":0},"linkedCutscene":{"instanceID":0},"linkedAsset":{"instanceID":0}}],"isEnabled":true,"isAssetFile":false,"isBreakPoint":false,"nodeRect":{"serializedVersion":"2","x":14.0,"y":14.0,"width":300.0,"height":220.0},"overrideColor":{"r":1.0,"g":1.0,"b":1.0,"a":1.0},"showOutputSockets":true,"parentActionListInEditor":{"instanceID":1982471442_0},"resultActionTrue":0,"skipActionTrue":-1,"skipActionTrueActual":{"instanceID":0},"linkedCutsceneTrue":{"instanceID":0},"linkedAssetTrue":{"instanceID":0},"resultActionFail":1,"skipActionFail":-1,"skipActionFailActual":{"instanceID":0},"linkedCutsceneFail":{"instanceID":0},"linkedAssetFail":{"instanceID":0},"parameterID":0,"variableID":1,"variableNumber":-1,"checkParameterID":-1,"getVarMethod":0,"compareVariableID":0,"intValue":0,"floatValue":0.0,"intCondition":0,"isAdditive":false,"boolValue":1,"boolCondition":0,"stringValue":"","checkCase":true,"vector3Value":{"x":0.0,"y":0.0,"z":0.0},"vectorCondition":0,"gameObjectValue":{"instanceID":0},"unityObjectValue":{"instanceID":0},"location":2,"variables":{"instanceID":0},"variablesConstantID":0,"compareVariables":{"instanceID":0},"compareVariablesConstantID":0,"placeholderType":4,"placeholderPopUpLabelDataID":-1}'
     endingReferencesBuffer: 0000
     endingOverrideIndex: 0000000000000000
   - className: AC.ActionInventoryCheckSelected
-    jsonData: '{"id":0,"isDisplayed":true,"showComment":false,"comment":"","willWait":false,"endAction":0,"skipAction":-1,"skipActionActual":{"instanceID":0},"linkedCutscene":{"instanceID":0},"linkedAsset":{"instanceID":0},"endings":[{"resultAction":0,"skipAction":1,"skipActionActual":{"instanceID":191950},"linkedCutscene":{"instanceID":0},"linkedAsset":{"instanceID":0}},{"resultAction":1,"skipAction":-1,"skipActionActual":{"instanceID":0},"linkedCutscene":{"instanceID":0},"linkedAsset":{"instanceID":0}}],"isEnabled":true,"isAssetFile":false,"isBreakPoint":false,"nodeRect":{"serializedVersion":"2","x":15.0,"y":268.0,"width":300.0,"height":180.0},"overrideColor":{"r":1.0,"g":1.0,"b":1.0,"a":1.0},"showOutputSockets":true,"parentActionListInEditor":{"instanceID":1982471442_0},"resultActionTrue":0,"skipActionTrue":-1,"skipActionTrueActual":{"instanceID":0},"linkedCutsceneTrue":{"instanceID":0},"linkedAssetTrue":{"instanceID":0},"resultActionFail":1,"skipActionFail":-1,"skipActionFailActual":{"instanceID":0},"linkedCutsceneFail":{"instanceID":0},"linkedAssetFail":{"instanceID":0},"parameterID":-1,"invID":0,"binID":1,"checkNothing":false,"includeLast":false,"selectedCheckMethod":1,"selectedItemParameterID":-1}'
+    jsonData: '{"id":0,"isDisplayed":true,"showComment":false,"comment":"","willWait":false,"endAction":0,"skipAction":-1,"skipActionActual":{"instanceID":0},"linkedCutscene":{"instanceID":0},"linkedAsset":{"instanceID":0},"endings":[{"resultAction":0,"skipAction":1,"skipActionActual":{"instanceID":82286},"linkedCutscene":{"instanceID":0},"linkedAsset":{"instanceID":0}},{"resultAction":1,"skipAction":-1,"skipActionActual":{"instanceID":0},"linkedCutscene":{"instanceID":0},"linkedAsset":{"instanceID":0}}],"isEnabled":true,"isAssetFile":false,"isBreakPoint":false,"nodeRect":{"serializedVersion":"2","x":15.0,"y":268.0,"width":300.0,"height":180.0},"overrideColor":{"r":1.0,"g":1.0,"b":1.0,"a":1.0},"showOutputSockets":true,"parentActionListInEditor":{"instanceID":1982471442_0},"resultActionTrue":0,"skipActionTrue":-1,"skipActionTrueActual":{"instanceID":0},"linkedCutsceneTrue":{"instanceID":0},"linkedAssetTrue":{"instanceID":0},"resultActionFail":1,"skipActionFail":-1,"skipActionFailActual":{"instanceID":0},"linkedCutsceneFail":{"instanceID":0},"linkedAssetFail":{"instanceID":0},"parameterID":-1,"invID":0,"binID":1,"checkNothing":false,"includeLast":false,"selectedCheckMethod":1,"selectedItemParameterID":-1}'
     endingReferencesBuffer: 0000
     endingOverrideIndex: 0000000000000000
   - className: AC.ActionInteraction
-    jsonData: '{"id":0,"isDisplayed":true,"showComment":false,"comment":"","willWait":false,"endAction":0,"skipAction":-1,"skipActionActual":{"instanceID":0},"linkedCutscene":{"instanceID":0},"linkedAsset":{"instanceID":0},"endings":[{"resultAction":2,"skipAction":7,"skipActionActual":{"instanceID":191874},"linkedCutscene":{"instanceID":0},"linkedAsset":{"instanceID":0}}],"isEnabled":true,"isAssetFile":false,"isBreakPoint":false,"nodeRect":{"serializedVersion":"2","x":16.0,"y":492.0,"width":300.0,"height":152.0},"overrideColor":{"r":1.0,"g":1.0,"b":1.0,"a":1.0},"showOutputSockets":true,"parentActionListInEditor":{"instanceID":1982471442_0},"parameterID":0,"constantID":0,"hotspot":{"instanceID":0},"interactionType":0,"changeType":0,"number":0}'
+    jsonData: '{"id":0,"isDisplayed":true,"showComment":false,"comment":"","willWait":false,"endAction":0,"skipAction":-1,"skipActionActual":{"instanceID":0},"linkedCutscene":{"instanceID":0},"linkedAsset":{"instanceID":0},"endings":[{"resultAction":2,"skipAction":7,"skipActionActual":{"instanceID":82210},"linkedCutscene":{"instanceID":0},"linkedAsset":{"instanceID":0}}],"isEnabled":true,"isAssetFile":false,"isBreakPoint":false,"nodeRect":{"serializedVersion":"2","x":16.0,"y":492.0,"width":300.0,"height":152.0},"overrideColor":{"r":1.0,"g":1.0,"b":1.0,"a":1.0},"showOutputSockets":true,"parentActionListInEditor":{"instanceID":1982471442_0},"parameterID":0,"constantID":0,"hotspot":{"instanceID":0},"interactionType":0,"changeType":0,"number":0}'
     endingReferencesBuffer: 01
     endingOverrideIndex: 07000000
   - className: AC.ActionInventoryPrefab
@@ -12972,11 +13349,11 @@ MonoBehaviour:
     endingReferencesBuffer: 00
     endingOverrideIndex: 00000000
   - className: AC.ActionInvProperty
-    jsonData: '{"id":0,"isDisplayed":true,"showComment":false,"comment":"","willWait":false,"endAction":0,"skipAction":-1,"skipActionActual":{"instanceID":0},"linkedCutscene":{"instanceID":0},"linkedAsset":{"instanceID":0},"endings":[{"resultAction":2,"skipAction":8,"skipActionActual":{"instanceID":191688},"linkedCutscene":{"instanceID":0},"linkedAsset":{"instanceID":0}}],"isEnabled":true,"isAssetFile":false,"isBreakPoint":false,"nodeRect":{"serializedVersion":"2","x":731.838134765625,"y":244.0,"width":300.0,"height":260.0},"overrideColor":{"r":1.0,"g":1.0,"b":1.0,"a":1.0},"showOutputSockets":true,"parentActionListInEditor":{"instanceID":1982471442_0},"varParameterID":-1,"variableID":1,"varLocation":2,"method":0,"setVarAsPropertyMethod":0,"useLiveValues":false,"multiplyByItemCount":false,"invID":-1,"invParameterID":1,"propertyID":0,"variables":{"instanceID":1263272817_0},"variablesConstantID":0}'
+    jsonData: '{"id":0,"isDisplayed":true,"showComment":false,"comment":"","willWait":false,"endAction":0,"skipAction":-1,"skipActionActual":{"instanceID":0},"linkedCutscene":{"instanceID":0},"linkedAsset":{"instanceID":0},"endings":[{"resultAction":2,"skipAction":8,"skipActionActual":{"instanceID":82022},"linkedCutscene":{"instanceID":0},"linkedAsset":{"instanceID":0}}],"isEnabled":true,"isAssetFile":false,"isBreakPoint":false,"nodeRect":{"serializedVersion":"2","x":731.838134765625,"y":244.0,"width":300.0,"height":260.0},"overrideColor":{"r":1.0,"g":1.0,"b":1.0,"a":1.0},"showOutputSockets":true,"parentActionListInEditor":{"instanceID":1982471442_0},"varParameterID":-1,"variableID":1,"varLocation":2,"method":0,"setVarAsPropertyMethod":0,"useLiveValues":false,"multiplyByItemCount":false,"invID":-1,"invParameterID":1,"propertyID":0,"variables":{"instanceID":1263272817_0},"variablesConstantID":0}'
     endingReferencesBuffer: 01
     endingOverrideIndex: 08000000
   - className: AC.ActionRename
-    jsonData: '{"id":0,"isDisplayed":true,"showComment":false,"comment":"","willWait":false,"endAction":0,"skipAction":-1,"skipActionActual":{"instanceID":0},"linkedCutscene":{"instanceID":0},"linkedAsset":{"instanceID":0},"endings":[{"resultAction":2,"skipAction":3,"skipActionActual":{"instanceID":191934},"linkedCutscene":{"instanceID":0},"linkedAsset":{"instanceID":0}}],"isEnabled":true,"isAssetFile":false,"isBreakPoint":false,"nodeRect":{"serializedVersion":"2","x":16.0,"y":695.4808349609375,"width":300.0,"height":132.0},"overrideColor":{"r":1.0,"g":1.0,"b":1.0,"a":1.0},"showOutputSockets":true,"parentActionListInEditor":{"instanceID":1982471442_0},"constantID":0,"parameterID":0,"hotspot":{"instanceID":0},"newName":"Pick
+    jsonData: '{"id":0,"isDisplayed":true,"showComment":false,"comment":"","willWait":false,"endAction":0,"skipAction":-1,"skipActionActual":{"instanceID":0},"linkedCutscene":{"instanceID":0},"linkedAsset":{"instanceID":0},"endings":[{"resultAction":2,"skipAction":3,"skipActionActual":{"instanceID":82270},"linkedCutscene":{"instanceID":0},"linkedAsset":{"instanceID":0}}],"isEnabled":true,"isAssetFile":false,"isBreakPoint":false,"nodeRect":{"serializedVersion":"2","x":16.0,"y":695.4808349609375,"width":300.0,"height":132.0},"overrideColor":{"r":1.0,"g":1.0,"b":1.0,"a":1.0},"showOutputSockets":true,"parentActionListInEditor":{"instanceID":1982471442_0},"constantID":0,"parameterID":0,"hotspot":{"instanceID":0},"newName":"Pick
       Up Coat","newNameParameterID":-1,"lineID":-1}'
     endingReferencesBuffer: 01
     endingOverrideIndex: 03000000
@@ -13158,7 +13535,7 @@ MonoBehaviour:
     endingReferencesBuffer: 00
     endingOverrideIndex: 00000000
   - className: AC.ActionInventorySelect
-    jsonData: '{"id":0,"isDisplayed":true,"showComment":false,"comment":"","willWait":false,"endAction":0,"skipAction":-1,"skipActionActual":{"instanceID":0},"linkedCutscene":{"instanceID":0},"linkedAsset":{"instanceID":0},"endings":[{"resultAction":0,"skipAction":5,"skipActionActual":{"instanceID":191918},"linkedCutscene":{"instanceID":0},"linkedAsset":{"instanceID":0}}],"isEnabled":true,"isAssetFile":false,"isBreakPoint":false,"nodeRect":{"serializedVersion":"2","x":365.0,"y":423.0,"width":300.0,"height":152.0},"overrideColor":{"r":1.0,"g":1.0,"b":1.0,"a":1.0},"showOutputSockets":true,"parentActionListInEditor":{"instanceID":2004695076_0},"selectType":0,"selectItemMode":0,"carryCondition":0,"giveToPlayer":false,"setAmount":false,"amountParameterID":-1,"amount":1,"parameterID":2,"invID":-1}'
+    jsonData: '{"id":0,"isDisplayed":true,"showComment":false,"comment":"","willWait":false,"endAction":0,"skipAction":-1,"skipActionActual":{"instanceID":0},"linkedCutscene":{"instanceID":0},"linkedAsset":{"instanceID":0},"endings":[{"resultAction":0,"skipAction":5,"skipActionActual":{"instanceID":82254},"linkedCutscene":{"instanceID":0},"linkedAsset":{"instanceID":0}}],"isEnabled":true,"isAssetFile":false,"isBreakPoint":false,"nodeRect":{"serializedVersion":"2","x":365.0,"y":423.0,"width":300.0,"height":152.0},"overrideColor":{"r":1.0,"g":1.0,"b":1.0,"a":1.0},"showOutputSockets":true,"parentActionListInEditor":{"instanceID":2004695076_0},"selectType":0,"selectItemMode":0,"carryCondition":0,"giveToPlayer":false,"setAmount":false,"amountParameterID":-1,"amount":1,"parameterID":2,"invID":-1}'
     endingReferencesBuffer: 00
     endingOverrideIndex: 00000000
   - className: AC.ActionVarSet
@@ -13335,15 +13712,15 @@ MonoBehaviour:
   syncParamValues: 1
   backupData:
   - className: AC.ActionVarCheck
-    jsonData: '{"id":0,"isDisplayed":true,"showComment":false,"comment":"","willWait":false,"endAction":0,"skipAction":-1,"skipActionActual":{"instanceID":0},"linkedCutscene":{"instanceID":0},"linkedAsset":{"instanceID":0},"endings":[{"resultAction":0,"skipAction":1,"skipActionActual":{"instanceID":191834},"linkedCutscene":{"instanceID":0},"linkedAsset":{"instanceID":0}},{"resultAction":1,"skipAction":-1,"skipActionActual":{"instanceID":0},"linkedCutscene":{"instanceID":0},"linkedAsset":{"instanceID":0}}],"isEnabled":true,"isAssetFile":false,"isBreakPoint":false,"nodeRect":{"serializedVersion":"2","x":14.0,"y":14.0,"width":300.0,"height":220.0},"overrideColor":{"r":1.0,"g":1.0,"b":1.0,"a":1.0},"showOutputSockets":true,"parentActionListInEditor":{"instanceID":2020712176_0},"resultActionTrue":0,"skipActionTrue":-1,"skipActionTrueActual":{"instanceID":0},"linkedCutsceneTrue":{"instanceID":0},"linkedAssetTrue":{"instanceID":0},"resultActionFail":1,"skipActionFail":-1,"skipActionFailActual":{"instanceID":0},"linkedCutsceneFail":{"instanceID":0},"linkedAssetFail":{"instanceID":0},"parameterID":0,"variableID":1,"variableNumber":-1,"checkParameterID":-1,"getVarMethod":0,"compareVariableID":0,"intValue":0,"floatValue":0.0,"intCondition":0,"isAdditive":false,"boolValue":1,"boolCondition":0,"stringValue":"","checkCase":true,"vector3Value":{"x":0.0,"y":0.0,"z":0.0},"vectorCondition":0,"gameObjectValue":{"instanceID":0},"unityObjectValue":{"instanceID":0},"location":2,"variables":{"instanceID":0},"variablesConstantID":0,"compareVariables":{"instanceID":0},"compareVariablesConstantID":0,"placeholderType":4,"placeholderPopUpLabelDataID":-1}'
+    jsonData: '{"id":0,"isDisplayed":true,"showComment":false,"comment":"","willWait":false,"endAction":0,"skipAction":-1,"skipActionActual":{"instanceID":0},"linkedCutscene":{"instanceID":0},"linkedAsset":{"instanceID":0},"endings":[{"resultAction":0,"skipAction":1,"skipActionActual":{"instanceID":82170},"linkedCutscene":{"instanceID":0},"linkedAsset":{"instanceID":0}},{"resultAction":1,"skipAction":-1,"skipActionActual":{"instanceID":0},"linkedCutscene":{"instanceID":0},"linkedAsset":{"instanceID":0}}],"isEnabled":true,"isAssetFile":false,"isBreakPoint":false,"nodeRect":{"serializedVersion":"2","x":14.0,"y":14.0,"width":300.0,"height":220.0},"overrideColor":{"r":1.0,"g":1.0,"b":1.0,"a":1.0},"showOutputSockets":true,"parentActionListInEditor":{"instanceID":2020712176_0},"resultActionTrue":0,"skipActionTrue":-1,"skipActionTrueActual":{"instanceID":0},"linkedCutsceneTrue":{"instanceID":0},"linkedAssetTrue":{"instanceID":0},"resultActionFail":1,"skipActionFail":-1,"skipActionFailActual":{"instanceID":0},"linkedCutsceneFail":{"instanceID":0},"linkedAssetFail":{"instanceID":0},"parameterID":0,"variableID":1,"variableNumber":-1,"checkParameterID":-1,"getVarMethod":0,"compareVariableID":0,"intValue":0,"floatValue":0.0,"intCondition":0,"isAdditive":false,"boolValue":1,"boolCondition":0,"stringValue":"","checkCase":true,"vector3Value":{"x":0.0,"y":0.0,"z":0.0},"vectorCondition":0,"gameObjectValue":{"instanceID":0},"unityObjectValue":{"instanceID":0},"location":2,"variables":{"instanceID":0},"variablesConstantID":0,"compareVariables":{"instanceID":0},"compareVariablesConstantID":0,"placeholderType":4,"placeholderPopUpLabelDataID":-1}'
     endingReferencesBuffer: 0000
     endingOverrideIndex: 0000000000000000
   - className: AC.ActionInventoryCheckSelected
-    jsonData: '{"id":0,"isDisplayed":true,"showComment":false,"comment":"","willWait":false,"endAction":0,"skipAction":-1,"skipActionActual":{"instanceID":0},"linkedCutscene":{"instanceID":0},"linkedAsset":{"instanceID":0},"endings":[{"resultAction":0,"skipAction":1,"skipActionActual":{"instanceID":191950},"linkedCutscene":{"instanceID":0},"linkedAsset":{"instanceID":0}},{"resultAction":1,"skipAction":-1,"skipActionActual":{"instanceID":0},"linkedCutscene":{"instanceID":0},"linkedAsset":{"instanceID":0}}],"isEnabled":true,"isAssetFile":false,"isBreakPoint":false,"nodeRect":{"serializedVersion":"2","x":15.0,"y":268.0,"width":300.0,"height":180.0},"overrideColor":{"r":1.0,"g":1.0,"b":1.0,"a":1.0},"showOutputSockets":true,"parentActionListInEditor":{"instanceID":2020712176_0},"resultActionTrue":0,"skipActionTrue":-1,"skipActionTrueActual":{"instanceID":0},"linkedCutsceneTrue":{"instanceID":0},"linkedAssetTrue":{"instanceID":0},"resultActionFail":1,"skipActionFail":-1,"skipActionFailActual":{"instanceID":0},"linkedCutsceneFail":{"instanceID":0},"linkedAssetFail":{"instanceID":0},"parameterID":-1,"invID":0,"binID":1,"checkNothing":false,"includeLast":false,"selectedCheckMethod":1,"selectedItemParameterID":-1}'
+    jsonData: '{"id":0,"isDisplayed":true,"showComment":false,"comment":"","willWait":false,"endAction":0,"skipAction":-1,"skipActionActual":{"instanceID":0},"linkedCutscene":{"instanceID":0},"linkedAsset":{"instanceID":0},"endings":[{"resultAction":0,"skipAction":1,"skipActionActual":{"instanceID":82286},"linkedCutscene":{"instanceID":0},"linkedAsset":{"instanceID":0}},{"resultAction":1,"skipAction":-1,"skipActionActual":{"instanceID":0},"linkedCutscene":{"instanceID":0},"linkedAsset":{"instanceID":0}}],"isEnabled":true,"isAssetFile":false,"isBreakPoint":false,"nodeRect":{"serializedVersion":"2","x":15.0,"y":268.0,"width":300.0,"height":180.0},"overrideColor":{"r":1.0,"g":1.0,"b":1.0,"a":1.0},"showOutputSockets":true,"parentActionListInEditor":{"instanceID":2020712176_0},"resultActionTrue":0,"skipActionTrue":-1,"skipActionTrueActual":{"instanceID":0},"linkedCutsceneTrue":{"instanceID":0},"linkedAssetTrue":{"instanceID":0},"resultActionFail":1,"skipActionFail":-1,"skipActionFailActual":{"instanceID":0},"linkedCutsceneFail":{"instanceID":0},"linkedAssetFail":{"instanceID":0},"parameterID":-1,"invID":0,"binID":1,"checkNothing":false,"includeLast":false,"selectedCheckMethod":1,"selectedItemParameterID":-1}'
     endingReferencesBuffer: 0000
     endingOverrideIndex: 0000000000000000
   - className: AC.ActionInteraction
-    jsonData: '{"id":0,"isDisplayed":true,"showComment":false,"comment":"","willWait":false,"endAction":0,"skipAction":-1,"skipActionActual":{"instanceID":0},"linkedCutscene":{"instanceID":0},"linkedAsset":{"instanceID":0},"endings":[{"resultAction":2,"skipAction":7,"skipActionActual":{"instanceID":191940},"linkedCutscene":{"instanceID":0},"linkedAsset":{"instanceID":0}}],"isEnabled":true,"isAssetFile":false,"isBreakPoint":false,"nodeRect":{"serializedVersion":"2","x":16.0,"y":492.0,"width":300.0,"height":152.0},"overrideColor":{"r":1.0,"g":1.0,"b":1.0,"a":1.0},"showOutputSockets":true,"parentActionListInEditor":{"instanceID":2020712176_0},"parameterID":0,"constantID":0,"hotspot":{"instanceID":0},"interactionType":0,"changeType":0,"number":0}'
+    jsonData: '{"id":0,"isDisplayed":true,"showComment":false,"comment":"","willWait":false,"endAction":0,"skipAction":-1,"skipActionActual":{"instanceID":0},"linkedCutscene":{"instanceID":0},"linkedAsset":{"instanceID":0},"endings":[{"resultAction":2,"skipAction":7,"skipActionActual":{"instanceID":82276},"linkedCutscene":{"instanceID":0},"linkedAsset":{"instanceID":0}}],"isEnabled":true,"isAssetFile":false,"isBreakPoint":false,"nodeRect":{"serializedVersion":"2","x":16.0,"y":492.0,"width":300.0,"height":152.0},"overrideColor":{"r":1.0,"g":1.0,"b":1.0,"a":1.0},"showOutputSockets":true,"parentActionListInEditor":{"instanceID":2020712176_0},"parameterID":0,"constantID":0,"hotspot":{"instanceID":0},"interactionType":0,"changeType":0,"number":0}'
     endingReferencesBuffer: 01
     endingOverrideIndex: 07000000
   - className: AC.ActionInventoryPrefab
@@ -13359,11 +13736,11 @@ MonoBehaviour:
     endingReferencesBuffer: 00
     endingOverrideIndex: 00000000
   - className: AC.ActionInvProperty
-    jsonData: '{"id":0,"isDisplayed":true,"showComment":false,"comment":"","willWait":false,"endAction":0,"skipAction":-1,"skipActionActual":{"instanceID":0},"linkedCutscene":{"instanceID":0},"linkedAsset":{"instanceID":0},"endings":[{"resultAction":2,"skipAction":8,"skipActionActual":{"instanceID":191944},"linkedCutscene":{"instanceID":0},"linkedAsset":{"instanceID":0}}],"isEnabled":true,"isAssetFile":false,"isBreakPoint":false,"nodeRect":{"serializedVersion":"2","x":731.838134765625,"y":244.0,"width":300.0,"height":260.0},"overrideColor":{"r":1.0,"g":1.0,"b":1.0,"a":1.0},"showOutputSockets":true,"parentActionListInEditor":{"instanceID":2020712176_0},"varParameterID":-1,"variableID":1,"varLocation":2,"method":0,"setVarAsPropertyMethod":0,"useLiveValues":false,"multiplyByItemCount":false,"invID":-1,"invParameterID":1,"propertyID":0,"variables":{"instanceID":1982061440_0},"variablesConstantID":0}'
+    jsonData: '{"id":0,"isDisplayed":true,"showComment":false,"comment":"","willWait":false,"endAction":0,"skipAction":-1,"skipActionActual":{"instanceID":0},"linkedCutscene":{"instanceID":0},"linkedAsset":{"instanceID":0},"endings":[{"resultAction":2,"skipAction":8,"skipActionActual":{"instanceID":82280},"linkedCutscene":{"instanceID":0},"linkedAsset":{"instanceID":0}}],"isEnabled":true,"isAssetFile":false,"isBreakPoint":false,"nodeRect":{"serializedVersion":"2","x":731.838134765625,"y":244.0,"width":300.0,"height":260.0},"overrideColor":{"r":1.0,"g":1.0,"b":1.0,"a":1.0},"showOutputSockets":true,"parentActionListInEditor":{"instanceID":2020712176_0},"varParameterID":-1,"variableID":1,"varLocation":2,"method":0,"setVarAsPropertyMethod":0,"useLiveValues":false,"multiplyByItemCount":false,"invID":-1,"invParameterID":1,"propertyID":0,"variables":{"instanceID":1982061440_0},"variablesConstantID":0}'
     endingReferencesBuffer: 01
     endingOverrideIndex: 08000000
   - className: AC.ActionRename
-    jsonData: '{"id":0,"isDisplayed":true,"showComment":false,"comment":"","willWait":false,"endAction":0,"skipAction":-1,"skipActionActual":{"instanceID":0},"linkedCutscene":{"instanceID":0},"linkedAsset":{"instanceID":0},"endings":[{"resultAction":2,"skipAction":3,"skipActionActual":{"instanceID":191510},"linkedCutscene":{"instanceID":0},"linkedAsset":{"instanceID":0}}],"isEnabled":true,"isAssetFile":false,"isBreakPoint":false,"nodeRect":{"serializedVersion":"2","x":16.0,"y":695.4808349609375,"width":300.0,"height":132.0},"overrideColor":{"r":1.0,"g":1.0,"b":1.0,"a":1.0},"showOutputSockets":true,"parentActionListInEditor":{"instanceID":2020712176_0},"constantID":0,"parameterID":0,"hotspot":{"instanceID":0},"newName":"Pick
+    jsonData: '{"id":0,"isDisplayed":true,"showComment":false,"comment":"","willWait":false,"endAction":0,"skipAction":-1,"skipActionActual":{"instanceID":0},"linkedCutscene":{"instanceID":0},"linkedAsset":{"instanceID":0},"endings":[{"resultAction":2,"skipAction":3,"skipActionActual":{"instanceID":81834},"linkedCutscene":{"instanceID":0},"linkedAsset":{"instanceID":0}}],"isEnabled":true,"isAssetFile":false,"isBreakPoint":false,"nodeRect":{"serializedVersion":"2","x":16.0,"y":695.4808349609375,"width":300.0,"height":132.0},"overrideColor":{"r":1.0,"g":1.0,"b":1.0,"a":1.0},"showOutputSockets":true,"parentActionListInEditor":{"instanceID":2020712176_0},"constantID":0,"parameterID":0,"hotspot":{"instanceID":0},"newName":"Pick
       Up Coat","newNameParameterID":-1,"lineID":-1}'
     endingReferencesBuffer: 01
     endingOverrideIndex: 03000000
@@ -13677,7 +14054,7 @@ Transform:
   m_Children:
   - {fileID: 1243150837444619189}
   m_Father: {fileID: 0}
-  m_RootOrder: 9
+  m_RootOrder: 10
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!61 &2052665877
 BoxCollider2D:
@@ -14434,7 +14811,7 @@ MonoBehaviour:
     endingReferencesBuffer: 00
     endingOverrideIndex: 00000000
   - className: AC.ActionInventorySelect
-    jsonData: '{"id":0,"isDisplayed":true,"showComment":false,"comment":"","willWait":false,"endAction":0,"skipAction":-1,"skipActionActual":{"instanceID":0},"linkedCutscene":{"instanceID":0},"linkedAsset":{"instanceID":0},"endings":[{"resultAction":0,"skipAction":5,"skipActionActual":{"instanceID":191918},"linkedCutscene":{"instanceID":0},"linkedAsset":{"instanceID":0}}],"isEnabled":true,"isAssetFile":false,"isBreakPoint":false,"nodeRect":{"serializedVersion":"2","x":365.0,"y":423.0,"width":300.0,"height":152.0},"overrideColor":{"r":1.0,"g":1.0,"b":1.0,"a":1.0},"showOutputSockets":true,"parentActionListInEditor":{"instanceID":2108336963_0},"selectType":0,"selectItemMode":0,"carryCondition":0,"giveToPlayer":false,"setAmount":false,"amountParameterID":-1,"amount":1,"parameterID":2,"invID":-1}'
+    jsonData: '{"id":0,"isDisplayed":true,"showComment":false,"comment":"","willWait":false,"endAction":0,"skipAction":-1,"skipActionActual":{"instanceID":0},"linkedCutscene":{"instanceID":0},"linkedAsset":{"instanceID":0},"endings":[{"resultAction":0,"skipAction":5,"skipActionActual":{"instanceID":82254},"linkedCutscene":{"instanceID":0},"linkedAsset":{"instanceID":0}}],"isEnabled":true,"isAssetFile":false,"isBreakPoint":false,"nodeRect":{"serializedVersion":"2","x":365.0,"y":423.0,"width":300.0,"height":152.0},"overrideColor":{"r":1.0,"g":1.0,"b":1.0,"a":1.0},"showOutputSockets":true,"parentActionListInEditor":{"instanceID":2108336963_0},"selectType":0,"selectItemMode":0,"carryCondition":0,"giveToPlayer":false,"setAmount":false,"amountParameterID":-1,"amount":1,"parameterID":2,"invID":-1}'
     endingReferencesBuffer: 00
     endingOverrideIndex: 00000000
   - className: AC.ActionVarSet
@@ -15306,7 +15683,7 @@ MonoBehaviour:
   syncParamValues: 1
   backupData:
   - className: AC.ActionVarSet
-    jsonData: '{"id":0,"isDisplayed":true,"showComment":false,"comment":"","willWait":false,"endAction":0,"skipAction":-1,"skipActionActual":{"instanceID":0},"linkedCutscene":{"instanceID":0},"linkedAsset":{"instanceID":0},"endings":[{"resultAction":0,"skipAction":1,"skipActionActual":{"instanceID":191884},"linkedCutscene":{"instanceID":0},"linkedAsset":{"instanceID":0}}],"isEnabled":true,"isAssetFile":false,"isBreakPoint":false,"nodeRect":{"serializedVersion":"2","x":14.0,"y":14.0,"width":300.0,"height":152.0},"overrideColor":{"r":1.0,"g":1.0,"b":1.0,"a":1.0},"showOutputSockets":true,"parentActionListInEditor":{"instanceID":1131449403945213451_0},"setVarMethod":0,"setVarMethodString":0,"setVarMethodIntBool":0,"setVarMethodVector":0,"parameterID":-1,"variableID":0,"variableNumber":0,"setParameterID":-1,"slotNumber":0,"slotNumberParameterID":-1,"slotAccountsForOffset":false,"doLoop":false,"intValue":0,"floatValue":0.0,"boolValue":1,"stringValue":"","formula":"","vector3Value":{"x":0.0,"y":0.0,"z":0.0},"gameObjectValue":{"instanceID":0},"unityObjectValue":{"instanceID":0},"preProcessTokens":true,"lineID":-1,"location":1,"menuName":"","elementName":"","animator":{"instanceID":0},"parameterName":"","variables":{"instanceID":0},"variablesConstantID":0,"placeholderType":0,"placeholderPopUpLabelDataID":-1}'
+    jsonData: '{"id":0,"isDisplayed":true,"showComment":false,"comment":"","willWait":false,"endAction":0,"skipAction":-1,"skipActionActual":{"instanceID":0},"linkedCutscene":{"instanceID":0},"linkedAsset":{"instanceID":0},"endings":[{"resultAction":0,"skipAction":1,"skipActionActual":{"instanceID":82220},"linkedCutscene":{"instanceID":0},"linkedAsset":{"instanceID":0}}],"isEnabled":true,"isAssetFile":false,"isBreakPoint":false,"nodeRect":{"serializedVersion":"2","x":14.0,"y":14.0,"width":300.0,"height":152.0},"overrideColor":{"r":1.0,"g":1.0,"b":1.0,"a":1.0},"showOutputSockets":true,"parentActionListInEditor":{"instanceID":1131449403945213451_0},"setVarMethod":0,"setVarMethodString":0,"setVarMethodIntBool":0,"setVarMethodVector":0,"parameterID":-1,"variableID":0,"variableNumber":0,"setParameterID":-1,"slotNumber":0,"slotNumberParameterID":-1,"slotAccountsForOffset":false,"doLoop":false,"intValue":0,"floatValue":0.0,"boolValue":1,"stringValue":"","formula":"","vector3Value":{"x":0.0,"y":0.0,"z":0.0},"gameObjectValue":{"instanceID":0},"unityObjectValue":{"instanceID":0},"preProcessTokens":true,"lineID":-1,"location":1,"menuName":"","elementName":"","animator":{"instanceID":0},"parameterName":"","variables":{"instanceID":0},"variablesConstantID":0,"placeholderType":0,"placeholderPopUpLabelDataID":-1}'
     endingReferencesBuffer: 00
     endingOverrideIndex: 00000000
   - className: AC.ActionSpriteFade
@@ -15697,6 +16074,79 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 21796834568e3064588c1fdb094fbc83, type: 3}
+--- !u!114 &4802637591113896103
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4802637591124141383}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6a1e6413216104fd580c7ce85907039c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  actions:
+  - {fileID: 1839724204}
+  - {fileID: 834275218}
+  - {fileID: 1913424981}
+  isSkippable: 1
+  triggerTime: 0
+  autosaveAfter: 0
+  actionListType: 0
+  conversation: {fileID: 0}
+  assetFile: {fileID: 0}
+  source: 0
+  unfreezePauseMenus: 1
+  useParameters: 0
+  parameters: []
+  tagID: 0
+  syncParamValues: 1
+  backupData:
+  - className: AC.ActionVisible
+    jsonData: '{"id":0,"isDisplayed":true,"showComment":false,"comment":"","willWait":false,"endAction":0,"skipAction":-1,"skipActionActual":{"instanceID":0},"linkedCutscene":{"instanceID":0},"linkedAsset":{"instanceID":0},"endings":[{"resultAction":0,"skipAction":-1,"skipActionActual":{"instanceID":0},"linkedCutscene":{"instanceID":0},"linkedAsset":{"instanceID":0}}],"isEnabled":true,"isAssetFile":false,"isBreakPoint":false,"nodeRect":{"serializedVersion":"2","x":14.0,"y":14.0,"width":300.0,"height":132.0},"overrideColor":{"r":1.0,"g":1.0,"b":1.0,"a":1.0},"showOutputSockets":true,"parentActionListInEditor":{"instanceID":4802637591113896103_0},"parameterID":-1,"constantID":0,"obToAffect":{"instanceID":198041615_0},"affectChildren":false,"visState":1}'
+    endingReferencesBuffer: 00
+    endingOverrideIndex: 00000000
+  - className: AC.ActionHotspotEnable
+    jsonData: '{"id":0,"isDisplayed":true,"showComment":false,"comment":"","willWait":false,"endAction":0,"skipAction":-1,"skipActionActual":{"instanceID":0},"linkedCutscene":{"instanceID":0},"linkedAsset":{"instanceID":0},"endings":[{"resultAction":0,"skipAction":-1,"skipActionActual":{"instanceID":0},"linkedCutscene":{"instanceID":0},"linkedAsset":{"instanceID":0}}],"isEnabled":true,"isAssetFile":false,"isBreakPoint":false,"nodeRect":{"serializedVersion":"2","x":14.0,"y":196.0,"width":300.0,"height":132.0},"overrideColor":{"r":1.0,"g":1.0,"b":1.0,"a":1.0},"showOutputSockets":true,"parentActionListInEditor":{"instanceID":4802637591113896103_0},"parameterID":-1,"constantID":0,"hotspot":{"instanceID":198041616_0},"affectChildren":false,"changeType":1}'
+    endingReferencesBuffer: 00
+    endingOverrideIndex: 00000000
+  - className: AC.ActionInventorySet
+    jsonData: '{"id":0,"isDisplayed":true,"showComment":false,"comment":"","willWait":false,"endAction":0,"skipAction":-1,"skipActionActual":{"instanceID":0},"linkedCutscene":{"instanceID":0},"linkedAsset":{"instanceID":0},"endings":[{"resultAction":1,"skipAction":-1,"skipActionActual":{"instanceID":0},"linkedCutscene":{"instanceID":0},"linkedAsset":{"instanceID":0}}],"isEnabled":true,"isAssetFile":false,"isBreakPoint":false,"nodeRect":{"serializedVersion":"2","x":356.0,"y":15.0,"width":300.0,"height":132.0},"overrideColor":{"r":1.0,"g":1.0,"b":1.0,"a":1.0},"showOutputSockets":true,"parentActionListInEditor":{"instanceID":4802637591113896103_0},"invAction":0,"parameterID":-1,"invID":13,"replaceParameterID":-1,"invIDReplace":0,"setAmount":false,"amountParameterID":-1,"amount":1,"setPlayer":false,"playerID":0,"addToFront":false,"removeLast":false,"itemRemoveMethod":0}'
+    endingReferencesBuffer: 00
+    endingOverrideIndex: 00000000
+--- !u!4 &4802637591124113767
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4802637591124141383}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 2.1401534, y: 0.21004203, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 198041619}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &4802637591124141383
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4802637591124113767}
+  - component: {fileID: 4802637591113896103}
+  m_Layer: 0
+  m_Name: 'Hammer: Pick Up'
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
 --- !u!114 &5446359031673540940
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -15732,11 +16182,11 @@ MonoBehaviour:
   syncParamValues: 1
   backupData:
   - className: AC.ActionVarCheck
-    jsonData: '{"id":0,"isDisplayed":true,"showComment":false,"comment":"","willWait":false,"endAction":0,"skipAction":-1,"skipActionActual":{"instanceID":0},"linkedCutscene":{"instanceID":0},"linkedAsset":{"instanceID":0},"endings":[{"resultAction":0,"skipAction":1,"skipActionActual":{"instanceID":191582},"linkedCutscene":{"instanceID":0},"linkedAsset":{"instanceID":0}},{"resultAction":1,"skipAction":-1,"skipActionActual":{"instanceID":0},"linkedCutscene":{"instanceID":0},"linkedAsset":{"instanceID":0}}],"isEnabled":true,"isAssetFile":false,"isBreakPoint":false,"nodeRect":{"serializedVersion":"2","x":14.0,"y":14.0,"width":300.0,"height":200.0},"overrideColor":{"r":1.0,"g":1.0,"b":1.0,"a":1.0},"showOutputSockets":true,"parentActionListInEditor":{"instanceID":5446359031673540940_0},"resultActionTrue":0,"skipActionTrue":-1,"skipActionTrueActual":{"instanceID":0},"linkedCutsceneTrue":{"instanceID":0},"linkedAssetTrue":{"instanceID":0},"resultActionFail":1,"skipActionFail":-1,"skipActionFailActual":{"instanceID":0},"linkedCutsceneFail":{"instanceID":0},"linkedAssetFail":{"instanceID":0},"parameterID":-1,"variableID":0,"variableNumber":0,"checkParameterID":-1,"getVarMethod":0,"compareVariableID":0,"intValue":0,"floatValue":0.0,"intCondition":0,"isAdditive":false,"boolValue":0,"boolCondition":0,"stringValue":"","checkCase":true,"vector3Value":{"x":0.0,"y":0.0,"z":0.0},"vectorCondition":0,"gameObjectValue":{"instanceID":0},"unityObjectValue":{"instanceID":0},"location":1,"variables":{"instanceID":0},"variablesConstantID":0,"compareVariables":{"instanceID":0},"compareVariablesConstantID":0,"placeholderType":0,"placeholderPopUpLabelDataID":0}'
+    jsonData: '{"id":0,"isDisplayed":true,"showComment":false,"comment":"","willWait":false,"endAction":0,"skipAction":-1,"skipActionActual":{"instanceID":0},"linkedCutscene":{"instanceID":0},"linkedAsset":{"instanceID":0},"endings":[{"resultAction":0,"skipAction":1,"skipActionActual":{"instanceID":81916},"linkedCutscene":{"instanceID":0},"linkedAsset":{"instanceID":0}},{"resultAction":1,"skipAction":-1,"skipActionActual":{"instanceID":0},"linkedCutscene":{"instanceID":0},"linkedAsset":{"instanceID":0}}],"isEnabled":true,"isAssetFile":false,"isBreakPoint":false,"nodeRect":{"serializedVersion":"2","x":14.0,"y":14.0,"width":300.0,"height":200.0},"overrideColor":{"r":1.0,"g":1.0,"b":1.0,"a":1.0},"showOutputSockets":true,"parentActionListInEditor":{"instanceID":5446359031673540940_0},"resultActionTrue":0,"skipActionTrue":-1,"skipActionTrueActual":{"instanceID":0},"linkedCutsceneTrue":{"instanceID":0},"linkedAssetTrue":{"instanceID":0},"resultActionFail":1,"skipActionFail":-1,"skipActionFailActual":{"instanceID":0},"linkedCutsceneFail":{"instanceID":0},"linkedAssetFail":{"instanceID":0},"parameterID":-1,"variableID":0,"variableNumber":0,"checkParameterID":-1,"getVarMethod":0,"compareVariableID":0,"intValue":0,"floatValue":0.0,"intCondition":0,"isAdditive":false,"boolValue":0,"boolCondition":0,"stringValue":"","checkCase":true,"vector3Value":{"x":0.0,"y":0.0,"z":0.0},"vectorCondition":0,"gameObjectValue":{"instanceID":0},"unityObjectValue":{"instanceID":0},"location":1,"variables":{"instanceID":0},"variablesConstantID":0,"compareVariables":{"instanceID":0},"compareVariablesConstantID":0,"placeholderType":0,"placeholderPopUpLabelDataID":0}'
     endingReferencesBuffer: 0000
     endingOverrideIndex: 0000000000000000
   - className: AC.ActionVarCheck
-    jsonData: '{"id":0,"isDisplayed":true,"showComment":false,"comment":"","willWait":false,"endAction":0,"skipAction":-1,"skipActionActual":{"instanceID":0},"linkedCutscene":{"instanceID":0},"linkedAsset":{"instanceID":0},"endings":[{"resultAction":0,"skipAction":2,"skipActionActual":{"instanceID":191502},"linkedCutscene":{"instanceID":0},"linkedAsset":{"instanceID":0}},{"resultAction":1,"skipAction":2,"skipActionActual":{"instanceID":0},"linkedCutscene":{"instanceID":0},"linkedAsset":{"instanceID":0}}],"isEnabled":true,"isAssetFile":false,"isBreakPoint":false,"nodeRect":{"serializedVersion":"2","x":14.0,"y":256.0,"width":300.0,"height":220.0},"overrideColor":{"r":1.0,"g":1.0,"b":1.0,"a":1.0},"showOutputSockets":true,"parentActionListInEditor":{"instanceID":5446359031673540940_0},"resultActionTrue":0,"skipActionTrue":-1,"skipActionTrueActual":{"instanceID":0},"linkedCutsceneTrue":{"instanceID":0},"linkedAssetTrue":{"instanceID":0},"resultActionFail":1,"skipActionFail":-1,"skipActionFailActual":{"instanceID":0},"linkedCutsceneFail":{"instanceID":0},"linkedAssetFail":{"instanceID":0},"parameterID":-1,"variableID":1,"variableNumber":1,"checkParameterID":-1,"getVarMethod":0,"compareVariableID":0,"intValue":1,"floatValue":0.0,"intCondition":0,"isAdditive":false,"boolValue":1,"boolCondition":0,"stringValue":"","checkCase":true,"vector3Value":{"x":0.0,"y":0.0,"z":0.0},"vectorCondition":0,"gameObjectValue":{"instanceID":0},"unityObjectValue":{"instanceID":0},"location":2,"variables":{"instanceID":967635688_0},"variablesConstantID":0,"compareVariables":{"instanceID":1982061440_0},"compareVariablesConstantID":0,"placeholderType":4,"placeholderPopUpLabelDataID":0}'
+    jsonData: '{"id":0,"isDisplayed":true,"showComment":false,"comment":"","willWait":false,"endAction":0,"skipAction":-1,"skipActionActual":{"instanceID":0},"linkedCutscene":{"instanceID":0},"linkedAsset":{"instanceID":0},"endings":[{"resultAction":0,"skipAction":2,"skipActionActual":{"instanceID":81826},"linkedCutscene":{"instanceID":0},"linkedAsset":{"instanceID":0}},{"resultAction":1,"skipAction":2,"skipActionActual":{"instanceID":0},"linkedCutscene":{"instanceID":0},"linkedAsset":{"instanceID":0}}],"isEnabled":true,"isAssetFile":false,"isBreakPoint":false,"nodeRect":{"serializedVersion":"2","x":14.0,"y":256.0,"width":300.0,"height":220.0},"overrideColor":{"r":1.0,"g":1.0,"b":1.0,"a":1.0},"showOutputSockets":true,"parentActionListInEditor":{"instanceID":5446359031673540940_0},"resultActionTrue":0,"skipActionTrue":-1,"skipActionTrueActual":{"instanceID":0},"linkedCutsceneTrue":{"instanceID":0},"linkedAssetTrue":{"instanceID":0},"resultActionFail":1,"skipActionFail":-1,"skipActionFailActual":{"instanceID":0},"linkedCutsceneFail":{"instanceID":0},"linkedAssetFail":{"instanceID":0},"parameterID":-1,"variableID":1,"variableNumber":1,"checkParameterID":-1,"getVarMethod":0,"compareVariableID":0,"intValue":1,"floatValue":0.0,"intCondition":0,"isAdditive":false,"boolValue":1,"boolCondition":0,"stringValue":"","checkCase":true,"vector3Value":{"x":0.0,"y":0.0,"z":0.0},"vectorCondition":0,"gameObjectValue":{"instanceID":0},"unityObjectValue":{"instanceID":0},"location":2,"variables":{"instanceID":967635688_0},"variablesConstantID":0,"compareVariables":{"instanceID":1982061440_0},"compareVariablesConstantID":0,"placeholderType":4,"placeholderPopUpLabelDataID":0}'
     endingReferencesBuffer: 0000
     endingOverrideIndex: 0000000000000000
   - className: AC.ActionVarCheck
@@ -15760,7 +16210,7 @@ MonoBehaviour:
     endingReferencesBuffer: 0000
     endingOverrideIndex: 0000000000000000
   - className: AC.ActionRunActionList
-    jsonData: '{"id":0,"isDisplayed":true,"showComment":false,"comment":"","willWait":false,"endAction":0,"skipAction":-1,"skipActionActual":{"instanceID":0},"linkedCutscene":{"instanceID":0},"linkedAsset":{"instanceID":0},"endings":[{"resultAction":1,"skipAction":-1,"skipActionActual":{"instanceID":0},"linkedCutscene":{"instanceID":0},"linkedAsset":{"instanceID":0}}],"isEnabled":true,"isAssetFile":false,"isBreakPoint":false,"nodeRect":{"serializedVersion":"2","x":754.0,"y":571.2147216796875,"width":300.0,"height":152.0},"overrideColor":{"r":1.0,"g":1.0,"b":1.0,"a":1.0},"showOutputSockets":true,"parentActionListInEditor":{"instanceID":5446359031673540940_0},"listSource":0,"actionList":{"instanceID":1131449403945213451_0},"constantID":0,"parameterID":-1,"invActionList":{"instanceID":0},"assetParameterID":-1,"runFromStart":true,"jumpToAction":0,"jumpToActionParameterID":-1,"jumpToActionActual":{"instanceID":191870},"runInParallel":true,"isSkippable":false,"localParameters":[],"parameterIDs":[],"setParameters":false,"runMode":0,"hasUpgradedAgain":false}'
+    jsonData: '{"id":0,"isDisplayed":true,"showComment":false,"comment":"","willWait":false,"endAction":0,"skipAction":-1,"skipActionActual":{"instanceID":0},"linkedCutscene":{"instanceID":0},"linkedAsset":{"instanceID":0},"endings":[{"resultAction":1,"skipAction":-1,"skipActionActual":{"instanceID":0},"linkedCutscene":{"instanceID":0},"linkedAsset":{"instanceID":0}}],"isEnabled":true,"isAssetFile":false,"isBreakPoint":false,"nodeRect":{"serializedVersion":"2","x":754.0,"y":571.2147216796875,"width":300.0,"height":152.0},"overrideColor":{"r":1.0,"g":1.0,"b":1.0,"a":1.0},"showOutputSockets":true,"parentActionListInEditor":{"instanceID":5446359031673540940_0},"listSource":0,"actionList":{"instanceID":1131449403945213451_0},"constantID":0,"parameterID":-1,"invActionList":{"instanceID":0},"assetParameterID":-1,"runFromStart":true,"jumpToAction":0,"jumpToActionParameterID":-1,"jumpToActionActual":{"instanceID":82206},"runInParallel":true,"isSkippable":false,"localParameters":[],"parameterIDs":[],"setParameters":false,"runMode":0,"hasUpgradedAgain":false}'
     endingReferencesBuffer: 00
     endingOverrideIndex: 00000000
 --- !u!1 &5446359031680083116
@@ -15892,11 +16342,11 @@ MonoBehaviour:
   syncParamValues: 1
   backupData:
   - className: AC.ActionVisible
-    jsonData: '{"id":0,"isDisplayed":true,"showComment":false,"comment":"","willWait":false,"endAction":0,"skipAction":-1,"skipActionActual":{"instanceID":0},"linkedCutscene":{"instanceID":0},"linkedAsset":{"instanceID":0},"endings":[{"resultAction":0,"skipAction":-1,"skipActionActual":{"instanceID":0},"linkedCutscene":{"instanceID":0},"linkedAsset":{"instanceID":0}}],"isEnabled":true,"isAssetFile":false,"isBreakPoint":false,"nodeRect":{"serializedVersion":"2","x":14.0,"y":14.0,"width":300.0,"height":132.0},"overrideColor":{"r":1.0,"g":1.0,"b":1.0,"a":1.0},"showOutputSockets":true,"parentActionListInEditor":{"instanceID":7693975470456479598_0},"parameterID":-1,"constantID":0,"obToAffect":{"instanceID":191904},"affectChildren":true,"visState":0}'
+    jsonData: '{"id":0,"isDisplayed":true,"showComment":false,"comment":"","willWait":false,"endAction":0,"skipAction":-1,"skipActionActual":{"instanceID":0},"linkedCutscene":{"instanceID":0},"linkedAsset":{"instanceID":0},"endings":[{"resultAction":0,"skipAction":-1,"skipActionActual":{"instanceID":0},"linkedCutscene":{"instanceID":0},"linkedAsset":{"instanceID":0}}],"isEnabled":true,"isAssetFile":false,"isBreakPoint":false,"nodeRect":{"serializedVersion":"2","x":14.0,"y":14.0,"width":300.0,"height":132.0},"overrideColor":{"r":1.0,"g":1.0,"b":1.0,"a":1.0},"showOutputSockets":true,"parentActionListInEditor":{"instanceID":7693975470456479598_0},"parameterID":-1,"constantID":0,"obToAffect":{"instanceID":1565749773_0},"affectChildren":true,"visState":0}'
     endingReferencesBuffer: 00
     endingOverrideIndex: 00000000
   - className: AC.ActionHotspotEnable
-    jsonData: '{"id":0,"isDisplayed":true,"showComment":false,"comment":"","willWait":false,"endAction":0,"skipAction":-1,"skipActionActual":{"instanceID":0},"linkedCutscene":{"instanceID":0},"linkedAsset":{"instanceID":0},"endings":[{"resultAction":1,"skipAction":-1,"skipActionActual":{"instanceID":0},"linkedCutscene":{"instanceID":0},"linkedAsset":{"instanceID":0}}],"isEnabled":true,"isAssetFile":false,"isBreakPoint":false,"nodeRect":{"serializedVersion":"2","x":13.0,"y":191.0,"width":300.0,"height":132.0},"overrideColor":{"r":1.0,"g":1.0,"b":1.0,"a":1.0},"showOutputSockets":true,"parentActionListInEditor":{"instanceID":7693975470456479598_0},"parameterID":-1,"constantID":0,"hotspot":{"instanceID":191910},"affectChildren":false,"changeType":0}'
+    jsonData: '{"id":0,"isDisplayed":true,"showComment":false,"comment":"","willWait":false,"endAction":0,"skipAction":-1,"skipActionActual":{"instanceID":0},"linkedCutscene":{"instanceID":0},"linkedAsset":{"instanceID":0},"endings":[{"resultAction":1,"skipAction":-1,"skipActionActual":{"instanceID":0},"linkedCutscene":{"instanceID":0},"linkedAsset":{"instanceID":0}}],"isEnabled":true,"isAssetFile":false,"isBreakPoint":false,"nodeRect":{"serializedVersion":"2","x":13.0,"y":191.0,"width":300.0,"height":132.0},"overrideColor":{"r":1.0,"g":1.0,"b":1.0,"a":1.0},"showOutputSockets":true,"parentActionListInEditor":{"instanceID":7693975470456479598_0},"parameterID":-1,"constantID":0,"hotspot":{"instanceID":1565749776_0},"affectChildren":false,"changeType":0}'
     endingReferencesBuffer: 00
     endingOverrideIndex: 00000000
 --- !u!4 &7693975470463481518
@@ -15925,7 +16375,7 @@ GameObject:
   - component: {fileID: 7693975470463481518}
   - component: {fileID: 7693975470456479598}
   m_Layer: 0
-  m_Name: 'Diary Pages: Use'
+  m_Name: Look At Note
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -16024,7 +16474,7 @@ MonoBehaviour:
     endingReferencesBuffer: 00
     endingOverrideIndex: 00000000
   - className: AC.ActionInventorySelect
-    jsonData: '{"id":0,"isDisplayed":true,"showComment":false,"comment":"","willWait":false,"endAction":0,"skipAction":-1,"skipActionActual":{"instanceID":0},"linkedCutscene":{"instanceID":0},"linkedAsset":{"instanceID":0},"endings":[{"resultAction":0,"skipAction":5,"skipActionActual":{"instanceID":191918},"linkedCutscene":{"instanceID":0},"linkedAsset":{"instanceID":0}}],"isEnabled":true,"isAssetFile":false,"isBreakPoint":false,"nodeRect":{"serializedVersion":"2","x":365.0,"y":423.0,"width":300.0,"height":152.0},"overrideColor":{"r":1.0,"g":1.0,"b":1.0,"a":1.0},"showOutputSockets":true,"parentActionListInEditor":{"instanceID":8114971855266727406_0},"selectType":0,"selectItemMode":0,"carryCondition":0,"giveToPlayer":false,"setAmount":false,"amountParameterID":-1,"amount":1,"parameterID":2,"invID":-1}'
+    jsonData: '{"id":0,"isDisplayed":true,"showComment":false,"comment":"","willWait":false,"endAction":0,"skipAction":-1,"skipActionActual":{"instanceID":0},"linkedCutscene":{"instanceID":0},"linkedAsset":{"instanceID":0},"endings":[{"resultAction":0,"skipAction":5,"skipActionActual":{"instanceID":82254},"linkedCutscene":{"instanceID":0},"linkedAsset":{"instanceID":0}}],"isEnabled":true,"isAssetFile":false,"isBreakPoint":false,"nodeRect":{"serializedVersion":"2","x":365.0,"y":423.0,"width":300.0,"height":152.0},"overrideColor":{"r":1.0,"g":1.0,"b":1.0,"a":1.0},"showOutputSockets":true,"parentActionListInEditor":{"instanceID":8114971855266727406_0},"selectType":0,"selectItemMode":0,"carryCondition":0,"giveToPlayer":false,"setAmount":false,"amountParameterID":-1,"amount":1,"parameterID":2,"invID":-1}'
     endingReferencesBuffer: 00
     endingOverrideIndex: 00000000
   - className: AC.ActionVarSet
@@ -16094,7 +16544,15 @@ MonoBehaviour:
   parameters: []
   tagID: 0
   syncParamValues: 1
-  backupData: []
+  backupData:
+  - className: AC.ActionVisible
+    jsonData: '{"id":0,"isDisplayed":true,"showComment":false,"comment":"","willWait":false,"endAction":0,"skipAction":-1,"skipActionActual":{"instanceID":0},"linkedCutscene":{"instanceID":0},"linkedAsset":{"instanceID":0},"endings":[{"resultAction":0,"skipAction":-1,"skipActionActual":{"instanceID":0},"linkedCutscene":{"instanceID":0},"linkedAsset":{"instanceID":0}}],"isEnabled":true,"isAssetFile":false,"isBreakPoint":false,"nodeRect":{"serializedVersion":"2","x":14.0,"y":14.0,"width":300.0,"height":132.0},"overrideColor":{"r":1.0,"g":1.0,"b":1.0,"a":1.0},"showOutputSockets":true,"parentActionListInEditor":{"instanceID":8117661132428632544_0},"parameterID":-1,"constantID":0,"obToAffect":{"instanceID":1565749773_0},"affectChildren":true,"visState":1}'
+    endingReferencesBuffer: 00
+    endingOverrideIndex: 00000000
+  - className: AC.ActionHotspotEnable
+    jsonData: '{"id":0,"isDisplayed":true,"showComment":false,"comment":"","willWait":false,"endAction":0,"skipAction":-1,"skipActionActual":{"instanceID":0},"linkedCutscene":{"instanceID":0},"linkedAsset":{"instanceID":0},"endings":[{"resultAction":1,"skipAction":-1,"skipActionActual":{"instanceID":0},"linkedCutscene":{"instanceID":0},"linkedAsset":{"instanceID":0}}],"isEnabled":true,"isAssetFile":false,"isBreakPoint":false,"nodeRect":{"serializedVersion":"2","x":14.0,"y":182.0,"width":300.0,"height":132.0},"overrideColor":{"r":1.0,"g":1.0,"b":1.0,"a":1.0},"showOutputSockets":true,"parentActionListInEditor":{"instanceID":8117661132428632544_0},"parameterID":-1,"constantID":0,"hotspot":{"instanceID":1565749776_0},"affectChildren":false,"changeType":1}'
+    endingReferencesBuffer: 00
+    endingOverrideIndex: 00000000
 --- !u!1 &8117661132435166208
 GameObject:
   m_ObjectHideFlags: 0
