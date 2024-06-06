@@ -1,0 +1,23 @@
+fileFormatVersion: 2
+guid: 2e26369c109719c419f59f6719a923d0
+TrueTypeFontImporter:
+  externalObjects: {}
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontNames:
+  - Hoefler Text
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: cc1dc30d06ef9a2419bdcf62b045407c, type: 3}
+  - {fileID: 12800000, guid: 53e38996c0f8b8e4a8f9821f512e5091, type: 3}
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  useLegacyBoundsCalculation: 0
+  shouldRoundAdvanceValue: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

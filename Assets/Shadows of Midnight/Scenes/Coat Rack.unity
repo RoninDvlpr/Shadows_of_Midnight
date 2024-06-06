@@ -859,6 +859,7 @@ GameObject:
   - component: {fileID: 117735551}
   - component: {fileID: 117735550}
   - component: {fileID: 117735549}
+  - component: {fileID: 117735554}
   m_Layer: 0
   m_Name: Hanger 2
   m_TagString: Untagged
@@ -1119,6 +1120,22 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1.6, y: 8.8}
   m_EdgeRadius: 0
+--- !u!114 &117735554
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 117735547}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 82154444ee72e405b9e2c5061f366da7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  constantID: 565910
+  retainInPrefab: 0
+  autoManual: 0
+  variablesToSave: {fileID: 117735549}
 --- !u!1 &144523989
 GameObject:
   m_ObjectHideFlags: 0
@@ -1131,8 +1148,8 @@ GameObject:
   - component: {fileID: 144523995}
   - component: {fileID: 144523994}
   - component: {fileID: 144523993}
-  - component: {fileID: 144523992}
   - component: {fileID: 144523991}
+  - component: {fileID: 144523996}
   m_Layer: 0
   m_Name: Hanger 3
   m_TagString: Untagged
@@ -1219,21 +1236,6 @@ MonoBehaviour:
     showInFilter: 1
   filter: 
   scrollPos: {x: 0, y: 0}
---- !u!114 &144523992
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 144523989}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f72e60470f1fa4fd1825cd67ce482cf6, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  constantID: 565738
-  retainInPrefab: 0
-  autoManual: 0
 --- !u!114 &144523993
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1393,6 +1395,22 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1.6, y: 8.8}
   m_EdgeRadius: 0
+--- !u!114 &144523996
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 144523989}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 82154444ee72e405b9e2c5061f366da7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  constantID: 565738
+  retainInPrefab: 0
+  autoManual: 0
+  variablesToSave: {fileID: 144523991}
 --- !u!114 &156925342
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1770,6 +1788,8 @@ GameObject:
   - component: {fileID: 198041618}
   - component: {fileID: 198041617}
   - component: {fileID: 198041616}
+  - component: {fileID: 198041621}
+  - component: {fileID: 198041620}
   m_Layer: 0
   m_Name: Hammer
   m_TagString: Untagged
@@ -1992,6 +2012,42 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &198041620
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 198041615}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6b591419ee344469da92bd1bb7e1a1bf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  constantID: 2152
+  retainInPrefab: 0
+  autoManual: 0
+  hotspotToSave: {fileID: 198041616}
+  startState: 0
+--- !u!114 &198041621
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 198041615}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8b78a125ae22041aa92c0223821f8d84, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  constantID: 2152
+  retainInPrefab: 0
+  autoManual: 0
+  rendererToSave: {fileID: 198041618}
+  startState: 0
+  affectChildren: 0
+  saveColour: 0
 --- !u!114 &203334881
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4210,8 +4266,8 @@ GameObject:
   - component: {fileID: 598961516}
   - component: {fileID: 598961515}
   - component: {fileID: 598961514}
-  - component: {fileID: 598961513}
   - component: {fileID: 598961512}
+  - component: {fileID: 598961517}
   m_Layer: 0
   m_Name: Hanger 6
   m_TagString: Untagged
@@ -4298,21 +4354,6 @@ MonoBehaviour:
     showInFilter: 1
   filter: 
   scrollPos: {x: 0, y: 0}
---- !u!114 &598961513
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 598961510}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f72e60470f1fa4fd1825cd67ce482cf6, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  constantID: 558858
-  retainInPrefab: 0
-  autoManual: 0
 --- !u!114 &598961514
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4472,6 +4513,22 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1.6, y: 8.8}
   m_EdgeRadius: 0
+--- !u!114 &598961517
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 598961510}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 82154444ee72e405b9e2c5061f366da7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  constantID: 558858
+  retainInPrefab: 0
+  autoManual: 0
+  variablesToSave: {fileID: 598961512}
 --- !u!114 &623597905
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6406,8 +6463,8 @@ GameObject:
   - component: {fileID: 967635692}
   - component: {fileID: 967635691}
   - component: {fileID: 967635690}
-  - component: {fileID: 967635689}
   - component: {fileID: 967635688}
+  - component: {fileID: 967635693}
   m_Layer: 0
   m_Name: Hanger 1
   m_TagString: Untagged
@@ -6494,21 +6551,6 @@ MonoBehaviour:
     showInFilter: 1
   filter: 
   scrollPos: {x: 0, y: 0}
---- !u!114 &967635689
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 967635686}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f72e60470f1fa4fd1825cd67ce482cf6, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  constantID: 566014
-  retainInPrefab: 0
-  autoManual: 0
 --- !u!114 &967635690
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6668,6 +6710,22 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1.6, y: 8.8}
   m_EdgeRadius: 0
+--- !u!114 &967635693
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 967635686}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 82154444ee72e405b9e2c5061f366da7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  constantID: 566014
+  retainInPrefab: 0
+  autoManual: 0
+  variablesToSave: {fileID: 967635688}
 --- !u!1 &982994943
 GameObject:
   m_ObjectHideFlags: 0
@@ -6682,6 +6740,7 @@ GameObject:
   - component: {fileID: 982994947}
   - component: {fileID: 982994946}
   - component: {fileID: 982994945}
+  - component: {fileID: 982994950}
   m_Layer: 0
   m_Name: Hanger 4
   m_TagString: Untagged
@@ -6942,6 +7001,22 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1.6, y: 8.8}
   m_EdgeRadius: 0
+--- !u!114 &982994950
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 982994943}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 82154444ee72e405b9e2c5061f366da7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  constantID: 565598
+  retainInPrefab: 0
+  autoManual: 0
+  variablesToSave: {fileID: 982994945}
 --- !u!114 &1000671937
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8330,8 +8405,8 @@ GameObject:
   - component: {fileID: 1263272821}
   - component: {fileID: 1263272820}
   - component: {fileID: 1263272819}
-  - component: {fileID: 1263272818}
   - component: {fileID: 1263272817}
+  - component: {fileID: 1263272822}
   m_Layer: 0
   m_Name: Hanger 5
   m_TagString: Untagged
@@ -8418,21 +8493,6 @@ MonoBehaviour:
     showInFilter: 1
   filter: 
   scrollPos: {x: 0, y: 0}
---- !u!114 &1263272818
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1263272815}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f72e60470f1fa4fd1825cd67ce482cf6, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  constantID: 558292
-  retainInPrefab: 0
-  autoManual: 0
 --- !u!114 &1263272819
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8592,6 +8652,22 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1.6, y: 8.8}
   m_EdgeRadius: 0
+--- !u!114 &1263272822
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1263272815}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 82154444ee72e405b9e2c5061f366da7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  constantID: 558292
+  retainInPrefab: 0
+  autoManual: 0
+  variablesToSave: {fileID: 1263272817}
 --- !u!114 &1268907947
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -10493,10 +10569,11 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1565749774}
-  - component: {fileID: 1565749775}
   - component: {fileID: 1565749776}
   - component: {fileID: 1565749777}
   - component: {fileID: 1565749778}
+  - component: {fileID: 1565749780}
+  - component: {fileID: 1565749779}
   m_Layer: 2
   m_Name: Puzzle Instructions
   m_TagString: Untagged
@@ -10523,21 +10600,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1565749775
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1565749773}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f72e60470f1fa4fd1825cd67ce482cf6, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  constantID: 14200
-  retainInPrefab: 0
-  autoManual: 0
 --- !u!114 &1565749776
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -10701,6 +10763,42 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 25, y: 15}
   m_EdgeRadius: 0
+--- !u!114 &1565749779
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1565749773}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6b591419ee344469da92bd1bb7e1a1bf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  constantID: 14200
+  retainInPrefab: 0
+  autoManual: 0
+  hotspotToSave: {fileID: 1565749776}
+  startState: 1
+--- !u!114 &1565749780
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1565749773}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8b78a125ae22041aa92c0223821f8d84, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  constantID: 14200
+  retainInPrefab: 0
+  autoManual: 0
+  rendererToSave: {fileID: 0}
+  startState: 1
+  affectChildren: 0
+  saveColour: 0
 --- !u!114 &1578549781
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -12953,8 +13051,8 @@ GameObject:
   - component: {fileID: 1982061444}
   - component: {fileID: 1982061443}
   - component: {fileID: 1982061442}
-  - component: {fileID: 1982061441}
   - component: {fileID: 1982061440}
+  - component: {fileID: 1982061446}
   m_Layer: 0
   m_Name: Hanger 8
   m_TagString: Untagged
@@ -13024,21 +13122,6 @@ MonoBehaviour:
     showInFilter: 1
   filter: 
   scrollPos: {x: 0, y: 0}
---- !u!114 &1982061441
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1982061439}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f72e60470f1fa4fd1825cd67ce482cf6, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  constantID: 371470
-  retainInPrefab: 0
-  autoManual: 0
 --- !u!114 &1982061442
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -13215,6 +13298,22 @@ Transform:
   m_Father: {fileID: 490870664}
   m_RootOrder: 12
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1982061446
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1982061439}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 82154444ee72e405b9e2c5061f366da7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  constantID: 371470
+  retainInPrefab: 0
+  autoManual: 0
+  variablesToSave: {fileID: 1982061440}
 --- !u!1 &1982471440
 GameObject:
   m_ObjectHideFlags: 0
@@ -14378,8 +14477,8 @@ GameObject:
   - component: {fileID: 2069069847}
   - component: {fileID: 2069069846}
   - component: {fileID: 2069069845}
-  - component: {fileID: 2069069844}
   - component: {fileID: 2069069843}
+  - component: {fileID: 2069069848}
   m_Layer: 0
   m_Name: Hanger 7
   m_TagString: Untagged
@@ -14466,21 +14565,6 @@ MonoBehaviour:
     showInFilter: 1
   filter: 
   scrollPos: {x: 0, y: 0}
---- !u!114 &2069069844
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2069069841}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f72e60470f1fa4fd1825cd67ce482cf6, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  constantID: 558600
-  retainInPrefab: 0
-  autoManual: 0
 --- !u!114 &2069069845
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -14640,6 +14724,22 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1.6, y: 8.8}
   m_EdgeRadius: 0
+--- !u!114 &2069069848
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2069069841}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 82154444ee72e405b9e2c5061f366da7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  constantID: 558600
+  retainInPrefab: 0
+  autoManual: 0
+  variablesToSave: {fileID: 2069069843}
 --- !u!114 &2084175638
 MonoBehaviour:
   m_ObjectHideFlags: 0
