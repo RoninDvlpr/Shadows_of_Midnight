@@ -5093,7 +5093,7 @@ MonoBehaviour:
   title: Subtitles
   manualSize: {x: 50, y: 28}
   positionType: 2
-  manualPosition: {x: 50, y: 79.9}
+  manualPosition: {x: 50, y: 54}
   positionSmoothing: 0
   alignment: 0
   toggleKey: 
@@ -5167,7 +5167,7 @@ MonoBehaviour:
   rect:
     serializedVersion: 2
     x: 209.6111
-    y: 309.72998
+    y: 188
     width: 417.7778
     height: 131.6
   showInFilter: 1
