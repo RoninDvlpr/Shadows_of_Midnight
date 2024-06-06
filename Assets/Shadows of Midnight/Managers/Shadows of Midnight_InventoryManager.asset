@@ -184,7 +184,7 @@ MonoBehaviour:
   - label: Red Gem
     id: 3
     altLabel: 
-    carryOnStart: 0
+    carryOnStart: 1
     carryOnStartNotDefault: 0
     carryOnStartIDs: 00000000
     vars: []

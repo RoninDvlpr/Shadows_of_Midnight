@@ -38,6 +38,7 @@ MonoBehaviour:
   blackOutWhenSkipping: 0
   events:
   - rid: 4160535617999470592
+  - rid: 4160535651158065152
   savePlayerReferencesWithAddressables: 0
   playerSwitching: 1
   legacyPlayer: {fileID: 0}
@@ -208,9 +209,24 @@ MonoBehaviour:
   blackOutWhenInitialising: 1
   spawnPersistentEnginePrefab: 1
   autoCallUnloadUnusedAssets: 1
-  playMusicWhilePaused: 0
+  playMusicWhilePaused: 1
   playAmbienceWhilePaused: 0
-  musicStorages: []
+  musicStorages:
+  - ID: 0
+    label: 
+    audioClip: {fileID: 8300000, guid: aa1f7eb0ecdaf354584e2b0c97aa8f51, type: 3}
+    relativeVolume: 0.5
+    overrideMixerGroup: {fileID: 0}
+  - ID: 1
+    label: 
+    audioClip: {fileID: 8300000, guid: 10e07c92d0c82c74999cc974747a823a, type: 3}
+    relativeVolume: 0.75
+    overrideMixerGroup: {fileID: 0}
+  - ID: 2
+    label: 
+    audioClip: {fileID: 8300000, guid: 9d22784e21b252e4d9241ffe79074ddb, type: 3}
+    relativeVolume: 0.5
+    overrideMixerGroup: {fileID: 0}
   ambienceStorages: []
   loadAmbienceFadeTime: 0
   crossfadeAmbienceWhenLoading: 0
@@ -249,4 +265,13 @@ MonoBehaviour:
         actionListAsset: {fileID: 11400000, guid: 87f8ea9b0f79443458d31de85d852aa3, type: 2}
         parameterIDs: 00000000
         selectDeselect: 1
+        itemID: -1
+    - rid: 4160535651158065152
+      type: {class: EventInventoryAddRemove, ns: AC, asm: Assembly-CSharp}
+      data:
+        label: 
+        id: 1
+        actionListAsset: {fileID: 11400000, guid: 8a0c7f1120483cd4284483b1ca5b64d4, type: 2}
+        parameterIDs: ffffffffffffffff
+        addRemove: 0
         itemID: -1
