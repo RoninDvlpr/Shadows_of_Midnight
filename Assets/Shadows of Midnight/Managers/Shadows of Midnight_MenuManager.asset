@@ -496,10 +496,10 @@ MonoBehaviour:
   maxAutoWidthFactor: 0.5
   relativeRect:
     serializedVersion: 2
-    x: 158.19688
-    y: 31.053543
-    width: 247.86668
-    height: 217.93199
+    x: 173.31595
+    y: 34.021362
+    width: 271.55557
+    height: 238.75998
   relativePosition: {x: 38.2, y: 11}
   numSlots: 1
   uiText: {fileID: 11435218, guid: f15f8212986624a8899a47f0054ebbc1, type: 3}
@@ -1673,10 +1673,10 @@ MonoBehaviour:
   maxAutoWidthFactor: 0.5
   relativeRect:
     serializedVersion: 2
-    x: 160.26753
-    y: 252.94522
-    width: 15.222236
-    height: 23.595
+    x: 175.58447
+    y: 277.11945
+    width: 16.677042
+    height: 25.849998
   relativePosition: {x: 38.7, y: 89.6}
   numSlots: 1
   uiButton: {fileID: 11478532, guid: f15f8212986624a8899a47f0054ebbc1, type: 3}
@@ -1744,10 +1744,10 @@ MonoBehaviour:
   maxAutoWidthFactor: 0.5
   relativeRect:
     serializedVersion: 2
-    x: 251.37569
-    y: 254.35674
-    width: 66.352005
-    height: 18.011452
+    x: 275.39993
+    y: 278.6659
+    width: 72.69334
+    height: 19.732824
   relativePosition: {x: 60.7, y: 90.1}
   numSlots: 1
   uiButton: {fileID: 11470026, guid: f15f8212986624a8899a47f0054ebbc1, type: 3}
@@ -2337,7 +2337,7 @@ MonoBehaviour:
   title: Hotspot
   manualSize: {x: 34.000004, y: 11.999999}
   positionType: 3
-  manualPosition: {x: 50, y: 44.4}
+  manualPosition: {x: 50, y: 46}
   positionSmoothing: 0
   alignment: 0
   toggleKey: 
@@ -2410,7 +2410,7 @@ MonoBehaviour:
   rect:
     serializedVersion: 2
     x: 276.45554
-    y: 180.48001
+    y: 188
     width: 284.08893
     height: 56.399998
   showInFilter: 1
@@ -3814,7 +3814,7 @@ MonoBehaviour:
   title: Document
   manualSize: {x: 54.3, y: 65.80534}
   positionType: 0
-  manualPosition: {x: 381.5, y: 214.5}
+  manualPosition: {x: 418.5, y: 235}
   positionSmoothing: 0
   alignment: 4
   toggleKey: 
@@ -3896,10 +3896,10 @@ MonoBehaviour:
   biggestElementSize: {x: 0, y: 0}
   rect:
     serializedVersion: 2
-    x: 174.436
-    y: 73.347534
-    width: 414.128
-    height: 282.30493
+    x: 191.64667
+    y: 80.35744
+    width: 453.70667
+    height: 309.28513
   showInFilter: 1
 --- !u!114 &759899842116853467
 MonoBehaviour:
@@ -4055,7 +4055,7 @@ MonoBehaviour:
   lineID: 85
   alternativeInputButton: 
   font: {fileID: 12800000, guid: cc1dc30d06ef9a2419bdcf62b045407c, type: 3}
-  fontScaleFactor: 2
+  fontScaleFactor: 1.5
   fontColor: {r: 0.8666667, g: 0.79607844, b: 0.7176471, a: 1}
   fontHighlightColor: {r: 1, g: 1, b: 1, a: 1}
   isVisible: 1
@@ -4083,8 +4083,8 @@ MonoBehaviour:
   _label: Test
   anchor: 4
   textEffects: 1
-  outlineSize: 2
-  effectColour: {r: 0, g: 0, b: 0, a: 1}
+  outlineSize: 1
+  effectColour: {r: 0, g: 0, b: 0, a: 0.6666667}
   labelType: 1
   variableID: 0
   useCharacterColour: 0
@@ -4851,10 +4851,10 @@ MonoBehaviour:
   maxAutoWidthFactor: 0.5
   relativeRect:
     serializedVersion: 2
-    x: 390.52267
-    y: 252.94522
-    width: 15.22224
-    height: 23.595
+    x: 427.84537
+    y: 277.11945
+    width: 16.677048
+    height: 25.849998
   relativePosition: {x: 94.3, y: 89.6}
   numSlots: 1
   uiButton: {fileID: 11435390, guid: f15f8212986624a8899a47f0054ebbc1, type: 3}
@@ -5093,7 +5093,7 @@ MonoBehaviour:
   title: Subtitles
   manualSize: {x: 50, y: 28}
   positionType: 2
-  manualPosition: {x: 50, y: 54}
+  manualPosition: {x: 50, y: 78}
   positionSmoothing: 0
   alignment: 0
   toggleKey: 
@@ -5167,7 +5167,7 @@ MonoBehaviour:
   rect:
     serializedVersion: 2
     x: 209.6111
-    y: 188
+    y: 300.8
     width: 417.7778
     height: 131.6
   showInFilter: 1
@@ -6251,10 +6251,10 @@ MonoBehaviour:
   maxAutoWidthFactor: 0.5
   relativeRect:
     serializedVersion: 2
-    x: 3.7271516
-    y: 3.3876593
-    width: 405.73868
-    height: 18.011452
+    x: 4.0833597
+    y: 3.7114215
+    width: 444.51562
+    height: 19.732824
   relativePosition: {x: 0.9, y: 1.2}
   numSlots: 1
   uiText: {fileID: 11405610, guid: f15f8212986624a8899a47f0054ebbc1, type: 3}
@@ -6829,10 +6829,10 @@ MonoBehaviour:
   maxAutoWidthFactor: 0.5
   relativeRect:
     serializedVersion: 2
-    x: 4.1412797
-    y: 32.74737
-    width: 147.19467
-    height: 130.845
+    x: 4.5370665
+    y: 35.877075
+    width: 161.26224
+    height: 143.34999
   relativePosition: {x: 1, y: 11.6}
   numSlots: 1
   uiImage: {fileID: 11483092, guid: f15f8212986624a8899a47f0054ebbc1, type: 3}

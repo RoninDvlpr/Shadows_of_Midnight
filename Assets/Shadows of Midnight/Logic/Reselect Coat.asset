@@ -85,7 +85,7 @@ MonoBehaviour:
   canSurviveSceneChanges: 0
   revertToDefaultParametersAfterRunning: 1
   parameters:
-  - label: This item
+  - label: Coat item
     description: The item that triggered this interaction
     ID: 0
     parameterType: 1
