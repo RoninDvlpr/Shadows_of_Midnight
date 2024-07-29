@@ -15337,7 +15337,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   localVars:
-  - label: First Scene Enter
+  - label: First Time Entered
     id: 0
     type: 0
     val: 1
