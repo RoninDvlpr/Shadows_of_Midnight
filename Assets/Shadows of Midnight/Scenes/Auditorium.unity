@@ -4616,7 +4616,6 @@ GameObject:
   - component: {fileID: 1055870010}
   - component: {fileID: 1055870013}
   - component: {fileID: 1055870012}
-  - component: {fileID: 1055870011}
   m_Layer: 2
   m_Name: Coatroom GameCamera2D
   m_TagString: Untagged
@@ -4639,21 +4638,6 @@ Transform:
   m_Father: {fileID: 56085161}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1055870011
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1055870009}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f72e60470f1fa4fd1825cd67ce482cf6, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  constantID: 5936
-  retainInPrefab: 0
-  autoManual: 0
 --- !u!114 &1055870012
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -9356,7 +9340,6 @@ GameObject:
   - component: {fileID: 5205199011634892055}
   - component: {fileID: 5205199011634402071}
   - component: {fileID: 5205199011624887511}
-  - component: {fileID: 5205199011634892056}
   m_Layer: 2
   m_Name: Hatch GameCamera2D
   m_TagString: Untagged
@@ -9379,21 +9362,6 @@ Transform:
   m_Father: {fileID: 779648479}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &5205199011634892056
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5205199011634598199}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f72e60470f1fa4fd1825cd67ce482cf6, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  constantID: 2140
-  retainInPrefab: 0
-  autoManual: 0
 --- !u!114 &5227640346205747224
 MonoBehaviour:
   m_ObjectHideFlags: 0

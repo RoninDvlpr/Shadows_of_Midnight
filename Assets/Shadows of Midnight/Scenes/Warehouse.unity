@@ -224,7 +224,6 @@ GameObject:
   - component: {fileID: 30772763}
   - component: {fileID: 30772762}
   - component: {fileID: 30772761}
-  - component: {fileID: 30772764}
   m_Layer: 2
   m_Name: Ladder GameCamera2D
   m_TagString: Untagged
@@ -330,21 +329,6 @@ Transform:
   m_Father: {fileID: 2057433593}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &30772764
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 30772760}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f72e60470f1fa4fd1825cd67ce482cf6, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  constantID: 2210
-  retainInPrefab: 0
-  autoManual: 0
 --- !u!114 &38514211
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -11850,7 +11834,6 @@ GameObject:
   - component: {fileID: 1908532485}
   - component: {fileID: 1908532488}
   - component: {fileID: 1908532487}
-  - component: {fileID: 1908532486}
   m_Layer: 2
   m_Name: Secret Room GameCamera2D
   m_TagString: Untagged
@@ -11873,21 +11856,6 @@ Transform:
   m_Father: {fileID: 1754152560}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1908532486
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1908532484}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f72e60470f1fa4fd1825cd67ce482cf6, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  constantID: 21000
-  retainInPrefab: 0
-  autoManual: 0
 --- !u!114 &1908532487
 MonoBehaviour:
   m_ObjectHideFlags: 0
