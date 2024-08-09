@@ -4104,7 +4104,7 @@ MonoBehaviour:
   videoPlayerConstantID: 0
   prepareOnly: 0
   pauseWithGame: 1
-  holdLastFrame: 1
+  holdLastFrame: 0
   movieURL: https://ronindvlpr.github.io/SoFVideo/Starting_cutscene.MP4
   movieURLParameterID: -1
 --- !u!114 &978801574
