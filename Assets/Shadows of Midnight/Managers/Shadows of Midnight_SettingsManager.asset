@@ -152,7 +152,7 @@ MonoBehaviour:
   aspectRatioEnforcement: 1
   wantedAspectRatio: 1.7777778
   maxAspectRatio: 2.39
-  renderBorderCamera: 1
+  renderBorderCamera: 0
   landscapeModeOnly: 1
   cameraPerspective: 0
   cacheCameraMain: 0
