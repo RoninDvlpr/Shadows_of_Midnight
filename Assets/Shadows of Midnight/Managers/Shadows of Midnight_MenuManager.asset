@@ -163,10 +163,10 @@ MonoBehaviour:
   maxAutoWidthFactor: 0.5
   relativeRect:
     serializedVersion: 2
-    x: 4
-    y: 57
-    width: 128
-    height: 22.5
+    x: 4.8
+    y: 68.4
+    width: 153.6
+    height: 27
   relativePosition: {x: 0, y: 0}
   numSlots: 1
   uiButton: {fileID: 0}
@@ -801,10 +801,10 @@ MonoBehaviour:
   maxAutoWidthFactor: 0.5
   relativeRect:
     serializedVersion: 2
-    x: 4
-    y: 30.5
-    width: 128
-    height: 22.5
+    x: 4.8
+    y: 36.6
+    width: 153.6
+    height: 27
   relativePosition: {x: 0, y: 0}
   numSlots: 1
   uiButton: {fileID: 0}
@@ -934,10 +934,10 @@ MonoBehaviour:
   maxAutoWidthFactor: 0.5
   relativeRect:
     serializedVersion: 2
-    x: 4
-    y: 110
-    width: 128
-    height: 22.5
+    x: 4.8
+    y: 132
+    width: 153.6
+    height: 27
   relativePosition: {x: 0, y: 0}
   numSlots: 1
   uiButton: {fileID: 0}
@@ -2156,7 +2156,7 @@ MonoBehaviour:
   canvasAssetKey: 
   canvasID: 0
   rectTransform: {fileID: 0}
-  rectTransformID: 10014
+  rectTransformID: 13953742
   uiTransitionType: 1
   uiPositionType: 0
   _isLocked: 0
@@ -2707,10 +2707,10 @@ MonoBehaviour:
   maxAutoWidthFactor: 0.5
   relativeRect:
     serializedVersion: 2
-    x: 4
-    y: 4
-    width: 128
-    height: 22.5
+    x: 4.8
+    y: 4.8
+    width: 153.6
+    height: 27
   relativePosition: {x: 0, y: 0}
   numSlots: 1
   uiButton: {fileID: 0}
@@ -2973,10 +2973,10 @@ MonoBehaviour:
   maxAutoWidthFactor: 0.5
   relativeRect:
     serializedVersion: 2
-    x: 4
-    y: 83.5
-    width: 128
-    height: 22.5
+    x: 4.8
+    y: 100.200005
+    width: 153.6
+    height: 27
   relativePosition: {x: 0, y: 0}
   numSlots: 1
   uiButton: {fileID: 0}
@@ -4582,9 +4582,9 @@ MonoBehaviour:
   _isLocked: 0
   id: 12
   title: Pause
-  manualSize: {x: 17, y: 30.333334}
+  manualSize: {x: 17.000002, y: 30.333334}
   positionType: 0
-  manualPosition: {x: 400, y: 225}
+  manualPosition: {x: 480, y: 300}
   positionSmoothing: 0
   alignment: 4
   toggleKey: Menu
@@ -4662,13 +4662,13 @@ MonoBehaviour:
   speechProximityLimit: 0
   speechProximityDistance: 10
   deleteUIWhenTurnOff: 0
-  biggestElementSize: {x: 132, y: 132.5}
+  biggestElementSize: {x: 158.40001, y: 159}
   rect:
     serializedVersion: 2
-    x: 332
-    y: 156.75
-    width: 136
-    height: 136.5
+    x: 398.4
+    y: 218.1
+    width: 163.20001
+    height: 163.8
   showInFilter: 1
 --- !u!114 &3298816248350333208
 MonoBehaviour:
@@ -5084,8 +5084,8 @@ MonoBehaviour:
   canvas: {fileID: 22300000, guid: 3d6ec21712b9a1e4ca8a5e09233b92b7, type: 3}
   canvasAssetKey: 
   canvasID: 0
-  rectTransform: {fileID: 22400006, guid: 3d6ec21712b9a1e4ca8a5e09233b92b7, type: 3}
-  rectTransformID: 2412
+  rectTransform: {fileID: 0}
+  rectTransformID: 14532472
   uiTransitionType: 1
   uiPositionType: 0
   _isLocked: 0
@@ -5500,8 +5500,8 @@ MonoBehaviour:
     serializedVersion: 2
     x: 4.845
     y: 133.225
-    width: 128
-    height: 22.5
+    width: 153.6
+    height: 27
   relativePosition: {x: 0, y: 0}
   numSlots: 1
   uiButton: {fileID: 0}

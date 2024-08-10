@@ -325,6 +325,7 @@ GameObject:
   - component: {fileID: 11400008}
   - component: {fileID: 22500000}
   - component: {fileID: 11453514}
+  - component: {fileID: 9087643476641226283}
   m_Layer: 5
   m_Name: InGameUI_Custom
   m_TagString: Untagged
@@ -391,7 +392,7 @@ MonoBehaviour:
   m_ScaleFactor: 1
   m_ReferenceResolution: {x: 640, y: 480}
   m_ScreenMatchMode: 0
-  m_MatchWidthOrHeight: 0.5
+  m_MatchWidthOrHeight: 1
   m_PhysicalUnit: 3
   m_FallbackScreenDPI: 96
   m_DefaultSpriteDPI: 96
@@ -443,3 +444,18 @@ MonoBehaviour:
   maxAnchorPoint: {x: 0, y: 0}
   updatePosition: 1
   updateScale: 1
+--- !u!114 &9087643476641226283
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 100006}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f72e60470f1fa4fd1825cd67ce482cf6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  constantID: 27054
+  retainInPrefab: 1
+  autoManual: 0
